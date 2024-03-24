@@ -1,0 +1,50 @@
+name: automate_xfpm
+
+# name    : automate_xfpm.yml
+# purpose : automate updates of the README.md file based on a remote README.md
+# author  : nbehrnd@yahoo.com
+# date    : [2024-03-24 Sun]
+# edit    :
+
+# Beliavsky et al. curate a list about GitHub hosted projects using Fortran.[1]
+# Script xfpm.py processes these data to eventually write a new README.md about
+# those projects which in addition manage their project with the Fortran package
+# manager (fpm).  The manual update of the list is to be replaced by one running
+# automatically -- a GitHub action appears to be an approach suitable.
+#
+# [1] https://github.com/Beliavsky/Fortran-code-on-GitHub
+
+on:
+#  push:
+#    branches:
+#      - main             # updates to enter the principal branch "main"
+#  pull_request:
+#    branches:
+#      - main             # PRs to enter the principal branch "main"
+  workflow_dispatch:     # provide a manual trigger
+#  schedule:
+#  - cron: "0 0 1 * *"  # once each 1st of a month, at 00:00 UTC (cf. https://crontab.guru/)
+
+jobs:
+  linux-static:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    steps:
+      - uses: actions/checkout@v4
+        # by [2024-10-23 Wed], this version possibly will be considered "old",
+        # cf. the announcement on
+        # https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies with PyPI
+        run: pip install -r ./requirements.txt
+
+      - name: Check presence of xfpm.py and access
+        run: |
+          ls
+          python ./xfpm.py -h
+
