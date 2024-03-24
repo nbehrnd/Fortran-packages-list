@@ -1,0 +1,77 @@
+name: automate_xfpm
+
+# name    : automate_xfpm.yml
+# purpose : automate updates of the README.md file based on a remote README.md
+# author  : nbehrnd@yahoo.com
+# date    : [2024-03-24 Sun]
+# edit    : [2024-03-24 Sun]
+
+# Beliavsky et al. curate a list about GitHub hosted projects using Fortran.[1]
+# Script xfpm.py processes these data to eventually write a new README.md about
+# those projects which in addition manage their project with the Fortran package
+# manager (fpm).  The manual update of the list is to be replaced by one running
+# automatically -- a GitHub action appears to be an approach suitable.
+#
+# [1] https://github.com/Beliavsky/Fortran-code-on-GitHub
+
+on:
+  push:
+    branches:
+      - my_main             # updates to enter the principal branch "my_main"
+  pull_request:
+    branches:
+      - my_main             # PRs to enter the principal branch "my_main"
+  workflow_dispatch:     # provide a manual trigger
+  schedule:
+    - cron: "0 1 * * *"  # once daily at 01:00 am UTC (cf. https://crontab.guru/)
+
+jobs:
+  linux-static:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+        # by [2024-10-23 Wed], this version possibly will be considered "old",
+        # cf. the announcement on
+        # https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies with PyPI
+        run: pip install -r ./requirements.txt
+
+      - name: Check presence of xfpm.py and access to it
+        run: |
+          ls
+          python ./xfpm.py -h
+
+      - name: collect and process README of the remote repository, if suitable
+        run: |
+          cd ./workshop
+
+          # collect the new raw data only if there was a change
+          git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main | \
+            cmp - previous_check.txt --silent || \
+              wget https://raw.githubusercontent.com/Beliavsky/Fortran-code-on-GitHub/main/README.md
+
+            if test -f "README.md"; then
+              cp ../xfpm.py .
+              python ./xfpm.py ./README.md > report.md
+
+              mv report.md ../README.md
+              git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main > ./previous_check.txt
+              cd ..
+
+              git config user.name "Automated"
+              git config user.email "actions@users.noreply.github.com"
+              timestamp=$(date "+%Y-%m-%d")
+
+              git add README.md ./workshop/previous_check.txt
+              git status
+              git commit -m "update by ${timestamp}" && true
+              git push
+            fi
+
