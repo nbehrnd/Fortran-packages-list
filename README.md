@@ -1,5 +1,4 @@
-## Fortran packages list
-List of projects that can be built with the [Fortran Package Manager](https://github.com/fortran-lang/fpm)
+## Fortran code on GitHub -- also see [fortran-lang package index](https://fortran-lang.org/packages/)
 
 * [Art and Music](#art-and-music)
 
@@ -23,6 +22,8 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 * [Cryptography](#cryptography)
 
+* [Databases](#databases)
+
 * [Dates and Times](#dates-and-times)
 
 * [Earth Science](#earth-science)
@@ -43,9 +44,9 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 * [Fortran Books and Tutorials](#fortran-books-and-tutorials)
 
-* [Games](#games)
+* [Games and Puzzles](#games-and-puzzles)
 
-* [Graphics, plotting and user interfaces](#graphics-plotting-and-user-interfaces)
+* [Graphics, Plotting and User Interfaces](#graphics-plotting-and-user-interfaces)
 
 * [General Purpose](#general-purpose)
 
@@ -85,6 +86,8 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 * [Reactor Physics](#reactor-physics)
 
+* [Regular Expressions](#regular-expressions)
+
 * [Quantum Chemistry and Electronic Structure](#Quantum-Chemistry-and-Electronic-Structure)
 
 * [Sorting](#sorting)
@@ -123,13 +126,21 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [img2nc](https://github.com/ShinobuAmasaki/img2nc): converts planetary Digital Elevation Model (DEM) data into NetCDF, allowing one to draw a topographic map of the Moon,
 
+[Naval Observatory Vector Astrometry Software (NOVAS)](https://github.com/jacobwilliams/NOVAS): integrated package of routines for computing various commonly needed quantities in positional astronomy, refactored by Jacob Williams. The package can provide, in one or two subroutine or function calls, the instantaneous coordinates of any star or planet in a variety of coordinate systems.
+
+[radbelt](https://github.com/jacobwilliams/radbelt): AE-8/AP-8 Van Allen belt model, describing the differential or integral, omnidirectional fluxes of electrons (AE-8) and protons (AP-8) in the inner and outer radiation belts, by Jacob Williams
+
 ## Benchmarks
+
+[ForBenchmark](https://github.com/gha3mi/forbenchmark): a Fortran library for benchmarking (with support for coarrays). There are [dot_product](https://github.com/gha3mi/forbenchmark/tree/main/benchmarks/dot) benchmark results, by Seyed Ali Ghasemi
 
 ## Biology and Medicine
 
 [Motility Analysis of T-Cell Histories in Activation (MATCHA)](https://github.com/BerkeleyLab/matcha): designs virtual T cells that move like biological T cells, from  BerkeleyLab and Northern New Mexico College. The virtual T cells will match the speed and turning angle distributions of biological cells.
 
 ## Climate and Weather
+
+[VenusPT-tables](https://github.com/Razumovskyy/VenusPT-tables): atmospheric absorption coefficient calculator: Utilizing [HITRAN](https://hitran.org/) and custom spectroscopy for Venus and Mars radiative transfer studies, by Mikhail Razumovskiy
 
 ## Code Tools
 
@@ -154,6 +165,12 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 ## Compiler Tests
 
 ## Computational Chemistry
+
+[ciaaw](https://github.com/MilanSkocic/ciaaw): library providing the standard and abridged atomic weights, the isotopic abundance and the isotopes' standard atomic weights, by Milan Skocic. It also provides a API for the C language.
+
+[fenvelopes](https://github.com/ipqa-research/fenvelopes): calculate phases boundaries of multicomponent systems using Equations of State, currently supporting PT envelopes and PX envelopes with partial three-phase-behaviour, by Federico E. Benelli
+
+[forsus](https://github.com/ipqa-research/forsus): provides a simple API to read json files containing pure component information, which can be used in other projects, by José Antonio Scilipoti
 
 [GWMlib](https://github.com/dmr-dj/GWMlib): Generic Water isotope Modelling Library, by Didier M. Roche
 
@@ -189,9 +206,13 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [flist](https://github.com/jacobwilliams/flist): modern Fortran linked lists using unlimited polymorphic derived types, by Jacob Williams
 
+[fortranDF](https://github.com/jaiken17/fortranDF): data frame that can have columns of different types, by Joshua Aiken
+
 [list](https://github.com/grofz/list): easy-to-use implementation of Python-like lists, with methods append(), clear(), copy(), count(), extend(), insert(), pop(), remove(), reverse(), sort(), by Zdenek Grof
 
 [maps](https://github.com/degawa/maps): wrapper by Tomohiro Degawa for [stdlib_hashmaps](https://stdlib.fortran-lang.org/page/specs/stdlib_hashmaps.html) that simplifies adding a key-value mapping and getting the value mapped to a key
+
+[Multidimensional Array Containers (MAC)](https://github.com/irukoa/MAC): library to create and manipulate arrays of any rank, by Álvaro R. Puente-Uriona, meant to serve as a building block for codes that expand on "rank-agnostic" programming
 
 [repot](https://github.com/degawa/repot): abstract data types designed for the repository pattern for reading configuration files in Fortran, by Tomohiro Degawa. The repository pattern is a design pattern that makes an object persistent in a repository and reconstructs it from the repository. [Repot_examples](https://github.com/degawa/repot_examples) has practical usage examples.
 
@@ -207,9 +228,21 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [Navier_Stokes_Spectral_Method](https://github.com/Minard-Jules/Navier_Stokes_Spectral_Method): Navier Stokes simulation using the spectral method, visualized with [gtk-fortran](https://github.com/vmagnin/gtk-fortran), by Jules Minard
 
+[Smoothed Particle Hydrodynamics（SPH)](https://github.com/zoziha/SPH): uses code from the book [Smooth Particle hydrodynamics - A Meshfree Particle Method](https://www.worldscientific.com/worldscibooks/10.1142/5340) as a starting point, by zoziha
+
 ## Cryptography
 
 [sodium](https://github.com/freevryheid/sodium): Fortran bindings by Andre Smit for [libsodium](https://github.com/jedisct1/libsodium), a C library for encryption, decryption, signatures, password hashing, etc.
+
+## Databases
+
+[fortran-sqlite3](https://github.com/interkosmos/fortran-sqlite3): Fortran 2018 interface bindings to SQLite 3, by interkosmos
+
+[fpq](https://github.com/freevryheid/fpq): modules with PostgreSQL (libpq) Fortran bindings, by Andre Smit
+
+[libpq-fortran](https://github.com/ShinobuAmasaki/libpq-fortran): interface by ShinobuAmasaki to the PostgreSQL [libpq C Library](https://www.postgresql.org/docs/current/libpq.html)
+
+[SQLite for Fortran (sqliteff)](https://github.com/everythingfunctional/sqliteff): thin wrapper around the SQLite library, by Brad Richardson. The sqliteff_* functions are effectively identical to the sqlite3_* functions that would be called from C, but with Fortran intrinsics and types.
 
 ## Dates and Times
 
@@ -222,6 +255,8 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 [time-f](https://github.com/0382/time-f): wraps time.h of the C standard library, by 0382
 
 ## Earth Science
+
+[gravmod3d](https://github.com/ofmla/gravmod3d): 3D forward modeling of bodies discretized by rectangular prisms with parabolic density contrast, an implementation by Oscar Mojica of the three-dimensional gravity modeling with parabolic density contrast presented in the paper [3-D forward gravity modeling of basement interfaces above which the density contrast varies continuously with depth](https://www.sciencedirect.com/science/article/abs/pii/S0098300401000802) by V. Chakravarthi et al., Computers & Geosciences (2002)
 
 [Maptran 3D](https://github.com/geospace-code/maptran3d): Modern Fortran 3D coordinate conversions for geospace ecef enu eci, from geospace-code.  Similar to Python PyMap3D and Matlab Matmap3d.
 
@@ -277,6 +312,8 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 ## File I/O
 
+[fmmap](https://github.com/PierUgit/fmmap): provides some of the features of the C posix or Windows memory mapped files under a simple and unique Fortran interface, by PierUgit.
+
 [flibcsv](https://github.com/freevryheid/flibcsv): bindings by Andre Smit to [libcsv](https://github.com/rgamble/libcsv), a fast and flexible CSV library written in pure ANSI C that can read and write CSV data
 
 [fortran-messagepack](https://github.com/Sinfaen/fortran-messagepack): prototype library for [MessagePack](https://msgpack.org/index.html) (an efficient binary serialization format) support in Fortran, by Kelly Schultz
@@ -325,13 +362,15 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [M_intrinsics](https://github.com/urbanjost/M_intrinsics): man(1) pages for the standard Fortran intrinsics, with a secondary goal of providing a tested working example program for each intrinsic
 
-## Games
+## Games and Puzzles
 
 [blocktran](https://github.com/fortran-gaming/blocktran): falling-block object-oriented Fortran 2018 game, with resizable playfield, from fortran-gaming
 
 [fortran-raylib](https://github.com/interkosmos/fortran-raylib): interface bindings to raylib 4.5, for 2-D and 3-D game programming, by interkosmos
 
 [mastermind](https://github.com/fortran-gaming/mastermind): classic MasterMind game in modern Fortran 2008, from fortran-gaming
+
+[ForSudoku](https://github.com/vmagnin/ForSudoku): sudoku generator and solver, by Vincent Magnin
 
 ## General Purpose
 
@@ -347,19 +386,17 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [forbear](https://github.com/szaghi/forbear): progress bar environment by szaghi and jhykes
 
-[forclust](https://github.com/gha3mi/forclust): manage and control a Linux system, such as adjusting the settings of the CPU and other components, by Seyed Ali Ghasemi
+[ForClust](https://github.com/gha3mi/forclust): manage and control a Linux system, such as adjusting the settings of the CPU and other components, by Seyed Ali Ghasemi
 
 [Fortran pathlib](https://github.com/scivision/fortran-pathlib): Filesystem path manipulation utilities for standard Fortran, from scivision. Inspired by Python pathlib and C++17 filesystem.
 
 [fortran-sleep](https://github.com/scivision/fortran-sleep): OS/compiler-independent "sleep" Fortran subroutine that calls c_sleep, from scivision
 
-[fortran-sqlite3](https://github.com/interkosmos/fortran-sqlite3): Fortran 2018 interface bindings to SQLite 3, by interkosmos
-
 [fortran_utilities](https://github.com/lewisfish/fortran_utilities): procedures to add colour to output via ANSI colour codes, create a progress bar, turn variables into strings, and print the time, by Lewis McMillan
 
 [fortran-zlib](https://github.com/interkosmos/fortran-zlib): collection of Fortran 2018 ISO_C_BINDING interfaces to selected zlib functions, by interkosmos. Zlib is a lossless data-compression library.
 
-[fortime](https://github.com/gha3mi/fortime): provides a timer object for measuring elapsed time, by gha3mi. It includes procedures for starting and stopping the timer, as well as calculating and printing the elapsed time in seconds.
+[ForTime](https://github.com/gha3mi/fortime): provides a timer object for measuring elapsed time, by Seyed Ali Ghasemi. It includes procedures for starting and stopping the timer, as well as calculating and printing the elapsed time in seconds.
 
 [functional-fortran](https://github.com/wavebitscientific/functional-fortran): library for functional programming in modern Fortran
 
@@ -379,6 +416,8 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [M_sets](https://github.com/urbanjost/M_sets): basic set functions reminiscent of those in Matlab: `union`, `unique`, `intersect`, `setdiff`, `ismember`, `setxor`, by urbanjost
 
+[oolong](https://github.com/EdHone/oolong): object-oriented logging system by Ed Hone that aims to provide a simple, flexible logging interface that will enable a wide range of logging functionality for a wide range of model paradigms
+
 [paramcard](https://github.com/tueda/paramcard): command-line parameter input made simple, by Takahiro Ueda
 
 [PENF](https://github.com/szaghi/PENF): Fortran (standard 2003) module useful to achieve portable codes. The module makes available portable kind-parameters and some useful procedures to deal with them
@@ -389,11 +428,11 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [reference-counter](https://github.com/sourceryinstitute/reference-counter): object-oriented, extensible reference-counting utility for Fortran, by Damian Rouson et al.
 
+[SM3-Fortran](https://github.com/zoziha/SM3-Fortran): library with a Fortran interface SM3 by zoziha of GmSSL and its usage examples. The SM3 password hashing algorithm is a hash algorithm similar to SHA-256, which belongs to the Chinese national standard. 
+
 [sourcery](https://github.com/sourceryinstitute/sourcery): utilities such as array functions, assertions, emulated intrinsic functions: findloc, emulated collective subroutines: co_sum, co_broadcast, user-defined collective subroutines: co_all, string functions, and classes for parallel data partitioning and gathering and the (Co-)Object pattern abstract parent, by Damian Rouson and Brad Richardson
 
-[stdlib](https://github.com/fortran-lang/stdlib): utilities, algorithms, and mathematics codes for a Fortran Standard Library, from fortran-lang. Has codes for sorting, statistics, strings, hashing, probability distributions, random number generation, numerical integration, and other numerical methods.
-
-[SQLite for Fortran (sqliteff)](https://github.com/everythingfunctional/sqliteff): thin wrapper around the SQLite library, by Brad Richardson. The sqliteff_* functions are effectively identical to the sqlite3_* functions that would be called from C, but with Fortran intrinsics and types.
+[tictoc_fortran](https://github.com/wcota/tictoc_fortran): TicToc (timer) class that calls `cpu_time`, by Wesley Cota
 
 [timer](https://github.com/zoziha/timer): module to get the number of seconds between two timestamps, by zoziha
 
@@ -401,9 +440,9 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [cairo-fortran](https://github.com/vmagnin/cairo-fortran): libcairo bindings for Fortran from the gtk-fortran project available as a separate fpm package, by Carlos Une
 
-[ForColormap](https://github.com/vmagnin/forcolormap): small colormap library independent of any graphical toolkit, by Vincent Magnin. It just converts a real value to RGB values, that can be used with any toolkit offering bitmap drawing..
+[ForColormap](https://github.com/vmagnin/forcolormap): small colormap library independent of any graphical toolkit, by Vincent Magnin et al. It just converts a real value to RGB values, that can be used with any toolkit offering bitmap drawing..
 
-[forimage](https://github.com/gha3mi/forimage): library for working with image files ([PNM format](https://en.wikipedia.org/wiki/Netpbm)) and managing colors effectively, by by Seyed Ali Ghasemi
+[ForImage](https://github.com/gha3mi/forimage): library for working with image files ([PNM format](https://en.wikipedia.org/wiki/Netpbm)) and managing colors effectively, by Seyed Ali Ghasemi
 
 [fortran-dialog](https://github.com/interkosmos/fortran-dialog): wrapper module by interkosmos around [dialog](https://invisible-island.net/dialog/) to create text user interfaces in Fortran 2008, similar to [pythondialog](https://pythondialog.sourceforge.io/) for Python
 
@@ -457,21 +496,17 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [fortran-lua54](https://github.com/interkosmos/fortran-lua54): Fortran 2008 interface bindings to Lua 5.4, from interkosmos. There is also [fortran-lua53](https://github.com/interkosmos/fortran-lua53).
 
+[fortran-tcl86](https://github.com/interkosmos/fortran-tcl86): ISO_C_BINDING interface library for interoperability with Tcl/Tk 8.6, by interkosmos, allowing the user to embed Tcl into Fortran, create Tcl extensions in Fortran (with Tcl Stubs), access (a subset of) the Tcl/Tk C API from Fortran, use Tcl as an evaluatable configuration file format, and add graphical user interfaces to Fortran programs.
+
 [fortran-unix](https://github.com/interkosmos/fortran-unix): Fortran 2008 ISO C binding interfaces to selected POSIX and SysV types, functions, and routines on 64-bit Unix-like operating systems, by interkosmos
 
-[fpq](https://github.com/freevryheid/fpq): modules with postgreSQL (libpq) Fortran bindings, by Andre Smit
-
 [hwinfo-fortran](https://github.com/ShinobuAmasaki/hwinfo-fortran): provides access to hardware information using OS APIs for Unix-like operating systems, by Shinobu Amasaki
-
-[libpq-fortran](https://github.com/ShinobuAmasaki/libpq-fortran): interface by ShinobuAmasaki to the PostgreSQL [libpq C Library](https://www.postgresql.org/docs/current/libpq.html)
 
 [M_process](https://github.com/urbanjost/M_process): read and write lines to or from a process from Fortran via a C wrapper, by urbanjost
 
 [M_system](https://github.com/urbanjost/M_system): module that allows Fortran to call commonly available C routines that perform basic system operations like creating and deleting files and directories, changing and querying file permits, getting basic ID and process information, ... and other POSIX system requests, by urbanjost
 
 [popen-fortran](https://github.com/jacobwilliams/popen-fortran): module for popen() by Jacob Williams, which executes a command specified by a string argument, creates a pipe between the calling program and the executed command, and returns a pointer to a stream that can be used to either read from or write to the pipe.
-
-[Tcl/Tk 8.6 for Fortran 2018](https://github.com/interkosmos/fortran-tcl86): ISO_C_BINDING interface library for interoperability with Tcl/Tk 8.6, by interkosmos, allowing the user to embed Tcl into Fortran, create Tcl extensions in Fortran (with Tcl Stubs), access (a subset of) the Tcl/Tk C API from Fortran, use Tcl as an evaluatable configuration file format, and add graphical user interfaces to Fortran programs.
 
 [uint-fortran](https://github.com/ShinobuAmasaki/uint-fortran): unsigned integer, 16 or 32 bit, that is interoperable with C, by Shinobu Amasaki
 
@@ -495,11 +530,11 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [ForSVD](https://github.com/gha3mi/forsvd) provides functions and subroutines for calculating the singular value decomposition (SVD) of a matrix, calling LAPACK. [ForEig](https://github.com/gha3mi/foreig) calculates eigenvalues and eigenvectors using LAPACK or MKL. [ForPCA](https://github.com/gha3mi/forpca) does principal component analysis (PCA).
 
-[Pinverse](https://github.com/gha3mi/pinverse) calculates the pseudoinverse of a matrix using singular value decomposition.
+[ForInv](https://github.com/gha3mi/forinv) calculates the inverse and pseudoinverse of a matrix.
 
-[fordot](https://github.com/gha3mi/fordot): overloads the dot_product function to enable efficient dot product with/without coarrays, by Seyed Ali Ghasemi
+[ForDot](https://github.com/gha3mi/fordot): overloads the dot_product function to enable efficient dot product with/without coarrays, by Seyed Ali Ghasemi
 
-[formatmul](https://github.com/gha3mi/formatmul): library that overloads the matmul function to enable efficient matrix multiplication with coarrays, by Seyed Ali Ghasemi
+[ForMatMul](https://github.com/gha3mi/formatmul): library that overloads the matmul function to enable efficient matrix multiplication with coarrays, by Seyed Ali Ghasemi
 
 [fortran-lapack](https://github.com/perazz/fortran-lapack): modern Fortran implementation of the Reference-LAPACK library, by Federico Perini. The reference Fortran 77 library is automatically downloaded from its master repository, and processed to create Modern Fortran modules with full explicit typing features.
 
@@ -539,6 +574,8 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 ## Neural Networks and Machine Learning
 
+[Adaptive Training for High Efficiency Neural Network Applications (ATHENA)](https://github.com/nedtaylor/athena): library for developing and handling neural networks (with a focus on convolutional neural networks), by Ned Taylor
+
 [forncnn](https://github.com/mizu-bai/forncnn): experimental Fortran binding for [ncnn](https://github.com/Tencent/ncnn) c_api, by mizu-bai. Ncnn is a high-performance neural network inference framework optimized for the mobile platform.
 
 [Fortran FLANN binding](https://github.com/ivan-pi/fortran-flann): Fortran bindings to the FLANN library for performing fast approximate nearest neighbor searches in high dimensional spaces, by ivan-pi
@@ -553,11 +590,11 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [fast_math](https://github.com/jalvesz/fast_math): collection of functions for fast number crunching, including a fast and precise sum and dot_product for 1D arrays, a reciprocal square root, the logarithm, and trigonometric functions, by jalvesz
 
-[fordiff](https://github.com/gha3mi/fordiff): numerical differentiation using the complex step method or finite differences, by gha3mi
+[ForDiff](https://github.com/gha3mi/fordiff): numerical differentiation using the complex step method or finite differences, by Seyed Ali Ghasemi
 
 [forlab](https://github.com/zoziha/forlab): module that provides a lot of functions for scientific computing mostly inspired by Matlab and Python's module NumPy, by zoziha
 
-[forsolver](https://github.com/gha3mi/forsolver): solves linear and nonlinear equations, by Seyed Ali Ghasemi. For nonlinear equations the available methods are newton, newton-modified, newton-quasi-fd, newton-quasi-fd-modified, newton-quasi-cs, and newton-quasi-cs-modified, where "fd" and "cs" stand for the finite difference and complex step methods.
+[ForSolver](https://github.com/gha3mi/forsolver): solves linear and nonlinear equations, by Seyed Ali Ghasemi. For nonlinear equations the available methods are newton, newton-modified, newton-quasi-fd, newton-quasi-fd-modified, newton-quasi-cs, and newton-quasi-cs-modified, where "fd" and "cs" stand for the finite difference and complex step methods.
 
 [fortran-bessels](https://github.com/perazz/fortran-bessels): Fortran port (stub) of the Bessels.jl repository, by Federico Perini et al.
 
@@ -565,12 +602,13 @@ List of projects that can be built with the [Fortran Package Manager](https://gi
 
 [GaussJacobiQuad](https://github.com/HaoZeke/GaussJacobiQuad): routines for the Gauss-Jacobi Quadrature, by Rohit Goswami and Ondřej Čertík
 
-
 [NAFPack](https://github.com/Minard-Jules/NAFPack): numerical analysis package, offering a comprehensive set of algorithms for diverse numerical computations, by Jules Minard. These computations include Fast Fourier Transform, linear system solving, and eigenvalue/eigenvector calculations.
 
 [Nonlinear Equation Solver with Modern Fortran (nlesolver-fortran)](https://github.com/jacobwilliams/nlesolver-fortran): basic Newton-Raphson type nonlinear equation solver for dense systems with m functions of n input variables, by Jacob Williams. Uses LAPACK routines (dgesv or dgels) to solve the linear system.
 
 [NumDiff](https://github.com/jacobwilliams/NumDiff): modern Fortran numerical differentiation library, by Jacob Williams
+
+[Numerical_utilities](https://github.com/osada-yum/Numerical_utilities): Kahan algorithms for the sum, variance, and covariance, using MPI, by osada-yum
 
 [polyroots-fortran](https://github.com/jacobwilliams/polyroots-fortran): modern Fortran library for finding the roots of polynomials, by Jacob Williams
 
@@ -680,11 +718,17 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [General Quantum Chemistry Properties Grabber (gpg)](https://github.com/lukaswittmann/gpg): obtains a wide range of properties, including molecular geometries, electronic energies, dipole moments, vibrational frequencies, from the output files of popular quantum chemistry software packages, including ORCA, Qchem and Turbomole, by Lukas Wittmann
 
+[hartree-fock](https://github.com/lukaswittmann/hartree-fock): simple implementation of the Hartree-Fock algorithm, by Lukas Wittmann. STO-nG basis sets are used, which are generated from Slater exponents given in the input file. Some parts like the input reader and straightforward functions were taken from Marvin Friede's [hartree-fock](https://github.com/marvinfriede/hartree-fock) implementation. 
+
 [HoneyTools](https://github.com/QcmPlab/HoneyTools) modules by Gabriele Bellomia to easily deal with nontrivial honeycomb structures in real-space: generate the coordinates, compute all the neighbor-shells, get direct access to logical masks for nearest and next-nearest neighbors (nth-order can be easily computed from the shell table), hence readily build tight-binding hamiltonians, or any other lattice quantity requiring real-space geometrical information.
 
-[libconeangle](https://github.com/kjelljorner/libconeangle): library for calculating exact ligand cone angles according to the paper Bilbrey, J. A.; Kazez, A. H.; Locklin, J.; Allen, W. D. [Exact Ligand Cone Angles.](https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23217) Journal of Computational Chemistry 2013, 34 (14), 11891197.
+[libconeangle](https://github.com/kjelljorner/libconeangle): library for calculating exact ligand cone angles according to the paper Bilbrey, J. A.; Kazez, A. H.; Locklin, J.; Allen, W. D. [Exact Ligand Cone Angles.](https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23217) Journal of Computational Chemistry 2013, 34 (14), 1189–1197.
 
 [Molecular Orbital KIT (MOKIT)](https://github.com/1234zou/MOKIT): utilities and modules to transfer MOs among various quantum chemistry software packages, by jxzou. In addition, the automr program in MOKIT can set up and run common multi-reference calculations in a block-box way.
+
+[Quantum chemistry Utility for Benchmark Evaluation (QUBE)](https://github.com/lukaswittmann/qube): extracts energies from the output files of quantum chemistry calculations for large benchmark sets, by Lukas Wittmann. It utilizes reference energies for statistical evaluation and comparison of the results obtained from the benchmark sets.
+
+[WannInt](https://github.com/irukoa/WannInt): library of utilities for Wannier interpolation, meant to serve as a building block for codes that compute the resolution of quantum mechanical operators in the Brillouin zone of a crystal, by Álvaro R. Puente-Uriona
 
 ## Random Number Generation
 
@@ -694,7 +738,23 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [rngff](https://github.com/Archaeologic-Inc/rngff): unified abstract interface for an object-oriented random number generator and a collection of implementations using various algorithms, by Brad Richardson
 
+[rndgen-fortran](https://github.com/wcota/rndgen-fortran): module for the [KISS](https://en.wikipedia.org/wiki/KISS_(algorithm)) random number generator that allows the use of multiple independent random number generators at the same time, by Wesley Cota, based on a code by Thomas Vojta. Module `rndgenPL_mod`, adapted from code by Silvio C. Ferreira, extends the generator to an integer power-law distribution.
+
 ## Reactor Physics
+
+## Regular Expressions
+
+[forgex](https://github.com/ShinobuAmasaki/forgex): regular expression engine using a deterministic finite automaton ([DFA](https://en.wikipedia.org/wiki/Deterministic_finite_automaton)) approach, by Shinobu Amasaki. It provides `.in.` and `.match.` operators to detect if a pattern is contained in or exactly matches a string.
+
+[fortran-pcre2](https://github.com/interkosmos/fortran-pcre2): Fortran 2018 ISO_C_BINDING interfaces to Perl-compatible Regular Expressions 2 (PCRE2), by interkosmos
+
+[fortran-regex](https://github.com/perazz/fortran-regex): port by Federico Perini of the [tiny-regex-c](https://github.com/kokke/tiny-regex-c) library for regular expressions. It is based on the original C implementation, but the API is modelled in Fortran style, which is similar to the intrinsic index function.
+
+[Fregex](https://github.com/14NGiestas/fregex): Perl Compatible Regular Expressions (PCRE) wrapper for Fortran by Ian Giestas Pauli
+
+[M_match](https://github.com/urbanjost/M_match): basic implementation in Fortran of a subset of regular expressions as described in "Software Tools" by Kernighan and Plauger, 1976.
+
+[M_regex](https://github.com/urbanjost/M_regex): Fortran interface by urbanjost to the POSIX 1003.2 regular expression library using ISO_C_BINDING
 
 ## Sorting
 
@@ -707,6 +767,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 [stringsort](https://github.com/jacobwilliams/stringsort): sorting routines for strings, by Jacob Williams
 
 ## Statistics
+
+[200+ R packages with Fortran code](https://github.com/cran?q=&type=&language=fortran&sort=): R is a free software environment for statistical computing and graphics
 
 [fitpack](https://github.com/perazz/fitpack): modern Fortran translation by Federico Perini of the [FITPACK](http://www.netlib.org/dierckx) package for curve and surface fitting by Paul Dierckx
 
@@ -724,29 +786,17 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [enclose](https://github.com/degawa/enclose): procedures for enclosing a string in brackets, by Tomohiro Degawa
 
-[forgex](https://github.com/ShinobuAmasaki/forgex): regular expression engine using a deterministic finite automaton ([DFA](https://en.wikipedia.org/wiki/Deterministic_finite_automaton)) approach, by Shinobu Amasaki. It provides `.in.` and `.match.` operators to detect if a pattern is contained in or exactly matches a string.
-
 [fortran202x_split](https://github.com/milancurcic/fortran202x_split): Fortran implementation of the Fortran 202X split intrinsic subroutine, by Milan Curcic and Sebastian Ehlert
-
-[fortran-pcre2](https://github.com/interkosmos/fortran-pcre2): Fortran 2018 ISO_C_BINDING interfaces to Perl-compatible Regular Expressions 2 (PCRE2), by interkosmos
-
-[fortran-regex](https://github.com/perazz/fortran-regex): port by Federico Perini of the [tiny-regex-c](https://github.com/kokke/tiny-regex-c) library for regular expressions. It is based on the original C implementation, but the API is modelled in Fortran style, which is similar to the intrinsic index function.
 
 [fortran-shlex](https://github.com/perazz/fortran-shlex): port by Federico Perini of Python's [shlex](https://docs.python.org/3/library/shlex.html) shell-like lexer. The interface comes with two functions, `split` which parses a command-like string and returns an array of allocatable character strings; and `shlex` that performs the same, but returns a list of `type(shlex_token)` tokens.
 
 [Fortran-String-to-Real](https://github.com/Carltoffel/Fortran-String-to-Real): converts strings to reals without using an internal read, by Carltoffel. [Fortran-String-to-Num](https://github.com/jalvesz/Fortran-String-to-Num) is a fork by jalvesz that aims for further improvements on the ASCII to numerical data conversion.
-
-[Fregex](https://github.com/14NGiestas/fregex): Perl Compatible Regular Expressions (PCRE) wrapper for Fortran by Ian Giestas Pauli
 
 [fsys](https://github.com/jchristopherson/fsys): library by Jason Christopherson containing system operations and supporting types: `string`, similar to the `iso_varying_string`, but with a few differences and a few additional operations, and `string_builder`, a type that allows concatenating strings while minimizing memory reallocation operations, that behaves similarily to the .NET `StringBuilder` class
 
 [iso_varying_string](https://github.com/everythingfunctional/iso_varying_string): implementation of the ISO_VARYING_STRING module as defined in the ISO standard, by Brad Richardson
 
 [M_io](https://github.com/urbanjost/M_io): collection of procedures that create a simple interface for common I/O tasks not conveniently done with intrinsic I/O procedures, by urbanjost
-
-[M_match](https://github.com/urbanjost/M_match): basic implementation in Fortran of a subset of regular expressions as described in "Software Tools" by Kernighan and Plauger, 1976.
-
-[M_regex](https://github.com/urbanjost/M_regex): Fortran interface by urbanjost to the POSIX 1003.2 regular expression library using ISO_C_BINDING
 
 [M_strings](https://github.com/urbanjost/M_strings): modules for processing strings. Routines for parsing, tokenizing, changing case, substituting new strings for substrings, locating strings with simple wildcard expressions, removing tabs and line terminators and other string manipulations are included
 
@@ -780,9 +830,13 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 ## Unit Testing
 
-[fordebug](https://github.com/gha3mi/fordebug): library designed for debugging Fortran code, especially within pure procedures, by Seyed Ali Ghasemi
+[ForUnitTest](https://github.com/gha3mi/forunittest): simple, object-oriented unit testing framework, by Seyed Ali Ghasemi.
+
+[ForDebug](https://github.com/gha3mi/fordebug): library designed for debugging Fortran code, especially within pure procedures, by Seyed Ali Ghasemi
 
 [fortran_test_helper](https://github.com/jchristopherson/fortran_test_helper): library to provide assistance to testing, by Jason Christopherson
+
+[Fortran Unit Testing Objects (Fortuno)](https://github.com/aradi/fortuno): flexible and extensible Fortran unit testing framework for testing serial, MPI-parallelized and coarray-parallelized applications, by Bálint Aradi
 
 [M_framework](https://github.com/urbanjost/M_framework): aggregate of Fortran modules useful for creating terminal messages, comparing expected values to results, writing logfiles and playback journals and performing unit tests for Fortran, by urbanjost
 
@@ -794,6 +848,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 ## Web Programming
 
+[ForOpenAI](https://github.com/gha3mi/foropenai): library to access the OpenAI API, by Seyed Ali Ghasemi
+
 [ForCompile](https://github.com/gha3mi/forcompile): library to access the Compiler Explorer API, by Seyed Ali Ghasemi
 
 [github-org-analyzer](https://github.com/rajkumardongre/github-org-analyzer): procedures to analyze GitHub organizations and retrieve valuable information about their repositories, by Rajkumar Dongre. By leveraging the power of the http-client package, this analyzer fetches data from the GitHub API to generate insightful reports.
@@ -803,3 +859,5 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 ## XML
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
+
+time elapsed (s): 582.03
