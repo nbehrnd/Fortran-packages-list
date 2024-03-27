@@ -4,7 +4,7 @@ name: automate_xfpm
 # purpose : automate updates of the README.md file based on a remote README.md
 # author  : nbehrnd@yahoo.com
 # date    : [2024-03-24 Sun]
-# edit    : [2024-03-24 Sun]
+# edit    : [2024-03-27 Wed]
 
 # Beliavsky et al. curate a list about GitHub hosted projects using Fortran.[1]
 # Script xfpm.py processes these data to eventually write a new README.md about
@@ -36,7 +36,7 @@ jobs:
         # cf. the announcement on
         # https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
