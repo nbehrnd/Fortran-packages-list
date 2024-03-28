@@ -5,7 +5,7 @@ name     : xfpm.py
 source   : https://github.com/Beliavsky/Fortran-packages-list
 author   : Beliavsky, Norwid Behrnd
 license  : MIT
-last edit: 2024-03-12
+last edit: [2024-03-28 Thu]
 purpose  : report projects that can be built with the Fortran Package Manager
 """
 
@@ -13,8 +13,10 @@ import argparse
 import os
 import re
 import time
+from urllib3.util import Retry
 
 import requests
+from requests.adapters import HTTPAdapter
 
 os.environ["PYTHONIOENCODING"] = "utf-8"
 
@@ -56,8 +58,15 @@ def get_args():
     return parser.parse_args()
 
 
-def check_url_exists(url):
+def check_url_exists(url, max_redirects=20, max_retries=5):
     """check accessibility of queried url"""
+
+    session = requests.Session()
+    retries = Retry(
+        total=max_retries, backoff_factor=1.1, status_forcelist=[500, 502, 503, 504]
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retries))
+
     try:
         # Make a HEAD request to get headers and avoid downloading the content
         # https://stackoverflow.com/questions/46016004/how-to-handle-timeout-error-in-request-headurl
@@ -73,40 +82,41 @@ def check_url_exists(url):
 
 
 def file_reader(infile="", debug=False, test=False):
-    """work on the input file"""
+    """iterate on the input file till reaching the threshold"""
 
-    # allow a constrained test run:
-    if test:
-        max_lines = 125
-    else:
-        max_lines = 10**6
+    max_lines = 125 if test else 10**6  # allow a constrained test run
 
     for i, text in enumerate(infile):
         if i > max_lines:
             break
-        if text.startswith("*") or text.startswith("##"):  # category marker
-            print(text)
-            continue
-        # text in parentheses after first after first set of brackets
-        match = re.search(r"\[.*?\]\((.*?)\)", text)
-        # Extract the match, if it exists
-        extracted_address = match.group(1) if match else None
-        if extracted_address:
+        checker(text, debug, i)
+
+
+def checker(text, debug=False, i=1):
+    """extract the address, report if fpm.toml file is present"""
+    if text.startswith("*") or text.startswith("##"):  # category marker
+        print(text)
+
+    # text in parentheses after first after first set of brackets
+    match = re.search(r"\[.*?\]\((.*?)\)", text)
+    # Extract the match, if it exists
+    extracted_address = match.group(1) if match else None
+    if extracted_address:
+        if debug:
+            print("\n", i)
+            print(text.strip())
+            print(f"url: {extracted_address}")
+        fpm_link = extracted_address + "/blob/master/fpm.toml"
+        exists, status_or_error = check_url_exists(fpm_link)
+        if exists:
+            try:
+                print(text)
+            except UnicodeEncodeError as e:
+                # Handle the error: for example, print a placeholder text or
+                # encode the text in 'utf-8' and print
+                print("An encoding error occurred: ", e)
             if debug:
-                print("\n", i)
-                print(text.strip())
-                print(f"url: {extracted_address}")
-            fpm_link = extracted_address + "/blob/master/fpm.toml"
-            exists, status_or_error = check_url_exists(fpm_link)
-            if exists:
-                try:
-                    print(text)
-                except UnicodeEncodeError as e:
-                    # Handle the error: for example, print a placeholder text or
-                    # encode the text in 'utf-8' and print
-                    print("An encoding error occurred: ", e)
-                if debug:
-                    print(fpm_link)
+                print(fpm_link)
 
 
 def main():
