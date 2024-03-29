@@ -446,6 +446,8 @@
 
 [fortran-dialog](https://github.com/interkosmos/fortran-dialog): wrapper module by interkosmos around [dialog](https://invisible-island.net/dialog/) to create text user interfaces in Fortran 2008, similar to [pythondialog](https://pythondialog.sourceforge.io/) for Python
 
+[Fortran Intuitive Graphics (fig)](https://github.com/AnonMiraj/fig): provide intuitive graphics capabilities, by Aِl-Mi'raj. It offers basic 2D primitives such as lines, circles, ellipsis, and rectangles for creating graphical representations.
+
 [fortran-sdl2](https://github.com/interkosmos/fortran-sdl2): collection of ISO C binding interfaces to Simple DirectMedia Layer 2.0 (SDL 2.0), for 2D and 3D game programming in Fortran, by interkosmos
 
 [fortran-grace](https://github.com/interkosmos/fortran-grace): collection of Fortran 2018 interfaces to the scientific plotting tool [Grace](https://plasma-gate.weizmann.ac.il/Grace/)/XmGrace, by interkosmos. This library covers the FORTRAN 77 and the C API of Grace. This library covers the FORTRAN 77 and the C API of Grace.
@@ -860,4 +862,4 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-time elapsed (s): 539.92
+time elapsed (s): 508.15
