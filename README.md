@@ -208,6 +208,8 @@
 
 [fortranDF](https://github.com/jaiken17/fortranDF): data frame that can have columns of different types, by Joshua Aiken
 
+[fortran_vector](https://github.com/Euler-37/fortran_vector): derived type for vector of integers, with procedures `init`, `append`, `size`, `pop`, `remove`, `delete`, `unique`, `sort`, `cut`, and `clear`, by Euler-37
+
 [list](https://github.com/grofz/list): easy-to-use implementation of Python-like lists, with methods append(), clear(), copy(), count(), extend(), insert(), pop(), remove(), reverse(), sort(), by Zdenek Grof
 
 [maps](https://github.com/degawa/maps): wrapper by Tomohiro Degawa for [stdlib_hashmaps](https://stdlib.fortran-lang.org/page/specs/stdlib_hashmaps.html) that simplifies adding a key-value mapping and getting the value mapped to a key
@@ -315,6 +317,8 @@
 [fmmap](https://github.com/PierUgit/fmmap): provides some of the features of the C posix or Windows memory mapped files under a simple and unique Fortran interface, by PierUgit.
 
 [flibcsv](https://github.com/freevryheid/flibcsv): bindings by Andre Smit to [libcsv](https://github.com/rgamble/libcsv), a fast and flexible CSV library written in pure ANSI C that can read and write CSV data
+
+[fortran_huffman](https://github.com/Euler-37/fortran_huffman): Huffman code compression, by Euler-37
 
 [fortran-messagepack](https://github.com/Sinfaen/fortran-messagepack): prototype library for [MessagePack](https://msgpack.org/index.html) (an efficient binary serialization format) support in Fortran, by Kelly Schultz
 
@@ -440,6 +444,8 @@
 
 [cairo-fortran](https://github.com/vmagnin/cairo-fortran): libcairo bindings for Fortran from the gtk-fortran project available as a separate fpm package, by Carlos Une
 
+[ForCAD](https://github.com/gha3mi/forcad): library for geometric modeling, supporting B-Spline, NURBS, Bezier, and Rational Bezier curves, surfaces, and volumes, by Seyed Ali Ghasemi
+
 [ForColormap](https://github.com/vmagnin/forcolormap): small colormap library independent of any graphical toolkit, by Vincent Magnin et al. It just converts a real value to RGB values, that can be used with any toolkit offering bitmap drawing..
 
 [ForImage](https://github.com/gha3mi/forimage): library for working with image files ([PNM format](https://en.wikipedia.org/wiki/Netpbm)) and managing colors effectively, by Seyed Ali Ghasemi
@@ -562,6 +568,8 @@
 
 [minres](https://github.com/willdickson/minres): implementation of MINRES by Will Dickson based on the original Fortran 90 code by Chris Paige, Sou-Cheng Choi, and Michael Saunders, which solves sparse symmetric systems Ax = b
 
+[sparse_fortran](https://github.com/Euler-37/sparse_fortran): derived types for sparse matrices in COO and CSR format with functions for matrix multiplication, by Euler-37
+
 ## Materials Science
 
 ## Mesh Generation
@@ -587,6 +595,10 @@
 [neural-fortran](https://github.com/modern-fortran/neural-fortran): parallel neural net microframework, from modern-fortran
 
 ## Numerical
+
+[amosf90](https://github.com/Euler-37/amosf90): module for [AMOS](https://www.netlib.org/amos/), a package for Bessel functions of a complex argument and nonnegative order, by Euler-37
+
+[fastconv](https://github.com/gronki/fastconv): simple library for 1D and 2D convolutions, by Dominik Gronkiewicz
 
 [fastmath](https://github.com/perazz/fastmath): library for fast, approximate math functions: exp, log, 1/sqrt, by Federico Perini. These functions provide fast, approximate evaluations of the exponential, logarithm and normalization functions in 64-bit precision.
 
@@ -625,6 +637,8 @@
 [specfunc-fullerton](https://github.com/arjenmarkus/specfunc-fullerton): library for evaluating special mathematical function, based on the [fn](http://www.netlib.org/fn/index.html) library of Wayne Fullerton, modernised by Arjen Markus. It has Airy functions, modified Bessel functions, beta functions, exponential and logarithmic integrals, gamma functions, inverse cosine and cosine hyperbolic integrals, miscellaneous functions, and Pochhammer symbols
 
 ## Numerical Integration (Quadrature)
+
+[integrate_fortran](https://github.com/Euler-37/integrate_fortran): Gauss–Legendre quadrature for 1D and multidimensional integrals, by Euler-37
 
 [kronrod](https://github.com/jacobwilliams/kronrod): generates [Gauss-Kronrod](https://en.wikipedia.org/wiki/Gauss%E2%80%93Kronrod_quadrature_formula) coefficients, by Jacob Williams
 
@@ -862,4 +876,4 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-time elapsed (s): 508.15
+time elapsed (s): 525.39
