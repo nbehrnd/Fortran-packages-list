@@ -326,6 +326,8 @@
 
 [fortran-sperr](https://github.com/ofmla/fortran-sperr): interface bindings by Oscar Mojica to [SPERR](https://github.com/NCAR/SPERR), a lossy scientific (floating-point) data compressor in C and C++ that produces one of the best rate-distortion curves
 
+[fortran-zstd](https://github.com/interkosmos/fortran-zstd): Fortran 2018 interface bindings to selected [Zstandard](https://facebook.github.io/zstd/) functions, by interkosmos. Zstandard is a fast compression algorithm, providing high compression ratios.
+
 [High Performance Parallel Data Interface to HDF5 (h5part)](https://github.com/zoziha/h5part): interface to the structured HDF5 data format that stores multiple time-step data for particle simulation scenarios and can be used for ParaView / VisIt visualization, by zoziha
 
 [IO Fortran Library](https://github.com/acbbullock/IO-Fortran-Library): module providing high level routines for doing internal and external IO, by Austin C. Bullock. In particular, the module provides a handful of generic interfaces for performing string-based and array-based IO that are useful for recording program data, reading data into programs, and for writing formatted logs and output. 
@@ -878,4 +880,4 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-time elapsed (s): 629.63
+time elapsed (s): 995.78
