@@ -276,8 +276,6 @@
 
 [Deformation Monitoring Package (DMPACK)](https://github.com/dabamos/dmpack): package for sensor control and automated time series processing in geodesy and geotechnics, consisting of a library libdmpack and additional programs based on it which serve as a reference implementation of solutions to various problems in deformation monitoring, by Philipp Engel
 
-[Reference OpenSource Controller (ROSCO) for wind turbine applications](https://github.com/NREL/ROSCO#nrels-reference-opensource-controller-rosco-for-wind-turbine-applications): modular and fully adaptable baseline wind turbine controller to the scientific community, from NREL. Because of the open character and modular set-up, scientists are able to collaborate and contribute in making continuous improvements to the code.
-
 ## Error Handling
 
 [assert](https://github.com/sourceryinstitute/assert): simple assertion utility taking advantage of the Fortran 2018 standard's introduction of variable stop codes and error termination inside pure procedures, by Damian Rouson
@@ -882,4 +880,4 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-time elapsed (s): 891.53
+time elapsed (s): 981.51
