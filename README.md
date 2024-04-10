@@ -880,4 +880,4 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-time elapsed (s): 523.12
+time elapsed (s): 669.55
