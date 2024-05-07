@@ -15,63 +15,87 @@ name: automate_xfpm
 # [1] https://github.com/Beliavsky/Fortran-code-on-GitHub
 
 on:
-  push:
-    branches:
-      - my_main          # updates to enter the principal branch "my_main"
-  pull_request:
-    branches:
-      - my_main          # PRs to enter the principal branch "my_main"
+#  push:
+#    branches:
+#      - my_main          # updates to enter the principal branch "my_main"
+#  pull_request:
+#    branches:
+#      - my_main          # PRs to enter the principal branch "my_main"
   workflow_dispatch:     # provide a manual trigger
-  schedule:
-    - cron: "0 1 * * *"  # once daily at 01:00 am UTC (cf. https://crontab.guru/)
+#  schedule:
+#    - cron: "0 1 * * *"  # once daily at 01:00 am UTC (cf. https://crontab.guru/)
 
 jobs:
-  linux-static:
-    runs-on: ubuntu-22.04
-    timeout-minutes: 30
-
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        # by [2024-10-23 Wed], this version possibly will be considered "old",
-        # cf. the announcement on
-        # https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
-
-      - uses: actions/setup-python@v5
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
-          python-version: "3.x"
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install PyGithub
+      - name: Run Python script
+        run: python xfpm_c.py
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Install dependencies with PyPI
-        run: pip install -r ./requirements.txt
 
-      - name: Check presence of xfpm_c.py and access to it
-        run: |
-          ls
-          python ./xfpm_c.py -h
 
-      - name: collect and process README of the remote repository, if suitable
-        run: |
-          cd ./workshop
+#jobs:
+#  linux-static:
+#    runs-on: ubuntu-22.04
+#    timeout-minutes: 30
 
-          # collect the new raw data only if there was a change
-          git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main | \
-            cmp - previous_check.txt --silent || \
-              wget https://raw.githubusercontent.com/Beliavsky/Fortran-code-on-GitHub/main/README.md
+#    steps:
+#      - uses: actions/checkout@v4
+#        # by [2024-10-23 Wed], this version possibly will be considered "old",
+#        # cf. the announcement on
+#        # https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
 
-            if test -f "README.md"; then
-              cp ../xfpm_c.py .
-              python ./xfpm_c.py ./README.md > report.md
+#      - uses: actions/setup-python@v5
+#        with:
+#          python-version: "3.x"
 
-              mv report.md ../README.md
-              git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main > ./previous_check.txt
-              cd ..
+#      - name: Install dependencies with PyPI
+#        run: pip install -r ./requirements.txt
 
-              git config user.name "Automated"
-              git config user.email "actions@users.noreply.github.com"
-              timestamp=$(date "+%Y-%m-%d")
+#      - name: Check presence of xfpm_c.py and access to it
+#        run: |
+#          ls
+#          python ./xfpm_c.py -h
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-              git add README.md ./workshop/previous_check.txt
-              git status
-              git commit -m "update by ${timestamp}" && true
-              git push
-            fi
+##      - name: collect and process README of the remote repository, if suitable
+##        run: |
+##          cd ./workshop
+##
+##          # collect the new raw data only if there was a change
+##          git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main | \
+##            cmp - previous_check.txt --silent || \
+##              wget https://raw.githubusercontent.com/Beliavsky/Fortran-code-on-GitHub/main/README.md
+##
+##            if test -f "README.md"; then
+##              cp ../xfpm_c.py .
+##              python ./xfpm_c.py -t ./README.md # > report.md
+##            fi
+##        env:
+##          MY_SPECIAL_KEY: ${{ secrets.API_test }}
+##
+##              mv report.md ../README.md
+##              git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main > ./previous_check.txt
+##              cd ..
+##
+##              git config user.name "Automated"
+##              git config user.email "actions@users.noreply.github.com"
+##              timestamp=$(date "+%Y-%m-%d")
+##
+##              git add README.md ./workshop/previous_check.txt
+##              git status
+##              git commit -m "update by ${timestamp}" && true
+##              git push
+##            fi
 
