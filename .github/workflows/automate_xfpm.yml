@@ -42,7 +42,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-            pip install PyGithub requests
+            pip install -r ./requirements.txt
             echo "test the installations"
             python --version
             pip list
