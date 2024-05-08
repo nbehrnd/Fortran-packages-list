@@ -15,12 +15,16 @@ import os
 import re
 
 from time import perf_counter
-from urllib3.util import Retry
 
-import requests
-from requests.adapters import HTTPAdapter
+from github import Github
 
 os.environ["PYTHONIOENCODING"] = "utf-8"
+
+# Access the GitHub token from environment variable
+github_token = os.environ.get("GH_TOKEN")
+
+# Initialize PyGithub with the token
+g = Github(github_token)
 
 
 def get_args():
@@ -31,7 +35,8 @@ def get_args():
         the Fortran Package Manager.  For this, file README.md of project
         'Directory of Fortran codes on GitHub' curated by Beliavsky et al. (see
         https://github.com/Beliavsky/Fortran-code-on-GitHub) is processed as
-        input for this script.""",
+        input for this script.  If used outside an automated GitHub action,
+        the API key as to be provided manually.""",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
 
@@ -53,34 +58,45 @@ def get_args():
     parser.add_argument(
         "-t",
         "--test",
-        help="constrain a test run to 125 lines output",
+        help="constrain a test run to 300 lines output",
         action="store_true",
     )
 
     return parser.parse_args()
 
 
-def check_url_exists(url, max_redirects=20, max_retries=5):
-    """check accessibility of queried url"""
+def check_setup(g, test=False):
+    """check the connection to the GitHub API"""
+    if test:
 
-    session = requests.Session()
-    retries = Retry(
-        total=max_retries, backoff_factor=1.1, status_forcelist=[500, 502, 503, 504]
-    )
-    session.mount("https://", HTTPAdapter(max_retries=retries))
-
-    try:
-        # Make a HEAD request to get headers and avoid downloading the content
-        # https://stackoverflow.com/questions/46016004/how-to-handle-timeout-error-in-request-headurl
-        response = requests.head(url, allow_redirects=True, timeout=5)
-        # Check if the response status code is in the range of 200-299 (success)
-        if response.status_code in range(200, 300):
-            return True, response.status_code
+        # Check if login was successful
+        if g.get_user():
+            print("Login to GitHub API successful.")
         else:
-            return False, response.status_code
-    except requests.RequestException as e:
-        # Handle exceptions like network errors, invalid URLs, etc.
-        return False, str(e)
+            print("Failed to login to GitHub API.")
+
+        # Display rate limit information
+        rate_limit = g.get_rate_limit()
+        print("GitHub API rate limit:")
+        print(f"Limit: {rate_limit.core.limit}")
+        print(f"Remaining: {rate_limit.core.remaining}")
+        print(f"Reset Time: {rate_limit.core.reset}")
+
+        # For a typical project in question
+        repo_owner = "vmagnin"
+        repo_name = "ForSudoku"
+        repo = g.get_repo(f"{repo_owner}/{repo_name}")
+        principal_branch = repo.default_branch
+        print(f"The principal branch of {repo_name} is: {principal_branch}")
+
+        # Check if the principal branch has a fpm.toml file
+        branch = repo.get_branch(principal_branch)
+        tree = repo.get_git_tree(sha=branch.commit.sha, recursive=True)
+        readme_exists = any(entry.path == "fpm.toml" for entry in tree.tree)
+        if readme_exists:
+            print("fpm.toml exists in the principal branch.")
+        else:
+            print("fpm.toml does not exist in the principal branch.")
 
 
 def file_reader(infile="", debug=False, test=False):
@@ -106,28 +122,59 @@ def file_reader(infile="", debug=False, test=False):
     return raw_data
 
 
-def checker(text, debug=False):
-    """extract the address, report if fpm.toml file is present"""
+def extract_owner_and_repo(text, debug=False):
+    """extract the owner and repository from address of project line"""
     # text in parentheses after first after first set of brackets
     match = re.search(r"\[.*?\]\((.*?)\)", text)
     # Extract the match, if it exists
-    extracted_address = match.group(1) if match else None
-    if extracted_address:
-        if debug:
-            print("".join([text.strip(), "\n"]))
-            print(f"url: {extracted_address}\n")
-        fpm_link = extracted_address + "/blob/master/fpm.toml"
-        exists, status_or_error = check_url_exists(fpm_link)
-        if exists:
-            try:
-                single_test = "".join([text, "\n"])
-                return single_test
-            except UnicodeEncodeError as e:
-                # Handle the error: for example, print a placeholder text or
-                # encode the text in 'utf-8' and print
-                print("An encoding error occurred: ", e)
+    url_address = match.group(1) if match else None
+
+    url_address = url_address[:-1] if url_address.endswith("/") else url_address
+    repo_owner, repo_name = url_address.split("/")[-2:]
+
+    if debug:
+        print("read by extract_owner_and_repo:")
+        print(f"url_address: {url_address}")
+        print(f"repo_owner: {repo_owner}")
+        print(f"repo_name: {repo_name}\n")
+
+    return repo_owner, repo_name
+
+
+def report_projects(intermediate_register, previous_section_title, debug=False):
+    """report sections about projects if there are projects"""
+    if debug:
+        print(f"{len(intermediate_register)} entries to check")
+
+    affirmative_tests = []
+    for entry in intermediate_register:
+        repo_owner, repo_name = extract_owner_and_repo(entry, debug)
+        # now connect with the remote repository
+        try:
             if debug:
-                print(fpm_link)
+                print(f" available rate limit: {g.get_rate_limit()}")
+
+            repo = g.get_repo(f"{repo_owner}/{repo_name}")
+            principal_branch = repo.default_branch
+            search_toml = repo.get_contents(path="./fpm.toml", ref=principal_branch)
+            if search_toml:
+                affirmative_tests.append(entry)
+
+        except Exception:
+            if debug:
+                print(f"no check for {entry}")
+
+        if debug:
+            print("read by report_projects:")
+            print(f"repo_owner: {repo_owner}")
+            print(f"repo_name: {repo_name}")
+            print(f"principal_branch: {principal_branch}\n")
+
+    if affirmative_tests:
+        affirmative_tests = sorted(affirmative_tests, key=str.casefold)
+        print("".join([previous_section_title, "\n"]))
+        for entry in affirmative_tests:
+            print("".join([entry, "\n"]))
 
 
 def triage_lines(raw_data, debug=False):
@@ -151,39 +198,16 @@ def triage_lines(raw_data, debug=False):
         if line.startswith("##"):
             if line.startswith("## Fortran code on GitHub") is False:
                 if intermediate_register:
-
-                    if debug:
-                        print(f"{len(intermediate_register)} entries to check")
-
-                    affirmative_tests = []
-                    for entry in intermediate_register:
-                        test = checker(entry, debug)
-                        if test is not None:
-                            affirmative_tests.append(test)
-                    if affirmative_tests:
-                        print("".join([previous_section_title, "\n"]))
-                        affirmative_tests = sorted(affirmative_tests, key=str.casefold)
-                        for entry in affirmative_tests:
-                            print(entry)
+                    report_projects(
+                        intermediate_register, previous_section_title, debug
+                    )
                     intermediate_register = []
-
                 previous_section_title = line
 
         # Equally report a section if a line about a project happens to be the
         # ultimate line of the raw_data read:
         if i == len(raw_data) - 1:
-            if debug:
-                print(f"{len(intermediate_register)} entries to check")
-
-            affirmative_tests = []
-            for entry in intermediate_register:
-                test = checker(entry, debug)
-                if test is not None:
-                    affirmative_tests.append(test)
-            if affirmative_tests:
-                print("".join([previous_section_title, "\n"]))
-                for entry in affirmative_tests:
-                    print(entry)
+            report_projects(intermediate_register, previous_section_title, debug)
 
 
 def main():
@@ -193,6 +217,8 @@ def main():
     infile = args.file
     debugger_level = args.debug
     test_level = args.test
+
+    check_setup(g, args.test)
 
     start = perf_counter()
     raw_data = file_reader(infile, debugger_level, test_level)

@@ -4,7 +4,7 @@ name: automate_xfpm
 # purpose : automate updates of the README.md file based on a remote README.md
 # author  : nbehrnd@yahoo.com
 # date    : [2024-03-24 Sun]
-# edit    : [2024-04-26 Fri]
+# edit    : [2024-05-08 Wed]
 
 # Beliavsky et al. curate a list about GitHub hosted projects using Fortran.[1]
 # Script xfpm.py processes these data to eventually write a new README.md about
@@ -26,30 +26,40 @@ on:
     - cron: "0 1 * * *"  # once daily at 01:00 am UTC (cf. https://crontab.guru/)
 
 jobs:
-  linux-static:
-    runs-on: ubuntu-22.04
-    timeout-minutes: 30
-
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         # by [2024-10-23 Wed], this version possibly will be considered "old",
         # cf. the announcement on
         # https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: '3.x'
 
-      - name: Install dependencies with PyPI
-        run: pip install -r ./requirements.txt
+      - name: Install dependencies
+        run: |
+            pip install -r ./requirements.txt
+            echo "test the installations:"
+            python --version
+            pip list
 
-      - name: Check presence of xfpm_c.py and access to it
+      - name: Check file presences and access of xfpm_c.py
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           ls
+          echo "a test call of the Python script:"
           python ./xfpm_c.py -h
 
-      - name: collect and process README of the remote repository, if suitable
+      - name: collect and process README.md of the remote repository if suitable
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          ls
           cd ./workshop
 
           # collect the new raw data only if there was a change
@@ -60,11 +70,10 @@ jobs:
             if test -f "README.md"; then
               cp ../xfpm_c.py .
               python ./xfpm_c.py ./README.md > report.md
-
               mv report.md ../README.md
-              git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main > ./previous_check.txt
               cd ..
 
+              git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main > ./previous_check.txt
               git config user.name "Automated"
               git config user.email "actions@users.noreply.github.com"
               timestamp=$(date "+%Y-%m-%d")
