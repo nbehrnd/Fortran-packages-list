@@ -214,6 +214,10 @@
 
 [list](https://github.com/grofz/list): easy-to-use implementation of Python-like lists, with methods append(), clear(), copy(), count(), extend(), insert(), pop(), remove(), reverse(), sort(), by Zdenek Grof
 
+[M_anything](https://github.com/urbanjost/M_anything): use polymorphism to allow promoting, casting and molding intrinsic types, by urbanjost
+
+[M_hashkeys](https://github.com/urbanjost/M_hashkeys): collection of hash key generator modules, by urbanjost
+
 [maps](https://github.com/degawa/maps): wrapper by Tomohiro Degawa for [stdlib_hashmaps](https://stdlib.fortran-lang.org/page/specs/stdlib_hashmaps.html) that simplifies adding a key-value mapping and getting the value mapped to a key
 
 [Multidimensional Array Containers (MAC)](https://github.com/irukoa/MAC): library to create and manipulate arrays of any rank, by Álvaro R. Puente-Uriona, meant to serve as a building block for codes that expand on "rank-agnostic" programming
@@ -265,6 +269,8 @@
 [gravmod3d](https://github.com/ofmla/gravmod3d): 3D forward modeling of bodies discretized by rectangular prisms with parabolic density contrast, an implementation by Oscar Mojica of the three-dimensional gravity modeling with parabolic density contrast presented in the paper [3-D forward gravity modeling of basement interfaces above which the density contrast varies continuously with depth](https://www.sciencedirect.com/science/article/abs/pii/S0098300401000802) by V. Chakravarthi et al., Computers & Geosciences (2002)
 
 [Maptran 3D](https://github.com/geospace-code/maptran3d): Modern Fortran 3D coordinate conversions for geospace ecef enu eci, from geospace-code.  Similar to Python PyMap3D and Matlab Matmap3d.
+
+[NanoFASE](https://github.com/NERC-CEH/nanofase): multimedia spatiotemporal model of nanomaterial fate, speciation and bio-uptake, by Sam Harrison and slofts
 
 [PICO_Fortran](https://github.com/dmr-dj/PICO_Fortran): implementation by Didier M. Roche of the Potsdam Ice-shelf Cavity mOdel from the paper [Antarctic sub-shelf melt rates via PICO](https://tc.copernicus.org/articles/12/1969/2018/), by Ronja Reese et al., (2018).
 
@@ -342,6 +348,8 @@
 
 [json-fortran-benchmarks](https://github.com/jacobwilliams/json-fortran-benchmarks): benchmarks for JSON Fortran parsers, by jacobwilliams. Also comparison to Python. Discussed [here](https://fortran-lang.discourse.group/t/a-new-json-library/2197/11)
 
+[M_display](https://github.com/urbanjost/M_display): standard Fortran 95 module for printing scalars, vectors, and matrices to external files, by urbanjost. The module can display variables of default kind of all intrinsic types (integer, real, complex, logical, and character), and add-on modules are provided for data of the nondefault kind.
+
 [nc4fortran](https://github.com/geospace-code/nc4fortran): object-oriented Fortran NetCDF4 interface, by geospace-code
 
 [NetCDF Input-Output (NCIO)](https://github.com/alex-robinson/ncio): simple Fortran interface to NetCDF reading and writing, by alex-robinson
@@ -414,6 +422,8 @@
 
 [json-fortran](https://github.com/jacobwilliams/json-fortran): user-friendly, thread-safe, and object-oriented API for reading and writing JSON files, written in modern Fortran, by Jacob Williams
 
+[M_args](https://github.com/urbanjost/M_args): module that provides for command line parsing using namelist syntax, by urbanjost
+
 [M_CLI2](https://github.com/urbanjost/M_CLI2): cracks the command line when given a prototype string that looks very much like an invocation of the program, by urbanjost. A call to get_args(3f) or one of its variants is then made for each parameter name to set the variables appropriately in the program.
 
 [M_history](https://github.com/urbanjost/M_history): input line history editor, by urbanjost
@@ -422,7 +432,13 @@
 
 [M_msg](https://github.com/urbanjost/M_msg): convert all common variables to a string in Fortran using unlimited polymorphic variables, by urbanjost.
 
+[M_path](https://github.com/urbanjost/M_path): creates an OOP (Object Oriented Programming) interface to other modules in the [General Purpose Fortran](https://github.com/urbanjost/general-purpose-fortran) package, by urbanjost.
+
+[M_readline](https://github.com/urbanjost/M_readline): interface to the commonly available C procedure readline(3c). to provide a familiar command history interface for interactive programs, by urbanjost
+
 [M_sets](https://github.com/urbanjost/M_sets): basic set functions reminiscent of those in Matlab: `union`, `unique`, `intersect`, `setdiff`, `ismember`, `setxor`, by urbanjost
+
+[M_stopwatch](https://github.com/urbanjost/M_stopwatch): package for measuring cpu and wall clock execution time by urbanjost, based on [StopWatch](https://math.nist.gov/StopWatch/). It supports the wall clock, CPU clock, and a breakdown of the CPU clock into user and system times.
 
 [oolong](https://github.com/EdHone/oolong): object-oriented logging system by Ed Hone that aims to provide a simple, flexible logging interface that will enable a wide range of logging functionality for a wide range of model paradigms
 
@@ -480,6 +496,8 @@
 
 [M_attr](https://github.com/urbanjost/M_attr): set terminal text attributes using ANSI escape sequences
 
+[M_calcomp](https://github.com/urbanjost/M_calcomp): old graphics library used in conjunction with M_draw for work with old codes, by urbanjost. The CALCOMP library is a simple set of FORTRAN callable graphic routines that allows users to quickly construct plots.
+
 [M_color](https://github.com/urbanjost/M_color): convert between RGB color values and other common color models, by urbanjost
 
 [M_draw - low level vector graphics library](https://github.com/urbanjost/M_draw): base graphics library intended for use with Fortran although largely written in C. It is based on the public domain VOGLE graphics library. It allows for creating vector-based graphics with a variety of output devices.
@@ -489,6 +507,8 @@
 [M_ncurses](https://github.com/urbanjost/M_ncurses): module that allows use of the C Ncurses library for controlling and formatting terminal displays, by urbanjost
 
 [M_pixel](https://github.com/urbanjost/M_pixel): creates pixel images with a vector-oriented graphics library that emulates a subset of the [M_draw](https://github.com/urbanjost/M_draw) vector graphics library, by urbanjost. It is supplemented with additional modules that read and write GIF files, including animated GIFs.
+
+[M_slices](https://github.com/urbanjost/M_slices): basic slice plot module based on M_draw(3f), by urbanjost. A 3-d surface is plotted by plotting slices through the volume which are parallel to the x-y plane.
 
 [ogpf](https://github.com/kookma/ogpf): Object-Based Interface to GnuPlot from Fortran, by kookma
 
@@ -570,11 +590,15 @@
 
 [LSQR](https://github.com/jacobwilliams/LSQR): Fortran 2008 edition of [LSQR](https://web.stanford.edu/group/SOL/software/lsqr/), a conjugate-gradient type method for solving sparse linear equations and sparse least-squares problems, by Jacob Williams.
 
+[M_blas](https://github.com/urbanjost/M_blas): Fortran BLAS library implemented as a free-format module, by urbanjost
+
 [M_LA](https://github.com/urbanjost/M_LA): small collection of linear algebra routines, including reshaping an array, creating a [magic square](https://en.wikipedia.org/wiki/Magic_square) array, and computing the determinant and inverse of a matrix, by urbanjost
 
 [mfi](https://github.com/14NGiestas/mfi): modern Fortran Interfaces to BLAS and LAPACK, by 14NGiestas
 
 [minres](https://github.com/willdickson/minres): implementation of MINRES by Will Dickson based on the original Fortran 90 code by Chris Paige, Sou-Cheng Choi, and Michael Saunders, which solves sparse symmetric systems Ax = b
+
+[SParse matrices in Object-Oriented Fortran (SPOOF)](https://github.com/samharrison7/spoof): modern, object-oriented Fortran library for sparse matrix computations, by Sam Harrison. It largely draws on the SPARSKIT library, adding an object-oriented interface to improve usability.
 
 [sparse_fortran](https://github.com/Euler-37/sparse_fortran): derived types for sparse matrices in COO and CSR format with functions for matrix multiplication, by Euler-37
 
@@ -746,6 +770,8 @@
 
 ## Random Number Generation
 
+[M_random](https://github.com/urbanjost/M_random): module of pseudo random procedures, by urbanjost
+
 [mersenne-twister-fortran](https://github.com/jacobwilliams/mersenne-twister-fortran): Mersenne Twister pseudorandom number generator, by Jacob Williams
 
 [pointsets](https://github.com/arjenmarkus/pointsets): modules to construct points in N-dimensional space, such as methods to visit grid points in N-dimensional space, generate points in N-dimensional space based on Latin hypercube samping, generate regularly spaced and pseudo-random points in N-dimensional space, generate quasi-random points in Euclidean N-dimensional space, unit circle, disk, sphere or ball, and return an array of integers in a random order, by Arjen Markus
@@ -780,8 +806,6 @@
 
 ## Statistics
 
-[200+ R packages with Fortran code](https://github.com/cran?q=&type=&language=fortran&sort=): R is a free software environment for statistical computing and graphics
-
 [fitpack](https://github.com/perazz/fitpack): modern Fortran translation by Federico Perini of the [FITPACK](http://www.netlib.org/dierckx) package for curve and surface fitting by Paul Dierckx
 
 [fstats](https://github.com/jchristopherson/fstats): modern statistical library containing routines for computing basic statistical properties, hypothesis testing, regression, special functions, and even experimental design, by Jason Christopherson
@@ -809,6 +833,8 @@
 [iso_varying_string](https://github.com/everythingfunctional/iso_varying_string): implementation of the ISO_VARYING_STRING module as defined in the ISO standard, by Brad Richardson
 
 [M_io](https://github.com/urbanjost/M_io): collection of procedures that create a simple interface for common I/O tasks not conveniently done with intrinsic I/O procedures, by urbanjost
+
+[M_overload](https://github.com/urbanjost/M_overload): overloads of standard operators and intrinsic procedures, including // to concatenate any two intrinsic types into a stringby urbanjost, a format operator to convert a variable to a string, `int` and `real` for string and logical arguments, `merge` for strings of different lengths, == and /= for logical variables, by urbanjost
 
 [M_strings](https://github.com/urbanjost/M_strings): modules for processing strings. Routines for parsing, tokenizing, changing case, substituting new strings for substrings, locating strings with simple wildcard expressions, removing tabs and line terminators and other string manipulations are included
 
@@ -872,5 +898,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-05-07
-time elapsed (s): 611.36
+last update: 2024-05-08
+time elapsed (s): 1850.70
