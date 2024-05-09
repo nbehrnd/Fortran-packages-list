@@ -4,7 +4,7 @@ name: automate_xfpm
 # purpose : automate updates of the README.md file based on a remote README.md
 # author  : nbehrnd@yahoo.com
 # date    : [2024-03-24 Sun]
-# edit    : [2024-05-08 Wed]
+# edit    : [2024-05-09 Thu]
 
 # Beliavsky et al. curate a list about GitHub hosted projects using Fortran.[1]
 # Script xfpm.py processes these data to eventually write a new README.md about
@@ -38,13 +38,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
-      - name: Install dependencies
+      - name: Install dependencies with PyPI, check installations
         run: |
-            pip install -r ./requirements.txt
+            pip install -r requirements.txt
             echo "test the installations:"
+            echo " "
+            lsb_release -a
+            echo " "
             python --version
+            echo " "
             pip list
 
       - name: Check file presences and access of xfpm_c.py
@@ -53,7 +57,7 @@ jobs:
         run: |
           ls
           echo "a test call of the Python script:"
-          python ./xfpm_c.py -h
+          python xfpm_c.py -h
 
       - name: collect and process README.md of the remote repository if suitable
         env:
@@ -69,11 +73,11 @@ jobs:
 
             if test -f "README.md"; then
               cp ../xfpm_c.py .
-              python ./xfpm_c.py ./README.md > report.md
+              python xfpm_c.py README.md > report.md
               mv report.md ../README.md
+              git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main > previous_check.txt
               cd ..
 
-              git ls-remote https://github.com/Beliavsky/Fortran-code-on-GitHub main > ./previous_check.txt
               git config user.name "Automated"
               git config user.email "actions@users.noreply.github.com"
               timestamp=$(date "+%Y-%m-%d")
