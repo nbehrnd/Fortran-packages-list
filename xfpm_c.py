@@ -5,7 +5,7 @@ name     : xfpm_c.py
 source   : https://github.com/Beliavsky/Fortran-packages-list
 author   : Beliavsky, Norwid Behrnd
 license  : MIT
-last edit: [2024-05-07 Tue]
+last edit: [2024-05-10 Fri]
 purpose  : report projects that can be built with the Fortran Package Manager
 """
 
@@ -13,7 +13,9 @@ import argparse
 import datetime
 import os
 import re
+import sys
 
+from multiprocessing import Pool
 from time import perf_counter
 
 from github import Github
@@ -22,9 +24,15 @@ os.environ["PYTHONIOENCODING"] = "utf-8"
 
 # Access the GitHub token from environment variable
 github_token = os.environ.get("GH_TOKEN")
+# github_token = "ghp_..."  # alternative: enter the token
 
 # Initialize PyGithub with the token
-g = Github(github_token)
+g = ""
+try:
+    g = Github(github_token)
+except Exception:
+    print("The github_token is not accessible to the script, exit.")
+    sys.exit()
 
 
 def get_args():
@@ -141,34 +149,31 @@ def extract_owner_and_repo(text, debug=False):
     return repo_owner, repo_name
 
 
+def check_project(entry, debug=False):
+    """Check if a project contains a 'fpm.toml' file"""
+    repo_owner, repo_name = extract_owner_and_repo(entry, debug)
+    try:
+        repo = g.get_repo(f'{repo_owner}/{repo_name}')
+        principal_branch = repo.default_branch
+        search_toml = repo.get_contents(path="./fpm.toml", ref=principal_branch)
+        return entry if search_toml else None
+    except Exception:
+        if debug:
+            print(f"no check for {entry}")
+        return None
+
+
 def report_projects(intermediate_register, previous_section_title, debug=False):
     """report sections about projects if there are projects"""
     if debug:
         print(f"{len(intermediate_register)} entries to check")
 
-    affirmative_tests = []
-    for entry in intermediate_register:
-        repo_owner, repo_name = extract_owner_and_repo(entry, debug)
-        # now connect with the remote repository
-        try:
-            if debug:
-                print(f" available rate limit: {g.get_rate_limit()}")
+    pool = Pool()  # Create a Pool of processes
+    results = pool.map(check_project, intermediate_register)  # Distribute tasks across processes
+    pool.close()
+    pool.join()
 
-            repo = g.get_repo(f"{repo_owner}/{repo_name}")
-            principal_branch = repo.default_branch
-            search_toml = repo.get_contents(path="./fpm.toml", ref=principal_branch)
-            if search_toml:
-                affirmative_tests.append(entry)
-
-        except Exception:
-            if debug:
-                print(f"no check for {entry}")
-
-        if debug:
-            print("read by report_projects:")
-            print(f"repo_owner: {repo_owner}")
-            print(f"repo_name: {repo_name}")
-            print(f"principal_branch: {principal_branch}\n")
+    affirmative_tests = [result for result in results if result]
 
     if affirmative_tests:
         affirmative_tests = sorted(affirmative_tests, key=str.casefold)
@@ -198,9 +203,7 @@ def triage_lines(raw_data, debug=False):
         if line.startswith("##"):
             if line.startswith("## Fortran code on GitHub") is False:
                 if intermediate_register:
-                    report_projects(
-                        intermediate_register, previous_section_title, debug
-                    )
+                    report_projects(intermediate_register, previous_section_title, debug)
                     intermediate_register = []
                 previous_section_title = line
 
