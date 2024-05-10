@@ -13,6 +13,7 @@ import argparse
 import datetime
 import os
 import re
+import sys
 
 from multiprocessing import Pool
 from time import perf_counter
@@ -23,9 +24,15 @@ os.environ["PYTHONIOENCODING"] = "utf-8"
 
 # Access the GitHub token from environment variable
 github_token = os.environ.get("GH_TOKEN")
+# github_token = "ghp_..."  # alternative: enter the token
 
 # Initialize PyGithub with the token
-g = Github(github_token)
+g = ""
+try:
+    g = Github(github_token)
+except Exception:
+    print("The github_token is not accessible to the script, exit.")
+    sys.exit()
 
 
 def get_args():
