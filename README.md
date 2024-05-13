@@ -326,7 +326,7 @@
 
 [flibcsv](https://github.com/freevryheid/flibcsv): bindings by Andre Smit to [libcsv](https://github.com/rgamble/libcsv), a fast and flexible CSV library written in pure ANSI C that can read and write CSV data
 
-[fmmap](https://github.com/PierUgit/fmmap): provides some of the features of the C posix or Windows memory mapped files under a simple and unique Fortran interface, by PierUgit.
+[fmmap](https://github.com/PierUgit/fmmap): provides some of the features of the C posix or Windows memory mapped files under a simple and unique Fortran interface, by PierUgit. Two uses are allocating arrays that are potentially bigger the RAM+swap size, and which are backed in a temporary file (anonymous mapping), and opening existing files or creating new files, and mapping them to an array.
 
 [fortran-messagepack](https://github.com/Sinfaen/fortran-messagepack): prototype library for [MessagePack](https://msgpack.org/index.html) (an efficient binary serialization format) support in Fortran, by Kelly Schultz
 
@@ -474,7 +474,7 @@
 
 [ForImage](https://github.com/gha3mi/forimage): library for working with image files ([PNM format](https://en.wikipedia.org/wiki/Netpbm)) and managing colors effectively, by Seyed Ali Ghasemi
 
-[Fortran Intuitive Graphics (fig)](https://github.com/AnonMiraj/fig): provide intuitive graphics capabilities, by Aِl-Mi'raj. It offers basic 2D primitives such as lines, circles, ellipsis, and rectangles for creating graphical representations.
+[Fortran Intuitive Graphics (fig)](https://github.com/AnonMiraj/fig): provide intuitive graphics capabilities, by AnonMiraj. It offers basic 2D primitives such as lines, circles, ellipsis, and rectangles for creating graphical representations.
 
 [Fortran Terminal (fortty)](https://github.com/awvwgk/fortty): create colorful terminal applications in Fortran, by Sebastian Ehlert
 
@@ -670,7 +670,7 @@
 
 ## Numerical Integration (Quadrature)
 
-[integrate_fortran](https://github.com/Euler-37/integrate_fortran): Gauss–Legendre quadrature for 1D and multidimensional integrals, by Euler-37
+[integrate_fortran](https://github.com/Euler-37/integrate_fortran): Gauss-Legendre quadrature for 1D and multidimensional integrals, by Euler-37
 
 [kronrod](https://github.com/jacobwilliams/kronrod): generates [Gauss-Kronrod](https://en.wikipedia.org/wiki/Gauss%E2%80%93Kronrod_quadrature_formula) coefficients, by Jacob Williams
 
@@ -902,5 +902,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-05-12
-time elapsed (s): 483.16
+last update: 2024-05-13
+time elapsed (s): 454.73
