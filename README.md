@@ -140,10 +140,6 @@
 
 [Motility Analysis of T-Cell Histories in Activation (MATCHA)](https://github.com/BerkeleyLab/matcha): designs virtual T cells that move like biological T cells, from  BerkeleyLab and Northern New Mexico College. The virtual T cells will match the speed and turning angle distributions of biological cells.
 
-## Climate and Weather
-
-[VenusPT-tables](https://github.com/Razumovskyy/VenusPT-tables): atmospheric absorption coefficient calculator: Utilizing [HITRAN](https://hitran.org/) and custom spectroscopy for Venus and Mars radiative transfer studies, by Mikhail Razumovskiy. Also [PrecisionSpec-Analyzer](https://github.com/Razumovskyy/PrecisionSpec-Analyzer), a high-precision tool for atmospheric absorption calculations over narrow spectral ranges, focusing on detailed spectroscopic analysis using HITRAN and HITEMP data with standard and custom line shapes for terrestrial atmospheric studies.
-
 ## Code Tools
 
 [AD_dnSVM](https://github.com/lauvergn/AD_dnSVM): Fortran Automatic Differentiation tool using forward mode for scalars (S), Vectors (V) and Matrices (M), by David Lauvergnat. It has no limit in terms of the number of independent variables (this number is defined at runtime) and can compute up to third derivatives.
@@ -904,5 +900,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-05-28
-time elapsed (s): 397.66
+last update: 2024-06-01
+time elapsed (s): 478.35
