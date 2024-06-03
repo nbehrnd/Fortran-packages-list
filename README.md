@@ -748,6 +748,8 @@
 
 [signedMCRT](https://github.com/lewisfish/signedMCRT): use of signed distance fields in Monte Carlo Radiative Transfer, by Lewis McMillan. This allows modelling of smooth surfaces without the need to use triangle or similar meshes.
 
+[vdist-solver-fortran](https://github.com/Nkzono99/vdist-solver-fortran): velocity distribution function solver for Python, calling Fortran, using Liouville's theorem, by Nkzono99
+
 ## Quantum Chemistry and Electronic Structure
 
 [dftd4](https://github.com/dftd4/dftd4): Generally Applicable Atomic-Charge Dependent London Dispersion Correction
@@ -900,5 +902,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-06-02
-time elapsed (s): 477.27
+last update: 2024-06-03
+time elapsed (s): 395.85
