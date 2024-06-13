@@ -514,6 +514,8 @@
 
 [pyplot-fortran](https://github.com/jacobwilliams/pyplot-fortran): generate plots from Fortran using Python's [matplotlib.pyplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html), by jacobwilliams
 
+[tikz-fortran](https://github.com/huijunchen9260/tikz-fortran): module that generates figures using [PGF/Tikz](https://en.wikipedia.org/wiki/PGF/TikZ), a pair of languages for producing vector graphics, by Hui-Jun Chen
+
 ## Interoperability
 
 [arrow-fortran](https://github.com/ludnic/arrow-fortran): automatic bindings by Ludovico Nicotina and Vincent Magnin to the C API for the arrow project. [Arrow](https://arrow.apache.org/) is a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs.
@@ -902,5 +904,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-06-11
-time elapsed (s): 402.12
+last update: 2024-06-13
+time elapsed (s): 410.10
