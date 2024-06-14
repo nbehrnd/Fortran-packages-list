@@ -146,6 +146,8 @@
 
 [Auto-Diff](https://github.com/zoziha/Auto-Diff): implementation in Modern Fortran of backward mode automatic differentiation, by zoziha
 
+[exception_handling](https://github.com/tillackseb/exception_handling): tools for exception handling and tracing, by Sebastian Tillack
+
 [Fortran Debug Utilities](https://github.com/plevold/fortran-debug-utils): collection of some utilities useful for debugging code, by Pål Levold
 
 [fortran-git](https://github.com/interkosmos/fortran-git): Fortran 2008 ISO C binding interfaces to [libgit2](https://github.com/libgit2/libgit2), by interkosmos
@@ -904,5 +906,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-06-13
-time elapsed (s): 410.10
+last update: 2024-06-14
+time elapsed (s): 495.23
