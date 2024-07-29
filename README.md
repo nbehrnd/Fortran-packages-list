@@ -908,5 +908,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-07-27
-time elapsed (s): 504.91
+last update: 2024-07-29
+time elapsed (s): 404.75
