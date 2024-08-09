@@ -872,6 +872,8 @@
 
 [DAGLIB](https://github.com/jacobwilliams/daglib): modern Fortran module for creating and manipulating directed acyclic graphs (DAGs), by Jacob Williams and Damian Rouson. It includes a toposort feature, and also the ability to generate files in the GraphViz "dot" notation.
 
+[graphstruc](https://github.com/nedtaylor/graphstruc): library that provides an implementation of graph structures in the form of a derived type, by Ned Thaddeus Taylor
+
 [strengthcalc](https://github.com/piotrbajdek/strengthcalc): strengthcalc employs mathematical formulae from Mayhew et al. (1992) and Wathen (1994) to estimate the maximum weight one can lift in a single repetition of a physical exercise (known as 1RM: one repetition maximum), by Piotr Bajdek
 
 ## Unit Testing
@@ -908,5 +910,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-08-07
-time elapsed (s): 425.10
+last update: 2024-08-09
+time elapsed (s): 492.11
