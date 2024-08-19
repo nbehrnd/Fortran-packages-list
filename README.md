@@ -470,7 +470,9 @@
 
 [ForCAD](https://github.com/gha3mi/forcad): library for geometric modeling, supporting B-Spline, NURBS, Bezier, and Rational Bezier curves, surfaces, and volumes, by Seyed Ali Ghasemi
 
-[ForColormap](https://github.com/vmagnin/forcolormap): small colormap library independent of any graphical toolkit, by Vincent Magnin et al. It just converts a real value to RGB values, that can be used with any toolkit offering bitmap drawing..
+[ForColormap](https://github.com/vmagnin/forcolormap): small colormap library independent of any graphical toolkit, by Vincent Magnin et al. It just converts a real value to RGB values, that can be used with any toolkit offering bitmap drawing.
+
+[forIGES](https://github.com/rweed/forIGES): utilities for reading and writing a subset of the [IGES](https://en.wikipedia.org/wiki/IGES) CAD file entities described in the IGES 5.3 specification, by rweed. The focus of forIGES is on geometric entities such as NURBS curves and surfaces.
 
 [ForImage](https://github.com/gha3mi/forimage): library for working with image files ([PNM format](https://en.wikipedia.org/wiki/Netpbm)) and managing colors effectively, by Seyed Ali Ghasemi
 
@@ -910,5 +912,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-08-17
-time elapsed (s): 716.37
+last update: 2024-08-19
+time elapsed (s): 418.59
