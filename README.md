@@ -712,6 +712,8 @@
 
 [fmin](https://github.com/jacobwilliams/fmin): derivative-free 1D function minimizer in modern Fortran, by Jacob Williams
 
+[ForTimize](https://github.com/fedebenelli/ForTimize): aims to standarize the way to call optimization functions to ease the process of selecting algorithms to optimize problems, by Federico E. Benelli. The gradient descent and Nelder-Mead algorithms are implemented.
+
 [lbfgsb](https://github.com/jacobwilliams/lbfgsb): limited memory code for solving bound constrained optimization problems, by Jorge Nocedal and Jose Luis Morales
 
 [libdogleg-f](https://github.com/ivan-pi/libdogleg-f): Fortran bindings to libdogleg - a large-scale nonlinear least-squares optimization library, by Ivan Pribec. Currently only the dense optimizer calls are supported.
@@ -912,5 +914,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-08-24
-time elapsed (s): 423.11
+last update: 2024-08-25
+time elapsed (s): 416.06
