@@ -188,6 +188,8 @@
 
 [numsa](https://github.com/grimme-lab/numsa): solvent accessible surface area calculation, from grimme-lab
 
+[pbepack](https://github.com/HugoMVale/pbepack): package to solve population balance equations for particulate processes, associated with the paper [Solution of the Population Balance Equation for Two-Component Aggregation by an Extended Fixed Pivot Technique](https://pubs.acs.org/doi/10.1021/ie050179s), by Hugo M. Vale and Timothy F. McKenna, Industrial & Engineering Chemistry Research (2005)
+
 [YA_EoS](https://github.com/fedebenelli/yaeos): thermodynamic equations of state library with both automatic and analytical derivation capabilities, by Federico E. Benelli
 
 ## Containers and Generic Programming
@@ -914,5 +916,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-08-25
-time elapsed (s): 416.06
+last update: 2024-08-26
+time elapsed (s): 506.29
