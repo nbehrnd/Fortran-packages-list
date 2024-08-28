@@ -770,6 +770,8 @@
 
 [General Quantum Chemistry Properties Grabber (gpg)](https://github.com/lukaswittmann/gpg): obtains a wide range of properties, including molecular geometries, electronic energies, dipole moments, vibrational frequencies, from the output files of popular quantum chemistry software packages, including ORCA, Qchem and Turbomole, by Lukas Wittmann
 
+[Geometrical Counter-Poise Correction (gcp)](https://github.com/grimme-lab/gcp): an associated paper is [A geometrical correction for the inter- and intra-molecular basis set superposition error in Hartree-Fock and density functional theory calculations for large systems](https://pubs.aip.org/aip/jcp/article-abstract/136/15/154101/941628/A-geometrical-correction-for-the-inter-and-intra), by Holger Kruse and Stefan Grimme, Journal of Chemical Physics (2012)
+
 [hartree-fock](https://github.com/lukaswittmann/hartree-fock): simple implementation of the Hartree-Fock algorithm, by Lukas Wittmann. STO-nG basis sets are used, which are generated from Slater exponents given in the input file. Some parts like the input reader and straightforward functions were taken from Marvin Friede's [hartree-fock](https://github.com/marvinfriede/hartree-fock) implementation.
 
 [HoneyTools](https://github.com/QcmPlab/HoneyTools) modules by Gabriele Bellomia to easily deal with nontrivial honeycomb structures in real-space: generate the coordinates, compute all the neighbor-shells, get direct access to logical masks for nearest and next-nearest neighbors (nth-order can be easily computed from the shell table), hence readily build tight-binding hamiltonians, or any other lattice quantity requiring real-space geometrical information.
@@ -916,5 +918,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-08-26
-time elapsed (s): 506.29
+last update: 2024-08-28
+time elapsed (s): 446.71
