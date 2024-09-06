@@ -190,6 +190,8 @@
 
 [pbepack](https://github.com/HugoMVale/pbepack): package to solve population balance equations for particulate processes, associated with the paper [Solution of the Population Balance Equation for Two-Component Aggregation by an Extended Fixed Pivot Technique](https://pubs.acs.org/doi/10.1021/ie050179s), by Hugo M. Vale and Timothy F. McKenna, Industrial & Engineering Chemistry Research (2005)
 
+[rate](https://github.com/acooksy/rate): code for fitting and predicting chemical kinetic data, by Andrew L. Cooksy
+
 [YA_EoS](https://github.com/fedebenelli/yaeos): thermodynamic equations of state library with both automatic and analytical derivation capabilities, by Federico E. Benelli
 
 ## Containers and Generic Programming
@@ -782,6 +784,8 @@
 
 [Quantum chemistry Utility for Benchmark Evaluation (QUBE)](https://github.com/lukaswittmann/qube): extracts energies from the output files of quantum chemistry calculations for large benchmark sets, by Lukas Wittmann. It utilizes reference energies for statistical evaluation and comparison of the results obtained from the benchmark sets.
 
+[QuantumModelLib](https://github.com/lauvergn/QuantumModelLib): enables one to use potentials extracted from the literature, by David Lauvergnat et al. It has the following features: one or several degrees of freedom; one or several electronic states; for each electronic state, the energy, gradient and hessian can be obtained in the diabatic or adiabatic representations
+
 [WannInt](https://github.com/irukoa/WannInt): library of utilities for Wannier interpolation, meant to serve as a building block for codes that compute the resolution of quantum mechanical operators in the Brillouin zone of a crystal, by Álvaro R. Puente-Uriona
 
 ## Random Number Generation
@@ -801,6 +805,8 @@
 [forgex](https://github.com/ShinobuAmasaki/forgex): regular expression engine using a deterministic finite automaton ([DFA](https://en.wikipedia.org/wiki/Deterministic_finite_automaton)) approach, by Shinobu Amasaki. It provides `.in.` and `.match.` operators to detect if a pattern is contained in or exactly matches a string.
 
 [fortran-pcre2](https://github.com/interkosmos/fortran-pcre2): Fortran 2018 ISO_C_BINDING interfaces to Perl-compatible Regular Expressions 2 (PCRE2), by interkosmos
+
+[fortran-regex](https://github.com/jeyemhex/fortran-regex): Fortran 2003 implementation of regular expressions, by Edward Higgins
 
 [fortran-regex](https://github.com/perazz/fortran-regex): port by Federico Perini of the [tiny-regex-c](https://github.com/kokke/tiny-regex-c) library for regular expressions. It is based on the original C implementation, but the API is modelled in Fortran style, which is similar to the intrinsic index function.
 
@@ -918,5 +924,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-09-02
-time elapsed (s): 494.46
+last update: 2024-09-06
+time elapsed (s): 525.00
