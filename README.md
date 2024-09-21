@@ -142,6 +142,10 @@
 
 [Motility Analysis of T-Cell Histories in Activation (MATCHA)](https://github.com/BerkeleyLab/matcha): designs virtual T cells that move like biological T cells, from  BerkeleyLab and Northern New Mexico College. The virtual T cells will match the speed and turning angle distributions of biological cells.
 
+## Climate and Weather
+
+[VenusPT-tables](https://github.com/Razumovskyy/VenusPT-tables): atmospheric absorption coefficient calculator: Utilizing [HITRAN](https://hitran.org/) and custom spectroscopy for Venus and Mars radiative transfer studies, by Mikhail Razumovskiy. Also [PrecisionSpec-Analyzer](https://github.com/Razumovskyy/PrecisionSpec-Analyzer), a high-precision tool for atmospheric absorption calculations over narrow spectral ranges, focusing on detailed spectroscopic analysis using HITRAN and HITEMP data with standard and custom line shapes for terrestrial atmospheric studies.
+
 ## Code Tools
 
 [AD_dnSVM](https://github.com/lauvergn/AD_dnSVM): Fortran Automatic Differentiation tool using forward mode for scalars (S), Vectors (V) and Matrices (M), by David Lauvergnat. It has no limit in terms of the number of independent variables (this number is defined at runtime) and can compute up to third derivatives.
@@ -287,6 +291,8 @@
 ## Engineering
 
 [Deformation Monitoring Package (DMPACK)](https://github.com/dabamos/dmpack): package for sensor control and automated time series processing in geodesy and geotechnics, consisting of a library libdmpack and additional programs based on it which serve as a reference implementation of solutions to various problems in deformation monitoring, by Philipp Engel
+
+[friction](https://github.com/jchristopherson/friction): routines for calculating the frictional response of contacting bodies, using the Coulomb, Lu-Gre, Maxwell, Generalized Maxwell Slip, Stribeck, and Modified Stribeck models, by Jason Christopherson
 
 ## Error Handling
 
@@ -924,5 +930,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-09-17
-time elapsed (s): 439.93
+last update: 2024-09-21
+time elapsed (s): 438.80
