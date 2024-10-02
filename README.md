@@ -696,6 +696,8 @@
 
 ## Ordinary Differential Equations
 
+[daskr](https://github.com/davidpfister/daskr): differential-algebraic system solver with rootfinding, by P. N. Brown et al. It includes options for both direct and iterative (Krylov) methods for the solution of the linear systems arising at each (implicit) time step.
+
 [ddeabm](https://github.com/jacobwilliams/ddeabm): modern object-oriented Fortran implementation of the DDEABM Adams-Bashforth-Moulton ODE solver, by Jacob Williams and web-flow
 
 [diffeq](https://github.com/jchristopherson/diffeq): library providing an object-oriented approach to solving ordinary differential equations, by Jason Christopherson. Available ODE solvers are 4th Order Runge-Kutta and Adams-Bashforth-Moulton (fixed step) and Dormand-Prince Runge-Kutta 5th/4th Order
@@ -755,6 +757,8 @@
 [cafut](https://github.com/renatomatz/cafut): provides a simple, object-oriented unit testing framework meant for applications using Coarray Fortran, by Renato Zimmermann
 
 [Emulators](https://github.com/sourceryinstitute/emulators): emulated collectives collection: collective subroutines and other procedures designed to emulate or extend standard language features, by Damian Rouson. Emulated features include the Fortran 2008 intrinsic function findloc and the Fortran 2018 collective subroutines co_sum and co_broadcast.
+
+[forthread](https://github.com/jordan4ibanez/forthread): threading library with a simple binding to POSIX pthread, by jordan4ibanez. It comes with a thread pool/dispatcher, a concurrent FILO linked queue, and a concurrent FILO array queue.
 
 [Framework for Extensible Asynchronous Task Scheduling (FEATS)](https://github.com/sourceryinstitute/FEATS): project to develop a parallel Fortran 2018 asynchronous, task-scheduling framework for use in a range of applications, from sourceryinstitute
 
@@ -930,5 +934,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-10-01
-time elapsed (s): 440.99
+last update: 2024-10-02
+time elapsed (s): 450.99
