@@ -222,6 +222,8 @@
 
 [fortran_vector](https://github.com/Euler-37/fortran_vector): derived type for vector of integers, with procedures `init`, `append`, `size`, `pop`, `remove`, `delete`, `unique`, `sort`, `cut`, and `clear`, by Euler-37
 
+[fortran_vector](https://github.com/jordan4ibanez/fortran_vector): bindings to c-vector by jordan4ibanez. [C-vector](https://github.com/eteran/c-vector) is a dynamic array implementation in C similar to the one found in standard C++.
+
 [fortranDF](https://github.com/jaiken17/fortranDF): data frame that can have columns of different types, by Joshua Aiken
 
 [list](https://github.com/grofz/list): easy-to-use implementation of Python-like lists, with methods append(), clear(), copy(), count(), extend(), insert(), pop(), remove(), reverse(), sort(), by Zdenek Grof
@@ -934,5 +936,5 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-10-30
-time elapsed (s): 508.55
+last update: 2024-11-02
+time elapsed (s): 438.04
