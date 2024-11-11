@@ -5,7 +5,7 @@ name     : xfpm_c.py
 source   : https://github.com/Beliavsky/Fortran-packages-list
 author   : Beliavsky, Norwid Behrnd
 license  : MIT
-last edit: [2024-05-10 Fri]
+last edit: [2024-11-11 Mon]
 purpose  : report projects that can be built with the Fortran Package Manager
 """
 
@@ -228,6 +228,7 @@ def main():
     triage_lines(raw_data, debugger_level)
     end = perf_counter()
 
+    print("\n")
     print(f"last update: {datetime.date.today()}")
     print(f"time elapsed (s): {(end - start):.2f}")
 
