@@ -218,6 +218,8 @@
 
 [flist](https://github.com/jacobwilliams/flist): modern Fortran linked lists using unlimited polymorphic derived types, by Jacob Williams
 
+[for_fifo_queue](https://github.com/jordan4ibanez/for_fifo_queue): dense linked fifo queue, by ordan4ibanez. It is dense because it allows unlimited polymorphism in the queue without using additional indirection.
+
 [Fortran_competitive_library](https://github.com/osada-yum/Fortran_competitive_library): library for solving [AtCoder](https://atcoder.jp/) problems, implementing a binary indexed tree, hash table, linked list, tuples, and merge and selection sort
 
 [fortran_vector](https://github.com/Euler-37/fortran_vector): derived type for vector of integers, with procedures `init`, `append`, `size`, `pop`, `remove`, `delete`, `unique`, `sort`, `cut`, and `clear`, by Euler-37
@@ -225,6 +227,10 @@
 [fortran_vector](https://github.com/jordan4ibanez/fortran_vector): bindings to c-vector by jordan4ibanez. [C-vector](https://github.com/eteran/c-vector) is a dynamic array implementation in C similar to the one found in standard C++.
 
 [fortranDF](https://github.com/jaiken17/fortranDF): data frame that can have columns of different types, by Joshua Aiken
+
+[hashmap_f90](https://github.com/jordan4ibanez/hashmap_f90): bindings to [hashmap.c](https://github.com/tidwall/hashmap.c), by jordan4ibanez
+
+[integer_set](https://github.com/jordan4ibanez/integer_set): simple unoptimized 32-bit and 64-bit integer sets, by jordan4ibanez
 
 [list](https://github.com/grofz/list): easy-to-use implementation of Python-like lists, with methods append(), clear(), copy(), count(), extend(), insert(), pop(), remove(), reverse(), sort(), by Zdenek Grof
 
@@ -413,6 +419,8 @@
 [BeFoR64](https://github.com/szaghi/BeFoR64): Base64 encoding/decoding library for FoRtran poor men, is a pure Fortran (KISS) library for base64 encoding/decoding for modern (2003+) Fortran projects
 
 [FACE](https://github.com/szaghi/FACE): Ansi Colors and Styles Environment, by szaghi et al.
+
+[files_f90](https://github.com/jordan4ibanez/files_f90): directory reader by jordan4ibanez
 
 [FLAP](https://github.com/szaghi/FLAP): command Line Arguments Parser for poor people, by szaghi et al. A KISS pure Fortran Library for building powerful, easy-to-use, elegant command line interfaces
 
@@ -659,6 +667,8 @@
 [forlab](https://github.com/zoziha/forlab): module that provides a lot of functions for scientific computing mostly inspired by Matlab and Python's module NumPy, by zoziha
 
 [ForSolver](https://github.com/gha3mi/forsolver): solves linear and nonlinear equations, by Seyed Ali Ghasemi. For nonlinear equations the available methods are newton, newton-modified, newton-quasi-fd, newton-quasi-fd-modified, newton-quasi-cs, and newton-quasi-cs-modified, where "fd" and "cs" stand for the finite difference and complex step methods.
+
+[Fortran Multiple Precision Library (FMPL)](https://github.com/supercomputerprimesearch/fmpl): by Zander Lewis
 
 [fortran-bessels](https://github.com/perazz/fortran-bessels): Fortran port (stub) of the Bessels.jl repository, by Federico Perini et al.
 
@@ -936,5 +946,7 @@
 
 [FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
 
-last update: 2024-11-11
-time elapsed (s): 543.62
+
+
+last update: 2024-11-17
+time elapsed (s): 450.32
