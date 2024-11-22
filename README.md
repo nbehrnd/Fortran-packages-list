@@ -250,6 +250,8 @@
 
 [smart-pointers](https://github.com/sourceryinstitute/smart-pointers): tracks references to program resources and automates the freeing of those resources if and only if the reference count drops to zero, by Damian Rouson et al. Most commonly, the reference is a pointer and the resource is memory.
 
+[Yet Another Fortran Tree (yaftree)](https://github.com/gronki/yaftree): single-module lightweight implementation of a dictionary (key--value pairs) and set (only keys), by Dominik Gronkiewicz. Some features, such as interface for popular data types (INTEGER, CHARACTER etc) are intentionally omitted to keep the size down to the minimum.
+
 ## Computational Fluid Dynamics
 
 [interpolate-fields](https://github.com/p-costa/interpolate-fields): interpolates DNS data to a new grid using linear interpolation, by Pedro Costa. It can run and store the interpolated data in a massively-parallel setting using MPI I/O. For now, it assumes two regular Cartesian grids with the file format of CaNS.
@@ -948,5 +950,5 @@
 
 
 
-last update: 2024-11-19
-time elapsed (s): 456.66
+last update: 2024-11-22
+time elapsed (s): 473.28
