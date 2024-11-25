@@ -560,11 +560,13 @@
 
 [fortran-lua54](https://github.com/interkosmos/fortran-lua54): Fortran 2008 interface bindings to Lua 5.4, from interkosmos. There is also [fortran-lua53](https://github.com/interkosmos/fortran-lua53).
 
-[fortran-modbus](https://github.com/interkosmos/fortran-modbus): interface bindings to [libmodbus](https://libmodbus.org/), for Modbus RTU and Modbus TCP access, by interkosmos
+[fortran-modbus](https://github.com/interkosmos/fortran-modbus): interface bindings to [libmodbus](https://libmodbus.org/), for Modbus RTU/TCP access, by interkosmos
 
 [fortran-tcl86](https://github.com/interkosmos/fortran-tcl86): ISO_C_BINDING interface library for interoperability with Tcl/Tk 8.6, by interkosmos, allowing the user to embed Tcl into Fortran, create Tcl extensions in Fortran (with Tcl Stubs), access (a subset of) the Tcl/Tk C API from Fortran, use Tcl as an evaluatable configuration file format, and add graphical user interfaces to Fortran programs.
 
 [fortran-unix](https://github.com/interkosmos/fortran-unix): Fortran 2008 ISO C binding interfaces to selected POSIX and SysV types, functions, and routines on 64-bit Unix-like operating systems, by interkosmos
+
+[fortran-xmpp](https://github.com/interkosmos/fortran-xmpp): interface bindings to the [XMPP](https://xmpp.org/about/technology-overview/) (Extensible Messaging and Presence Protocol) client library [libstrophe](http://strophe.im/libstrophe/), by interkosmos.
 
 [hwinfo-fortran](https://github.com/ShinobuAmasaki/hwinfo-fortran): provides access to hardware information using OS APIs for Unix-like operating systems, by Shinobu Amasaki
 
@@ -950,5 +952,5 @@
 
 
 
-last update: 2024-11-23
-time elapsed (s): 513.80
+last update: 2024-11-25
+time elapsed (s): 527.50
