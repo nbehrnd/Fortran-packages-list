@@ -492,6 +492,8 @@
 
 [cairo-fortran](https://github.com/vmagnin/cairo-fortran): libcairo bindings for Fortran from the gtk-fortran project available as a separate fpm package, by Carlos Une
 
+[fdata2pyplot](https://github.com/GasinAn/fdata2pyplot): simple module for passing Fortran output to a Python script to later use Matplotlib to make a figure, by Jiachen An
+
 [ForCAD](https://github.com/gha3mi/forcad): library for geometric modeling, supporting B-Spline, NURBS, Bezier, and Rational Bezier curves, surfaces, and volumes, by Seyed Ali Ghasemi
 
 [ForColormap](https://github.com/vmagnin/forcolormap): small colormap library independent of any graphical toolkit, by Vincent Magnin et al. It just converts a real value to RGB values, that can be used with any toolkit offering bitmap drawing.
@@ -952,5 +954,5 @@
 
 
 
-last update: 2024-12-06
-time elapsed (s): 554.04
+last update: 2024-12-08
+time elapsed (s): 477.02
