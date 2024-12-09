@@ -880,6 +880,8 @@
 
 [Fortran-String-to-Real](https://github.com/Carltoffel/Fortran-String-to-Real): converts strings to reals without using an internal read, by Carltoffel. [Fortran-String-to-Num](https://github.com/jalvesz/Fortran-String-to-Num) is a fork by jalvesz that aims for further improvements on the ASCII to numerical data conversion.
 
+[fortran-string-utf-8](https://github.com/guntherwillems/fortran-string-utf-8): module to convert a native character string to an array of UTF-8 characters that behaves as a UTF-8 string, by Gunther Willems
+
 [fortran202x_split](https://github.com/milancurcic/fortran202x_split): Fortran implementation of the Fortran 202X split intrinsic subroutine, by Milan Curcic and Sebastian Ehlert
 
 [iso_varying_string](https://github.com/everythingfunctional/iso_varying_string): implementation of the ISO_VARYING_STRING module as defined in the ISO standard, by Brad Richardson
@@ -954,5 +956,5 @@
 
 
 
-last update: 2024-12-08
-time elapsed (s): 477.02
+last update: 2024-12-09
+time elapsed (s): 526.66
