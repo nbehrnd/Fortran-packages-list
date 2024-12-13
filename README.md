@@ -162,6 +162,8 @@
 
 [forwarddiff](https://github.com/Nicholaswogan/forwarddiff): allows for the computation for derivatives, gradients and Jacobians of Fortran subroutines or functions using forward mode automatic differentiation (AD), by Nicholas Wogan, inspired by [DNAD](https://github.com/joddlehod/dnad) and [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl)
 
+[fpm-search](https://github.com/urbanjost/fpm-search): finds information about registered fpm (Fortran Package Manager) packages, by urbanjost
+
 [prep](https://github.com/urbanjost/prep): streamlined pre-processor primarily designed for use with Fortran, by urbanjost. It does not support procedural macros but does support variable substitution and reusable free-format text blocks which allows for basic templating as well as easy construction of multi-line CHARACTER variables; and is quite capable of supporting traditional conditional compilation.
 
 [progress-bar](https://github.com/zoziha/progress-bar): simple progress bar module that is typically used to display the time integration process, by zoziha
@@ -253,6 +255,8 @@
 [Yet Another Fortran Tree (yaftree)](https://github.com/gronki/yaftree): single-module lightweight implementation of a dictionary (key--value pairs) and set (only keys), by Dominik Gronkiewicz. Some features, such as interface for popular data types (INTEGER, CHARACTER etc) are intentionally omitted to keep the size down to the minimum.
 
 ## Computational Fluid Dynamics
+
+[HeatFlow](https://github.com/ExeQuantCode/HeatFlow): software package for modelling dynamical heat transport in systems using finite difference methods, by Harry Mclean et al. The software is primarily designed to utilise the Cattaneo method, but the Fourier method can be used instead.
 
 [interpolate-fields](https://github.com/p-costa/interpolate-fields): interpolates DNS data to a new grid using linear interpolation, by Pedro Costa. It can run and store the interpolated data in a massively-parallel setting using MPI I/O. For now, it assumes two regular Cartesian grids with the file format of CaNS.
 
@@ -956,5 +960,5 @@
 
 
 
-last update: 2024-12-12
-time elapsed (s): 484.35
+last update: 2024-12-13
+time elapsed (s): 567.20
