@@ -266,6 +266,8 @@
 
 ## Cryptography
 
+[fldpc](https://github.com/moriglia/fldpc): LDPC (Low-Density Parity-Check) decoder (coset decoding with syndrome), by Marco Origlia
+
 [sodium](https://github.com/freevryheid/sodium): Fortran bindings by Andre Smit for [libsodium](https://github.com/jedisct1/libsodium), a C library for encryption, decryption, signatures, password hashing, etc.
 
 ## Databases
@@ -960,5 +962,5 @@
 
 
 
-last update: 2024-12-13
-time elapsed (s): 567.20
+last update: 2024-12-14
+time elapsed (s): 465.19
