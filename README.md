@@ -612,6 +612,8 @@
 
 [ForSVD](https://github.com/gha3mi/forsvd) provides functions and subroutines for calculating the singular value decomposition (SVD) of a matrix, calling LAPACK. [ForEig](https://github.com/gha3mi/foreig) calculates eigenvalues and eigenvectors using LAPACK or MKL. [ForPCA](https://github.com/gha3mi/forpca) does principal component analysis (PCA).
 
+[Fortran GeneraL Math modules (fglm)](https://github.com/jordan4ibanez/fglm): defines types and operations for a 4x4 matrix and 3-element vectors, for `int32`, `real32`, and `real64` data, providing some functionality of the JOML – Java OpenGL Math Library, by jordan4ibanez
+
 [fortran-lapack](https://github.com/perazz/fortran-lapack): modern Fortran implementation of the Reference-LAPACK library, by Federico Perini. The reference Fortran 77 library is automatically downloaded from its master repository, and processed to create Modern Fortran modules with full explicit typing features.
 
 [FSPARSE](https://github.com/jalvesz/FSPARSE): object-oriented API for sparse matrices with some basic kernels and utility functions, such as conversion from dense matrices and matrix-vector products, by jalvesz. Supported sparse matrix types are COordinate Sparse format (COO), Compressed Sparse Row format (CSR), Compressed Sparse Column format (CSC), and [ELLPACK](https://people.math.sc.edu/Burkardt/data/sparse_ellpack/sparse_ellpack.html) (ELL).
@@ -962,5 +964,5 @@
 
 
 
-last update: 2024-12-15
-time elapsed (s): 455.18
+last update: 2024-12-16
+time elapsed (s): 562.57
