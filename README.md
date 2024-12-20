@@ -128,6 +128,8 @@
 
 [img2nc](https://github.com/ShinobuAmasaki/img2nc): converts planetary Digital Elevation Model (DEM) data into NetCDF, allowing one to draw a topographic map of the Moon,
 
+[Molecular atmospheric Absorption with Rapid and Flexible Analysis (MARFA)](https://github.com/Razumovskyy/MARFA): tool designed to calculate volume absorption coefficients or monochromatic absorption cross-sections using initial spectroscopic data from spectral databases and atmospheric data from an external file, by Mikhail Razumovskiy
+
 [Naval Observatory Vector Astrometry Software (NOVAS)](https://github.com/jacobwilliams/NOVAS): integrated package of routines for computing various commonly needed quantities in positional astronomy, refactored by Jacob Williams. The package can provide, in one or two subroutine or function calls, the instantaneous coordinates of any star or planet in a variety of coordinate systems.
 
 [radbelt](https://github.com/jacobwilliams/radbelt): AE-8/AP-8 Van Allen belt model, describing the differential or integral, omnidirectional fluxes of electrons (AE-8) and protons (AP-8) in the inner and outer radiation belts, by Jacob Williams
@@ -644,6 +646,10 @@
 
 [sparse_fortran](https://github.com/Euler-37/sparse_fortran): derived types for sparse matrices in COO and CSR format with functions for matrix multiplication, by Euler-37
 
+## Materials Science
+
+[pseudoRandom Approach For Finding Local Energetic minima (RAFFLE)](https://github.com/ExeQuantCode/RAFFLE): package for structural prediction applied to material interfaces, associated with the paper [Predicting Phase Stability at Interfaces](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.066201), by J. Pitfield et al., Physical Review Letters (2024)
+
 ## Mesh Generation
 
 [geompack](https://github.com/jchristopherson/geompack): modernization by Jason Christopherson of the [GEOMPACK](https://www.sciencedirect.com/science/article/abs/pii/0961355291900364) Fortran 77 library by Barry Joe for computing Delaunay triangulations
@@ -964,5 +970,5 @@
 
 
 
-last update: 2024-12-16
-time elapsed (s): 562.57
+last update: 2024-12-20
+time elapsed (s): 462.04
