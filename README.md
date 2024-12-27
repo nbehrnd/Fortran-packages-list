@@ -492,6 +492,8 @@
 
 [stdlib](https://github.com/fortran-lang/stdlib): utilities, algorithms, and mathematics codes for a Fortran Standard Library, from fortran-lang. Has codes for sorting, statistics, strings, hashing, probability distributions, random number generation, numerical integration, and other numerical methods.
 
+[task-dispatch](https://github.com/gronki/task-dispatch): interpreter for numerical calculations, by Dominik Gronkiewicz
+
 [tictoc_fortran](https://github.com/wcota/tictoc_fortran): TicToc (timer) class that calls `cpu_time`, by Wesley Cota
 
 [timer](https://github.com/zoziha/timer): module to get the number of seconds between two timestamps, by zoziha
@@ -970,5 +972,5 @@
 
 
 
-last update: 2024-12-26
-time elapsed (s): 479.92
+last update: 2024-12-27
+time elapsed (s): 564.37
