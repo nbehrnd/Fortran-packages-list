@@ -794,6 +794,8 @@
 
 [forthread](https://github.com/jordan4ibanez/forthread): threading library with a simple binding to POSIX pthread, by jordan4ibanez. It comes with a thread pool/dispatcher, a concurrent FILO linked queue, and a concurrent FILO array queue.
 
+[Fortran MPI exploration](https://github.com/MatthAlex/mpi-project-exploration): explores a simple MPI cartesian grid with halo region updates, mpi_f08, havaita, some clever encapsulation, and general project structure and architecture, by MatthAlex
+
 [Framework for Extensible Asynchronous Task Scheduling (FEATS)](https://github.com/sourceryinstitute/FEATS): project to develop a parallel Fortran 2018 asynchronous, task-scheduling framework for use in a range of applications, from sourceryinstitute
 
 ## Physics
@@ -972,5 +974,5 @@
 
 
 
-last update: 2024-12-29
-time elapsed (s): 538.31
+last update: 2024-12-30
+time elapsed (s): 472.57
