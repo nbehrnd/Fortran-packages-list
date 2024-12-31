@@ -558,6 +558,8 @@
 
 [tikz-fortran](https://github.com/huijunchen9260/tikz-fortran): module that generates figures using [PGF/Tikz](https://en.wikipedia.org/wiki/PGF/TikZ), a pair of languages for producing vector graphics, by Hui-Jun Chen
 
+[xframes-fortran](https://github.com/xframes-project/xframes-fortran): interface to XFrames, a library for building GPU-accelerated, native-like desktop applications using a variety of programming languages
+
 ## Interoperability
 
 [arrow-fortran](https://github.com/ludnic/arrow-fortran): automatic bindings by Ludovico Nicotina and Vincent Magnin to the C API for the arrow project. [Arrow](https://arrow.apache.org/) is a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs.
@@ -974,5 +976,5 @@
 
 
 
-last update: 2024-12-30
-time elapsed (s): 472.57
+last update: 2024-12-31
+time elapsed (s): 471.50
