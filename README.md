@@ -148,7 +148,7 @@
 
 ## Climate and Weather
 
-[VenusPT-tables](https://github.com/Razumovskyy/VenusPT-tables): atmospheric absorption coefficient calculator: Utilizing [HITRAN](https://hitran.org/) and custom spectroscopy for Venus and Mars radiative transfer studies, by Mikhail Razumovskiy. Also [PrecisionSpec-Analyzer](https://github.com/Razumovskyy/PrecisionSpec-Analyzer), a high-precision tool for atmospheric absorption calculations over narrow spectral ranges, focusing on detailed spectroscopic analysis using HITRAN and HITEMP data with standard and custom line shapes for terrestrial atmospheric studies.
+[PrecisionSpec-Analyzer](https://github.com/Razumovskyy/PrecisionSpec-Analyzer), a high-precision tool for atmospheric absorption calculations over narrow spectral ranges, focusing on detailed spectroscopic analysis using HITRAN and HITEMP data with standard and custom line shapes for terrestrial atmospheric studies, by Mikhail Razumovskiy
 
 ## Code Tools
 
@@ -257,6 +257,8 @@
 [Yet Another Fortran Tree (yaftree)](https://github.com/gronki/yaftree): single-module lightweight implementation of a dictionary (key--value pairs) and set (only keys), by Dominik Gronkiewicz. Some features, such as interface for popular data types (INTEGER, CHARACTER etc) are intentionally omitted to keep the size down to the minimum.
 
 ## Computational Fluid Dynamics
+
+[flexi](https://github.com/flexi-framework/flexi): High-Order Unstructured Discontinuous Galerkin Fluid Dynamics Solver
 
 [HeatFlow](https://github.com/ExeQuantCode/HeatFlow): software package for modelling dynamical heat transport in systems using finite difference methods, by Harry Mclean et al. The software is primarily designed to utilise the Cattaneo method, but the Fourier method can be used instead.
 
@@ -976,5 +978,5 @@
 
 
 
-last update: 2025-01-05
-time elapsed (s): 581.26
+last update: 2025-01-06
+time elapsed (s): 488.91
