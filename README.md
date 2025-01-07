@@ -222,7 +222,7 @@
 
 [flist](https://github.com/jacobwilliams/flist): modern Fortran linked lists using unlimited polymorphic derived types, by Jacob Williams
 
-[for_fifo_queue](https://github.com/jordan4ibanez/for_fifo_queue): dense linked fifo queue, by ordan4ibanez. It is dense because it allows unlimited polymorphism in the queue without using additional indirection.
+[for_fifo_queue](https://github.com/jordan4ibanez/for_fifo_queue): dense linked fifo queue, by jordan4ibanez. It is dense because it allows unlimited polymorphism in the queue without using additional indirection.
 
 [Fortran_competitive_library](https://github.com/osada-yum/Fortran_competitive_library): library for solving [AtCoder](https://atcoder.jp/) problems, implementing a binary indexed tree, hash table, linked list, tuples, and merge and selection sort
 
@@ -978,5 +978,5 @@
 
 
 
-last update: 2025-01-06
-time elapsed (s): 488.91
+last update: 2025-01-07
+time elapsed (s): 473.56
