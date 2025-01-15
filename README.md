@@ -2,6 +2,8 @@
 
 * [Art and Music](#art-and-music)
 
+* [Automatic Differentiation](#automatic-differentiation)
+
 * [Astronomy and Astrophysics](#astronomy-and-astrophysics)
 
 * [Benchmarks and Benchmarking](#benchmarks-and-benchmarking)
@@ -126,13 +128,21 @@
 
 [halo](https://github.com/jacobwilliams/halo): orbit solver that can be used to generate long-duration Earth-Moon halo orbits in the ephemeris model. Reference: J. Williams et al., [Targeting Cislunar Near Rectilinear Halo Orbits for Human Space Exploration](https://www.researchgate.net/publication/322526659_Targeting_Cislunar_Near_Rectilinear_Halo_Orbits_for_Human_Space_Exploration), 27th AAS/AIAA Space Flight Mechanics Meeting, 2017
 
-[img2nc](https://github.com/ShinobuAmasaki/img2nc): converts planetary Digital Elevation Model (DEM) data into NetCDF, allowing one to draw a topographic map of the Moon,
+[img2nc](https://github.com/ShinobuAmasaki/img2nc): converts planetary Digital Elevation Model (DEM) data into NetCDF, allowing one to draw a topographic map of the Moon, by ShinobuAmasaki.
 
 [Molecular atmospheric Absorption with Rapid and Flexible Analysis (MARFA)](https://github.com/Razumovskyy/MARFA): tool designed to calculate volume absorption coefficients or monochromatic absorption cross-sections using initial spectroscopic data from spectral databases and atmospheric data from an external file, by Mikhail Razumovskiy
 
 [Naval Observatory Vector Astrometry Software (NOVAS)](https://github.com/jacobwilliams/NOVAS): integrated package of routines for computing various commonly needed quantities in positional astronomy, refactored by Jacob Williams. The package can provide, in one or two subroutine or function calls, the instantaneous coordinates of any star or planet in a variety of coordinate systems.
 
 [radbelt](https://github.com/jacobwilliams/radbelt): AE-8/AP-8 Van Allen belt model, describing the differential or integral, omnidirectional fluxes of electrons (AE-8) and protons (AP-8) in the inner and outer radiation belts, by Jacob Williams
+
+## Automatic Differentiation
+
+[AD_dnSVM](https://github.com/lauvergn/AD_dnSVM): Fortran Automatic Differentiation tool using forward mode for scalars (S), Vectors (V) and Matrices (M), by David Lauvergnat. It has no limit in terms of the number of independent variables (this number is defined at runtime) and can compute up to third derivatives.
+
+[Auto-Diff](https://github.com/zoziha/Auto-Diff): implementation in Modern Fortran of backward mode automatic differentiation, by zoziha
+
+[forwarddiff](https://github.com/Nicholaswogan/forwarddiff): allows for the computation for derivatives, gradients and Jacobians of Fortran subroutines or functions using forward mode automatic differentiation (AD), by Nicholas Wogan, inspired by [DNAD](https://github.com/joddlehod/dnad) and [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl)
 
 ## Benchmarks and Benchmarking
 
@@ -152,17 +162,11 @@
 
 ## Code Tools
 
-[AD_dnSVM](https://github.com/lauvergn/AD_dnSVM): Fortran Automatic Differentiation tool using forward mode for scalars (S), Vectors (V) and Matrices (M), by David Lauvergnat. It has no limit in terms of the number of independent variables (this number is defined at runtime) and can compute up to third derivatives.
-
-[Auto-Diff](https://github.com/zoziha/Auto-Diff): implementation in Modern Fortran of backward mode automatic differentiation, by zoziha
-
 [exception_handling](https://github.com/tillackseb/exception_handling): tools for exception handling and tracing, by Sebastian Tillack
 
 [Fortran Debug Utilities](https://github.com/plevold/fortran-debug-utils): collection of some utilities useful for debugging code, by Pål Levold
 
 [fortran-git](https://github.com/interkosmos/fortran-git): Fortran 2008 ISO C binding interfaces to [libgit2](https://github.com/libgit2/libgit2), by interkosmos
-
-[forwarddiff](https://github.com/Nicholaswogan/forwarddiff): allows for the computation for derivatives, gradients and Jacobians of Fortran subroutines or functions using forward mode automatic differentiation (AD), by Nicholas Wogan, inspired by [DNAD](https://github.com/joddlehod/dnad) and [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl)
 
 [fpm-search](https://github.com/urbanjost/fpm-search): finds information about registered fpm (Fortran Package Manager) packages, by urbanjost
 
@@ -980,5 +984,5 @@
 
 
 
-last update: 2025-01-13
-time elapsed (s): 470.83
+last update: 2025-01-15
+time elapsed (s): 581.00
