@@ -90,6 +90,8 @@
 
 * [Regular Expressions](#regular-expressions)
 
+* [Root Finding](#root-finding)
+
 * [Quantum Chemistry and Electronic Structure](#Quantum-Chemistry-and-Electronic-Structure)
 
 * [Sorting](#sorting)
@@ -716,11 +718,7 @@
 
 [Numerical_utilities](https://github.com/osada-yum/Numerical_utilities): Kahan algorithms for the sum, variance, and covariance, using MPI, by osada-yum
 
-[polyroots-fortran](https://github.com/jacobwilliams/polyroots-fortran): modern Fortran library for finding the roots of polynomials, by Jacob Williams
-
 [rational_number](https://github.com/art-rasa/rational_number): procedures for rational numbers, such as arithmetic operations, conversion to and from real variables, and conversion to a string, by art-rasa
-
-[roots-fortran](https://github.com/jacobwilliams/roots-fortran): library for finding the roots of continuous scalar functions of a single real variable, by Jacob Wiliams
 
 [rpn-calc-fortran](https://github.com/scivision/rpn-calc-fortran): Fortran 2018 Reverse Polish Notation (RPN) calculator from scivision. Over 100 functions not in standard Fortran
 
@@ -874,6 +872,12 @@
 
 [M_regex](https://github.com/urbanjost/M_regex): Fortran interface by urbanjost to the POSIX 1003.2 regular expression library using ISO_C_BINDING
 
+## Root Finding
+
+[polyroots-fortran](https://github.com/jacobwilliams/polyroots-fortran): modern Fortran library for finding the roots of polynomials, by Jacob Williams
+
+[roots-fortran](https://github.com/jacobwilliams/roots-fortran): library for finding the roots of continuous scalar functions of a single real variable, by Jacob Wiliams
+
 ## Sorting
 
 [fortran-search-and-sort](https://github.com/jacobwilliams/fortran-search-and-sort): Searching and sorting with modern Fortran, by Jacob Williams
@@ -984,5 +988,5 @@
 
 
 
-last update: 2025-02-04
-time elapsed (s): 500.82
+last update: 2025-02-05
+time elapsed (s): 469.63
