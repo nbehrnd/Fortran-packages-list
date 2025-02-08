@@ -904,6 +904,8 @@
 
 [peaks](https://github.com/jchristopherson/peaks): peak detection library meant to locate peaks and valleys in a signal, by Jason Christopherson. This library works on both smooth data and on noisy data where other routines, especially those that rely upon derivatives, have difficulties.
 
+[splpak](https://github.com/jacobwilliams/splpak): routines for fitting (least squares) a multidimensional cubic spline to arbitrarily located data. It also contains routines for evaluating this spline (or its partial derivatives) at any point. This is a modernization by Jacob Williams of the double precision SPLPAK files from NCL.
+
 ## Strings
 
 [enclose](https://github.com/degawa/enclose): procedures for enclosing a string in brackets, by Tomohiro Degawa
@@ -988,5 +990,5 @@
 
 
 
-last update: 2025-02-05
-time elapsed (s): 469.63
+last update: 2025-02-08
+time elapsed (s): 486.04
