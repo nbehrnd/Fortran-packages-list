@@ -910,6 +910,8 @@
 
 [enclose](https://github.com/degawa/enclose): procedures for enclosing a string in brackets, by Tomohiro Degawa
 
+[Fortran Tokenizer](https://github.com/14NGiestas/fortran-tokenizer): basic tokenizer that allows users to easily customize its behavior by defining a function that receives a `character(*), intent(in) :: token` and returns `.true.` if the string received by the function is a valid token, by Ian Giestas Pauli
+
 [fortran-shlex](https://github.com/perazz/fortran-shlex): port by Federico Perini of Python's [shlex](https://docs.python.org/3/library/shlex.html) shell-like lexer. The interface comes with two functions, `split` which parses a command-like string and returns an array of allocatable character strings; and `shlex` that performs the same, but returns a list of `type(shlex_token)` tokens.
 
 [Fortran-String-to-Real](https://github.com/Carltoffel/Fortran-String-to-Real): converts strings to reals without using an internal read, by Carltoffel. [Fortran-String-to-Num](https://github.com/jalvesz/Fortran-String-to-Num) is a fork by jalvesz that aims for further improvements on the ASCII to numerical data conversion.
@@ -990,5 +992,5 @@
 
 
 
-last update: 2025-02-11
-time elapsed (s): 575.86
+last update: 2025-02-12
+time elapsed (s): 496.51
