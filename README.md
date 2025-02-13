@@ -64,7 +64,11 @@
 
 * [Mesh Generation](#mesh-generation)
 
+* [Multiple Precision](#multiple-precision)
+
 * [Neural Networks and Machine Learning](#neural-networks-and-machine-learning)
+
+* [Nonlinear Equations](#nonlinear-equations)
 
 * [Numerical](#numerical)
 
@@ -95,6 +99,8 @@
 * [Quantum Chemistry and Electronic Structure](#Quantum-Chemistry-and-Electronic-Structure)
 
 * [Sorting](#sorting)
+
+* [Special Functions](#special-functions)
 
 * [Statistics](#Statistics)
 
@@ -674,6 +680,10 @@
 
 [Packmol](https://github.com/m3g/packmol): creates an initial point for molecular dynamics simulations by packing molecules in defined regions of space, from Martinez Molecular Modeling Group. The packing guarantees that short range repulsive interactions do not disrupt the simulations.
 
+## Multiple Precision
+
+[Fortran Multiple Precision Library (FMPL)](https://github.com/supercomputerprimesearch/fmpl): by Zander Lewis
+
 ## Neural Networks and Machine Learning
 
 [Adaptive Training for High Efficiency Neural Network Applications (ATHENA)](https://github.com/nedtaylor/athena): library for developing and handling neural networks (with a focus on convolutional neural networks), by Ned Taylor
@@ -686,9 +696,13 @@
 
 [neural-fortran](https://github.com/modern-fortran/neural-fortran): parallel neural net microframework, from modern-fortran
 
-## Numerical
+## Nonlinear Equations
 
-[amosf90](https://github.com/Euler-37/amosf90): module for [AMOS](https://www.netlib.org/amos/), a package for Bessel functions of a complex argument and nonnegative order, by Euler-37
+[ForSolver](https://github.com/gha3mi/forsolver): solves linear and nonlinear equations, by Seyed Ali Ghasemi. For nonlinear equations the available methods are newton, newton-modified, newton-quasi-fd, newton-quasi-fd-modified, newton-quasi-cs, and newton-quasi-cs-modified, where "fd" and "cs" stand for the finite difference and complex step methods.
+
+[Nonlinear Equation Solver with Modern Fortran (nlesolver-fortran)](https://github.com/jacobwilliams/nlesolver-fortran): basic Newton-Raphson type nonlinear equation solver for dense systems with m functions of n input variables, by Jacob Williams. Uses LAPACK routines (dgesv or dgels) to solve the linear system.
+
+## Numerical
 
 [fast_math](https://github.com/jalvesz/fast_math): collection of functions for fast number crunching, including a fast and precise sum and dot_product for 1D arrays, a reciprocal square root, the logarithm, and trigonometric functions, by jalvesz
 
@@ -700,19 +714,9 @@
 
 [forlab](https://github.com/zoziha/forlab): module that provides a lot of functions for scientific computing mostly inspired by Matlab and Python's module NumPy, by zoziha
 
-[ForSolver](https://github.com/gha3mi/forsolver): solves linear and nonlinear equations, by Seyed Ali Ghasemi. For nonlinear equations the available methods are newton, newton-modified, newton-quasi-fd, newton-quasi-fd-modified, newton-quasi-cs, and newton-quasi-cs-modified, where "fd" and "cs" stand for the finite difference and complex step methods.
-
-[Fortran Multiple Precision Library (FMPL)](https://github.com/supercomputerprimesearch/fmpl): by Zander Lewis
-
-[fortran-bessels](https://github.com/perazz/fortran-bessels): Fortran port (stub) of the Bessels.jl repository, by Federico Perini et al.
-
 [fortran-primes](https://github.com/perazz/fortran-primes): library to return the nth prime number, the prime numbers in a range, test if a number is prime, return the nth prime number greater than a specified number, and factor a number into primes, by Federico Perini, based in part on codes by Michal Forisek, David Deley and Primes.jl
 
-[GaussJacobiQuad](https://github.com/HaoZeke/GaussJacobiQuad): routines for the Gauss-Jacobi Quadrature, by Rohit Goswami and Ondřej Čertík
-
 [NAFPack](https://github.com/Minard-Jules/NAFPack): numerical analysis package, offering a comprehensive set of algorithms for diverse numerical computations, by Jules Minard. These computations include Fast Fourier Transform, linear system solving, and eigenvalue/eigenvector calculations.
-
-[Nonlinear Equation Solver with Modern Fortran (nlesolver-fortran)](https://github.com/jacobwilliams/nlesolver-fortran): basic Newton-Raphson type nonlinear equation solver for dense systems with m functions of n input variables, by Jacob Williams. Uses LAPACK routines (dgesv or dgels) to solve the linear system.
 
 [NumDiff](https://github.com/jacobwilliams/NumDiff): modern Fortran numerical differentiation library, by Jacob Williams
 
@@ -722,11 +726,9 @@
 
 [rpn-calc-fortran](https://github.com/scivision/rpn-calc-fortran): Fortran 2018 Reverse Polish Notation (RPN) calculator from scivision. Over 100 functions not in standard Fortran
 
-[specfun](https://github.com/jacobwilliams/specfun): modernization by Jacob Williams of [specfun.f](https://github.com/scipy/scipy/blob/main/scipy/special/specfun/specfun.f) from SciPy from the book [Computation of Special Functions](https://www.amazon.com/Computation-Special-Functions-Shanjie-Zhang/dp/0471119636), by Shanjie Zhang and Jianming Jin, Wiley (1996).
-
-[specfunc-fullerton](https://github.com/arjenmarkus/specfunc-fullerton): library for evaluating special mathematical function, based on the [fn](http://www.netlib.org/fn/index.html) library of Wayne Fullerton, modernised by Arjen Markus. It has Airy functions, modified Bessel functions, beta functions, exponential and logarithmic integrals, gamma functions, inverse cosine and cosine hyperbolic integrals, miscellaneous functions, and Pochhammer symbols
-
 ## Numerical Integration (Quadrature)
+
+[GaussJacobiQuad](https://github.com/HaoZeke/GaussJacobiQuad): routines for the Gauss-Jacobi Quadrature, by Rohit Goswami and Ondřej Čertík
 
 [integrate_fortran](https://github.com/Euler-37/integrate_fortran): Gauss-Legendre quadrature for 1D and multidimensional integrals, by Euler-37
 
@@ -888,6 +890,16 @@
 
 [stringsort](https://github.com/jacobwilliams/stringsort): sorting routines for strings, by Jacob Williams
 
+## Special Functions
+
+[amosf90](https://github.com/Euler-37/amosf90): module for [AMOS](https://www.netlib.org/amos/), a package for Bessel functions of a complex argument and nonnegative order, by Euler-37
+
+[fortran-bessels](https://github.com/perazz/fortran-bessels): Fortran port (stub) of the Bessels.jl repository, by Federico Perini et al.
+
+[specfun](https://github.com/jacobwilliams/specfun): modernization by Jacob Williams of [specfun.f](https://github.com/scipy/scipy/blob/main/scipy/special/specfun/specfun.f) from SciPy from the book [Computation of Special Functions](https://www.amazon.com/Computation-Special-Functions-Shanjie-Zhang/dp/0471119636), by Shanjie Zhang and Jianming Jin, Wiley (1996).
+
+[specfunc-fullerton](https://github.com/arjenmarkus/specfunc-fullerton): library for evaluating special mathematical function, based on the [fn](http://www.netlib.org/fn/index.html) library of Wayne Fullerton, modernised by Arjen Markus. It has Airy functions, modified Bessel functions, beta functions, exponential and logarithmic integrals, gamma functions, inverse cosine and cosine hyperbolic integrals, miscellaneous functions, and Pochhammer symbols
+
 ## Statistics
 
 [fitpack](https://github.com/perazz/fitpack): modern Fortran translation by Federico Perini of the [FITPACK](http://www.netlib.org/dierckx) package for curve and surface fitting by Paul Dierckx
@@ -992,5 +1004,5 @@
 
 
 
-last update: 2025-02-12
-time elapsed (s): 496.51
+last update: 2025-02-13
+time elapsed (s): 3603.33
