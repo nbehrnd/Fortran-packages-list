@@ -172,6 +172,8 @@
 
 [exception_handling](https://github.com/tillackseb/exception_handling): tools for exception handling and tracing, by Sebastian Tillack
 
+[flavanaly](https://github.com/degawa/flavanaly): wrapper for [Fortran-stdlib logger](https://stdlib.fortran-lang.org/page/specs/stdlib_logger.html) that enhances log messages with purpose classification and message categorization, by Tomohiro Degawa
+
 [Fortran Debug Utilities](https://github.com/plevold/fortran-debug-utils): collection of some utilities useful for debugging code, by Pål Levold
 
 [fortran-git](https://github.com/interkosmos/fortran-git): Fortran 2008 ISO C binding interfaces to [libgit2](https://github.com/libgit2/libgit2), by interkosmos
@@ -272,6 +274,8 @@
 
 [flexi](https://github.com/flexi-framework/flexi): High-Order Unstructured Discontinuous Galerkin Fluid Dynamics Solver
 
+[flop](https://github.com/degawa/flop): operator-oriented library for two-dimensional incompressible fluid flow simulation, by Tomohiro Degawa
+
 [HeatFlow](https://github.com/ExeQuantCode/HeatFlow): software package for modelling dynamical heat transport in systems using finite difference methods, by Harry Mclean et al. The software is primarily designed to utilise the Cattaneo method, but the Fourier method can be used instead.
 
 [interpolate-fields](https://github.com/p-costa/interpolate-fields): interpolates DNS data to a new grid using linear interpolation, by Pedro Costa. It can run and store the interpolated data in a massively-parallel setting using MPI I/O. For now, it assumes two regular Cartesian grids with the file format of CaNS.
@@ -368,6 +372,8 @@
 
 ## File I/O
 
+[fed](https://github.com/degawa/fed): functions to make it easier to create Fortran edit descriptors, by Tomohiro Degawa
+
 [flibcsv](https://github.com/freevryheid/flibcsv): bindings by Andre Smit to [libcsv](https://github.com/rgamble/libcsv), a fast and flexible CSV library written in pure ANSI C that can read and write CSV data
 
 [fmmap](https://github.com/PierUgit/fmmap): provides some of the features of the C posix or Windows memory mapped files under a simple and unique Fortran interface, by PierUgit. Two uses are allocating arrays that are potentially bigger the RAM+swap size, and which are backed in a temporary file (anonymous mapping), and opening existing files or creating new files, and mapping them to an array.
@@ -456,6 +462,8 @@
 
 [Fortran pathlib](https://github.com/scivision/fortran-pathlib): Filesystem path manipulation utilities for standard Fortran, from scivision. Inspired by Python pathlib and C++17 filesystem.
 
+[fortran-requests](https://github.com/14NGiestas/fortran-requests): analog to the Python [requests](https://pypi.org/project/requests/) module, by Ian Giestas Pauli -- a work in progress
+
 [fortran-sleep](https://github.com/scivision/fortran-sleep): OS/compiler-independent "sleep" Fortran subroutine that calls c_sleep, from scivision
 
 [fortran-zlib](https://github.com/interkosmos/fortran-zlib): collection of Fortran 2018 ISO_C_BINDING interfaces to selected zlib functions, by interkosmos. Zlib is a lossless data-compression library.
@@ -489,6 +497,8 @@
 [M_stopwatch](https://github.com/urbanjost/M_stopwatch): package for measuring cpu and wall clock execution time by urbanjost, based on [StopWatch](https://math.nist.gov/StopWatch/). It supports the wall clock, CPU clock, and a breakdown of the CPU clock into user and system times.
 
 [oolong](https://github.com/EdHone/oolong): object-oriented logging system by Ed Hone that aims to provide a simple, flexible logging interface that will enable a wide range of logging functionality for a wide range of model paradigms
+
+[orbs](https://github.com/degawa/orbs): wrapper that allows arithmetic operations for [stdlib_bitsets](https://stdlib.fortran-lang.org/page/specs/stdlib_bitsets.html), by Tomohiro Degawa. It expands the range of information conveyed by bitsets by providing several operators, including logical, shift, and arithmetic operators on the bitset.
 
 [paramcard](https://github.com/tueda/paramcard): command-line parameter input made simple, by Takahiro Ueda
 
@@ -920,6 +930,8 @@
 
 ## Strings
 
+[bstrith](https://github.com/degawa/bstrith): provides procedures for arithmetic operations on binary numbers in strings, by Tomohiro Degawa
+
 [enclose](https://github.com/degawa/enclose): procedures for enclosing a string in brackets, by Tomohiro Degawa
 
 [Fortran Tokenizer](https://github.com/14NGiestas/fortran-tokenizer): basic tokenizer that allows users to easily customize its behavior by defining a function that receives a `character(*), intent(in) :: token` and returns `.true.` if the string received by the function is a valid token, by Ian Giestas Pauli
@@ -986,6 +998,8 @@
 
 [test-drive](https://github.com/fortran-lang/test-drive): lightweight, procedural unit testing framework based on nothing but standard Fortran, by Sebastian Ehlert and Jeremie Vandenplas. Integration with meson, cmake and Fortran package manager (fpm) is available.
 
+[testdrive_util](https://github.com/degawa/testdrive_util): provides procedures to improve the convenience of [test-drive](https://github.com/fortran-lang/test-drive), by Tomohiro Degawa
+
 [Veggies](https://github.com/everythingfunctional/veggies): unit testing framework written using functional programming principles, with the ability to test parallel code, by Brad Richardson et al. As many of its procedures as possible are marked with the pure keyword, while still allowing the framework to test impure code.
 
 ## Web Programming
@@ -1004,5 +1018,5 @@
 
 
 
-last update: 2025-02-13
-time elapsed (s): 3603.33
+last update: 2025-02-14
+time elapsed (s): 3605.83
