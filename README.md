@@ -672,6 +672,8 @@
 
 [minres](https://github.com/willdickson/minres): implementation of MINRES by Will Dickson based on the original Fortran 90 code by Chris Paige, Sou-Cheng Choi, and Michael Saunders, which solves sparse symmetric systems Ax = b
 
+[polynomial_arnoldi](https://github.com/loiseaujc/polynomial_arnoldi): polynomial Arnoldi preconditioner for GMRES, applied to the 2D Poisson equation, by Jean-Christophe Loiseau
+
 [SParse matrices in Object-Oriented Fortran (SPOOF)](https://github.com/samharrison7/spoof): modern, object-oriented Fortran library for sparse matrix computations, by Sam Harrison. It largely draws on the SPARSKIT library, adding an object-oriented interface to improve usability.
 
 [sparse_fortran](https://github.com/Euler-37/sparse_fortran): derived types for sparse matrices in COO and CSR format with functions for matrix multiplication, by Euler-37
@@ -1018,5 +1020,5 @@
 
 
 
-last update: 2025-02-17
-time elapsed (s): 3606.03
+last update: 2025-02-18
+time elapsed (s): 3606.64
