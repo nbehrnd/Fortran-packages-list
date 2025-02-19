@@ -434,6 +434,8 @@
 
 [blocktran](https://github.com/fortran-gaming/blocktran): falling-block object-oriented Fortran 2018 game, with resizable playfield, from fortran-gaming
 
+[FORage](https://github.com/sebastian-mutz/forage): simple, postapocalyptic, pigeon-themed expedition manager game, by Sebastian Mutz
+
 [ForSudoku](https://github.com/vmagnin/ForSudoku): sudoku generator and solver, by Vincent Magnin
 
 [fortran-raylib](https://github.com/interkosmos/fortran-raylib): interface bindings to raylib 4.5, for 2-D and 3-D game programming, by interkosmos
@@ -796,6 +798,8 @@
 
 [nonlin](https://github.com/jchristopherson/nonlin): solves systems of nonlinear equations, by jchristopherson
 
+[optgra](https://github.com/jacobwilliams/optgra): optimization algorithm specifically designed for near-linear constrained problems, which commonly occur in trajectory optimization, developed and implemented by Johannes Schoenmaekers, and modernized by Jacob Williams
+
 [pikaia](https://github.com/jacobwilliams/pikaia): Modern Fortran Edition of the Pikaia Genetic Algorithm by Jacob Williams
 
 [PowellOpt](https://github.com/jacobwilliams/PowellOpt): collection of derivative-free optimization algorithms by M.J.D. Powell.
@@ -1020,5 +1024,5 @@
 
 
 
-last update: 2025-02-18
-time elapsed (s): 3606.64
+last update: 2025-02-19
+time elapsed (s): 3607.72
