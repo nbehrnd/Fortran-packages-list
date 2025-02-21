@@ -318,6 +318,8 @@
 
 [Maptran 3D](https://github.com/geospace-code/maptran3d): Modern Fortran 3D coordinate conversions for geospace ecef enu eci, from geospace-code.  Similar to Python PyMap3D and Matlab Matmap3d.
 
+[Modified_Cam_Clay_Potts](https://github.com/CriticalSoilModels/Modified_Cam_Clay_Potts): [Modified cam clay](https://doc.comsol.com/5.5/doc/com.comsol.help.sme/sme_ug_theory.06.31.html#3443214) with Mohr-Coulomb surface in the deviatoric plane, from CriticalSoilModels. Also [Strain_Rate_Mohr_Coulomb](https://github.com/CriticalSoilModels/Strain_Rate_Mohr_Coulomb), associated with the paper [Constitutive modelling of non-cohesive soils under high-strain rates: a consistency approach](https://www.icevirtuallibrary.com/doi/10.1680/jgeot.21.00192) by Luis E. Zambrano-Cruzatty et al., <i>Géotechnique</i> (2024).
+
 [NanoFASE](https://github.com/NERC-CEH/nanofase): multimedia spatiotemporal model of nanomaterial fate, speciation and bio-uptake, by Sam Harrison and slofts
 
 [PICO_Fortran](https://github.com/dmr-dj/PICO_Fortran): implementation by Didier M. Roche of the Potsdam Ice-shelf Cavity mOdel from the paper [Antarctic sub-shelf melt rates via PICO](https://tc.copernicus.org/articles/12/1969/2018/), by Ronja Reese et al., (2018).
@@ -371,6 +373,8 @@
 [kissfft-f](https://github.com/zoziha/kissfft-f): wrapper by zozhia for [KISS FFT](https://github.com/mborgerding/kissfft), a mixed-radix Fast Fourier Transform in C
 
 ## File I/O
+
+[fcat](https://github.com/soonsimple/fcat): port of `cat` command used to concatenate file(s) to standard output, by soonsimple
 
 [fed](https://github.com/degawa/fed): functions to make it easier to create Fortran edit descriptors, by Tomohiro Degawa
 
@@ -1024,5 +1028,5 @@
 
 
 
-last update: 2025-02-20
-time elapsed (s): 3609.74
+last update: 2025-02-21
+time elapsed (s): 3608.49
