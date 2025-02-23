@@ -438,6 +438,8 @@
 
 [blocktran](https://github.com/fortran-gaming/blocktran): falling-block object-oriented Fortran 2018 game, with resizable playfield, from fortran-gaming
 
+[FORage](https://github.com/sebastian-mutz/forage): simple, postapocalyptic, pigeon-themed expedition manager game, by Sebastian Mutz
+
 [ForSudoku](https://github.com/vmagnin/ForSudoku): sudoku generator and solver, by Vincent Magnin
 
 [fortran-raylib](https://github.com/interkosmos/fortran-raylib): interface bindings to raylib 4.5, for 2-D and 3-D game programming, by interkosmos
@@ -1026,5 +1028,5 @@
 
 
 
-last update: 2025-02-22
-time elapsed (s): 3609.24
+last update: 2025-02-23
+time elapsed (s): 3614.30
