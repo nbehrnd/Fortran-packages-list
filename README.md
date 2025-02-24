@@ -188,6 +188,8 @@
 
 [to_f90](https://github.com/jbdv-no/to_f90): Alan Miller's tool for converting Fortran 77 code to free-form Fortran 90 code, from jbdv-no
 
+[urclfortran](https://github.com/Verlio-H/urclfortran): work-in-progress Fortran compiler written in modern fortran, currently targeting 16 bit URCL, by Verlio-H. Also [urcl-ld](https://github.com/Verlio-H/urcl-ld) to link URCL files.
+
 [version-f](https://github.com/minhqdao/version-f): implementation of [Semantic Versioning 2.0.0](https://semver.org/) by Minh Dao that aims to be a user-friendly tool for handling versions in Fortran projects.
 
 ## Computational Chemistry
@@ -316,6 +318,8 @@
 
 [gravmod3d](https://github.com/ofmla/gravmod3d): 3D forward modeling of bodies discretized by rectangular prisms with parabolic density contrast, an implementation by Oscar Mojica of the three-dimensional gravity modeling with parabolic density contrast presented in the paper [3-D forward gravity modeling of basement interfaces above which the density contrast varies continuously with depth](https://www.sciencedirect.com/science/article/abs/pii/S0098300401000802) by V. Chakravarthi et al., Computers & Geosciences (2002)
 
+[hydroanalyzer_fortran](https://github.com/khaors/hydroanalyzer_fortran): program to analyze hydrological information, focused on frequency analysis of discharge data,
+
 [Maptran 3D](https://github.com/geospace-code/maptran3d): Modern Fortran 3D coordinate conversions for geospace ecef enu eci, from geospace-code.  Similar to Python PyMap3D and Matlab Matmap3d.
 
 [Modified_Cam_Clay_Potts](https://github.com/CriticalSoilModels/Modified_Cam_Clay_Potts): [Modified cam clay](https://doc.comsol.com/5.5/doc/com.comsol.help.sme/sme_ug_theory.06.31.html#3443214) with Mohr-Coulomb surface in the deviatoric plane, from CriticalSoilModels. Also [Strain_Rate_Mohr_Coulomb](https://github.com/CriticalSoilModels/Strain_Rate_Mohr_Coulomb), associated with the paper [Constitutive modelling of non-cohesive soils under high-strain rates: a consistency approach](https://www.icevirtuallibrary.com/doi/10.1680/jgeot.21.00192) by Luis E. Zambrano-Cruzatty et al., <i>Géotechnique</i> (2024).
@@ -336,7 +340,7 @@
 
 ## Error Handling
 
-[assert](https://github.com/sourceryinstitute/assert): simple assertion utility taking advantage of the Fortran 2018 standard's introduction of variable stop codes and error termination inside pure procedures, by Damian Rouson
+[assert](https://github.com/BerkeleyLab/assert): simple assertion utility taking advantage of the Fortran 2018 standard's introduction of variable stop codes and error termination inside pure procedures, by Damian Rouson
 
 [erloff](https://github.com/everythingfunctional/erloff): errors and logging for Fortran, by Brad Richardson. The basic usage is that a procedure can have intent(out) message and/or error list arguments, or as a component of its return value.
 
@@ -810,6 +814,8 @@
 
 [pso](https://github.com/Konrad1991/pso): particle swarm optimization in Fortran, by Konrad1991
 
+[psqp](https://github.com/jacobwilliams/psqp): sequential quadratic programming algorithm, with simple bounds on variables and general nonlinear constraints, by Ladislav Luksan, modernized by Jacob Williams. Other optimization codes are at Luksan's [site](https://www.cs.cas.cz/~luksan/subroutines.html).
+
 [SEISCOPE optimization toolbox wrapper](https://github.com/ofmla/seiscope_opt_toolbox_w_ctypes): demonstrates how to use the [SEISCOPE optimization toolbox](https://seiscope2.osug.fr/SEISCOPE-OPTIMIZATION-TOOLBOX?lang=en) from Python. The original code is public domain and was written by Ludovic Métivier and Romain Brossier.
 
 [simulated-annealing](https://github.com/jacobwilliams/simulated-annealing): Simulated Annealing with Modern Fortran by Jacob Williams
@@ -924,6 +930,8 @@
 
 [fitpack](https://github.com/perazz/fitpack): modern Fortran translation by Federico Perini of the [FITPACK](http://www.netlib.org/dierckx) package for curve and surface fitting by Paul Dierckx
 
+[FJsample](https://github.com/RJaBi/FJsample): jackknife resampling, with Python bindings, by Ryan Bignell
+
 [fstats](https://github.com/jchristopherson/fstats): modern statistical library containing routines for computing basic statistical properties, hypothesis testing, regression, special functions, and even experimental design, by Jason Christopherson
 
 [gslib2.0: Geostatistical Software Library](https://github.com/exepulveda/gslib2.0): aims to create a modern version of the original GSLIB source code, by exepulveda
@@ -1028,5 +1036,5 @@
 
 
 
-last update: 2025-02-23
-time elapsed (s): 3614.30
+last update: 2025-02-24
+time elapsed (s): 3611.07
