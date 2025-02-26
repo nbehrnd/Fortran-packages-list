@@ -688,6 +688,8 @@
 
 [sparse_fortran](https://github.com/Euler-37/sparse_fortran): derived types for sparse matrices in COO and CSR format with functions for matrix multiplication, by Euler-37
 
+[SpecialMatrices](https://github.com/loiseaujc/SpecialMatrices): simple package providing specialized routines operations such as computing the determinant, inverse, singular value decomposition, and eigenvalues, for common structured matrix types, such as diagonal, bidiagonal, tridiagonal, symmetric tridiagonal, Poisson2D, by Jean-Christophe Loiseau
+
 ## Materials Science
 
 [pseudoRandom Approach For Finding Local Energetic minima (RAFFLE)](https://github.com/ExeQuantCode/RAFFLE): package for structural prediction applied to material interfaces, associated with the paper [Predicting Phase Stability at Interfaces](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.066201), by J. Pitfield et al., Physical Review Letters (2024)
@@ -1036,5 +1038,5 @@
 
 
 
-last update: 2025-02-25
-time elapsed (s): 3612.87
+last update: 2025-02-26
+time elapsed (s): 3617.26
