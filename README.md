@@ -718,6 +718,8 @@
 
 [Inference-Engine](https://github.com/BerkeleyLab/inference-engine): software library by Damian Rouson et al. for researching ways to efficiently propagate inputs through deep, feed-forward neural networks exported from Python by the companion package nexport
 
+[KohonenF08](https://github.com/khaors/KohonenF08): library for Self-Organizing Maps using object-oriented programming and modern Fortran features, by Oscar Garcia-Cabrejo
+
 [neural-fortran](https://github.com/modern-fortran/neural-fortran): parallel neural net microframework, from modern-fortran
 
 ## Nonlinear Equations
@@ -1038,5 +1040,5 @@
 
 
 
-last update: 2025-02-26
-time elapsed (s): 3617.26
+last update: 2025-02-27
+time elapsed (s): 3616.57
