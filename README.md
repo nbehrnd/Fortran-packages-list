@@ -660,6 +660,8 @@
 
 [FSPARSE](https://github.com/jalvesz/FSPARSE): object-oriented API for sparse matrices with some basic kernels and utility functions, such as conversion from dense matrices and matrix-vector products, by jalvesz. Supported sparse matrix types are COordinate Sparse format (COO), Compressed Sparse Row format (CSR), Compressed Sparse Column format (CSC), and [ELLPACK](https://people.math.sc.edu/Burkardt/data/sparse_ellpack/sparse_ellpack.html) (ELL).
 
+[kiss](https://github.com/ivan-pi/kiss): Krylov-based iterative sparse solvers, by Ivan Pribec
+
 [libsparse](https://github.com/jvdp1/libsparse): Fortran 2003 library that provides objects to create and handle rectangular and square sparse matrices using different formats: Linked List, COOrdinate storage (with elements stored using a hashing function), or Compressed Row Storage, by Jeremie Vandenplas. The library relies on different libraries, such as BLAS/LAPACK libraries, PARDISO (at this stage, Intel MKL PARDISO), and METIS 5.
 
 [LIBXSMM](https://github.com/hfp/libxsmm): library for specialized dense and sparse matrix operations as well as for deep learning primitives such as small convolutions, from hfp
@@ -793,6 +795,8 @@
 ## Optimization
 
 [conmax](https://github.com/jacobwilliams/conmax): general nonlinearly constrained function minimization
+
+[conmin](https://github.com/jacobwilliams/conmin): subroutine for the solution of linear or nonlinear constrained optimization problems, by The basic optimization algorithm is the method of feasible directions, by G. N. Vanderplaats, updated by Jacob Williams
 
 [fmin](https://github.com/jacobwilliams/fmin): derivative-free 1D function minimizer in modern Fortran, by Jacob Williams
 
@@ -1040,5 +1044,5 @@
 
 
 
-last update: 2025-03-02
-time elapsed (s): 3627.77
+last update: 2025-03-03
+time elapsed (s): 3622.75
