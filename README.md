@@ -1,5 +1,3 @@
-## Fortran code on GitHub -- also see [fortran-lang package index](https://fortran-lang.org/packages/)
-
 * [Art and Music](#art-and-music)
 
 * [Automatic Differentiation](#automatic-differentiation)
@@ -318,7 +316,7 @@
 
 [gravmod3d](https://github.com/ofmla/gravmod3d): 3D forward modeling of bodies discretized by rectangular prisms with parabolic density contrast, an implementation by Oscar Mojica of the three-dimensional gravity modeling with parabolic density contrast presented in the paper [3-D forward gravity modeling of basement interfaces above which the density contrast varies continuously with depth](https://www.sciencedirect.com/science/article/abs/pii/S0098300401000802) by V. Chakravarthi et al., Computers & Geosciences (2002)
 
-[hydroanalyzer_fortran](https://github.com/khaors/hydroanalyzer_fortran): program to analyze hydrological information, focused on frequency analysis of discharge data,
+[hydroanalyzer_fortran](https://github.com/khaors/hydroanalyzer_fortran): program to analyze hydrological information, focused on frequency analysis of discharge data, calculating the potential evapotranspiration on a monthly scale using different methods, and performing a simple soil water balance using the [Thornwaite method](https://wwwbrr.cr.usgs.gov/projects/SW_MoWS/Thornthwaite.html), by Oscar Garcia-Cabrejo
 
 [Maptran 3D](https://github.com/geospace-code/maptran3d): Modern Fortran 3D coordinate conversions for geospace ecef enu eci, from geospace-code.  Similar to Python PyMap3D and Matlab Matmap3d.
 
@@ -690,7 +688,7 @@
 
 [sparse_fortran](https://github.com/Euler-37/sparse_fortran): derived types for sparse matrices in COO and CSR format with functions for matrix multiplication, by Euler-37
 
-[SpecialMatrices](https://github.com/loiseaujc/SpecialMatrices): simple package providing specialized routines operations such as computing the determinant, inverse, singular value decomposition, and eigenvalues, for common structured matrix types, such as diagonal, bidiagonal, tridiagonal, symmetric tridiagonal, Poisson2D, by Jean-Christophe Loiseau
+[SpecialMatrices](https://github.com/loiseaujc/SpecialMatrices): simple package providing specialized routines for operations such as computing the determinant, inverse, singular value decomposition, and eigenvalues, for common structured matrix types, such as diagonal, bidiagonal, tridiagonal, symmetric tridiagonal, Poisson2D, by Jean-Christophe Loiseau
 
 ## Materials Science
 
@@ -796,7 +794,7 @@
 
 [conmax](https://github.com/jacobwilliams/conmax): general nonlinearly constrained function minimization
 
-[conmin](https://github.com/jacobwilliams/conmin): subroutine for the solution of linear or nonlinear constrained optimization problems, by The basic optimization algorithm is the method of feasible directions, by G. N. Vanderplaats, updated by Jacob Williams
+[conmin](https://github.com/jacobwilliams/conmin): subroutine for the solution of linear or nonlinear constrained optimization problems, by G. N. Vanderplaats, updated by Jacob Williams
 
 [fmin](https://github.com/jacobwilliams/fmin): derivative-free 1D function minimizer in modern Fortran, by Jacob Williams
 
@@ -1044,5 +1042,5 @@
 
 
 
-last update: 2025-03-05
-time elapsed (s): 3621.39
+last update: 2025-03-06
+time elapsed (s): 3620.84
