@@ -792,7 +792,7 @@
 
 ## Optimization
 
-[conmax](https://github.com/jacobwilliams/conmax): general nonlinearly constrained function minimization
+[conmax](https://github.com/jacobwilliams/conmax): general nonlinearly constrained function minimization, by Edwin H. Kaufman, Jr. et al., updated by Jacob Williams
 
 [conmin](https://github.com/jacobwilliams/conmin): subroutine for the solution of linear or nonlinear constrained optimization problems, by G. N. Vanderplaats, updated by Jacob Williams
 
@@ -1042,5 +1042,5 @@
 
 
 
-last update: 2025-03-07
-time elapsed (s): 3631.80
+last update: 2025-03-08
+time elapsed (s): 3622.89
