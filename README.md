@@ -566,6 +566,8 @@
 
 [fplot](https://github.com/jchristopherson/fplot): provides a convenient interface for plotting with Gnuplot, by jchristopherson
 
+[fplt](https://github.com/sebastian-mutz/fplt): scientific plotting library for producing high-quality ("publication-ready") figures quickly by leveraging the GMT(Generic Mapping Tools) C-API and Fortran's derived types, by Sebastian G. Mutz. FPLT includes procedures for producing geographical maps, xy-plots, heat maps, animated figures, and more.
+
 [gtk-fortran](https://github.com/vmagnin/gtk-fortran): cross-platform library to build Graphical User Interfaces (GUI), by Vincent Magnin et al. Gtk-fortran is a partial GTK / Fortran binding 100% written in Fortran, thanks to the ISO_C_BINDING module for interoperability between C and Fortran. [gtk-fortran-extra](https://github.com/vmagnin/gtk-fortran-extra) has extra examples under an MIT license
 
 [M_attr](https://github.com/urbanjost/M_attr): set terminal text attributes using ANSI escape sequences
@@ -1042,5 +1044,5 @@
 
 
 
-last update: 2025-03-08
-time elapsed (s): 3622.89
+last update: 2025-03-11
+time elapsed (s): 3626.81
