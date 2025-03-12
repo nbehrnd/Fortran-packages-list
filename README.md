@@ -68,7 +68,7 @@
 
 * [Nonlinear Equations](#nonlinear-equations)
 
-* [Numerical](#numerical)
+* [Numerical Methods](#numerical-methods)
 
 * [Numerical Integration (Quadrature)](#numerical-integration-quadrature)
 
@@ -456,6 +456,8 @@
 
 [BeFoR64](https://github.com/szaghi/BeFoR64): Base64 encoding/decoding library for FoRtran poor men, is a pure Fortran (KISS) library for base64 encoding/decoding for modern (2003+) Fortran projects
 
+[evaluate.f](https://github.com/davidpfister/evaluate.f): routines for evaluating mathematical expressions contained in strings, a modernization by David Pfister of code by [George Benthien](https://gbenthien.net/strings/index.html)
+
 [FACE](https://github.com/szaghi/FACE): Ansi Colors and Styles Environment, by szaghi et al.
 
 [files_f90](https://github.com/jordan4ibanez/files_f90): directory reader by jordan4ibanez
@@ -730,7 +732,7 @@
 
 [Nonlinear Equation Solver with Modern Fortran (nlesolver-fortran)](https://github.com/jacobwilliams/nlesolver-fortran): basic Newton-Raphson type nonlinear equation solver for dense systems with m functions of n input variables, by Jacob Williams. Uses LAPACK routines (dgesv or dgels) to solve the linear system.
 
-## Numerical
+## Numerical Methods
 
 [fast_math](https://github.com/jalvesz/fast_math): collection of functions for fast number crunching, including a fast and precise sum and dot_product for 1D arrays, a reciprocal square root, the logarithm, and trigonometric functions, by jalvesz
 
@@ -1044,5 +1046,5 @@
 
 
 
-last update: 2025-03-11
-time elapsed (s): 3626.81
+last update: 2025-03-12
+time elapsed (s): 3636.49
