@@ -288,6 +288,8 @@
 
 [fldpc](https://github.com/moriglia/fldpc): LDPC (Low-Density Parity-Check) decoder (coset decoding with syndrome), by Marco Origlia
 
+[MessageDigest-Fortran](https://github.com/LaplaceSoda/MessageDigest-Fortran): module for computing message digests like MD5, SHA256 and so on using the [OpenSSL](https://github.com/openssl/openssl) library, by LaplaceSoda
+
 [sodium](https://github.com/freevryheid/sodium): Fortran bindings by Andre Smit for [libsodium](https://github.com/jedisct1/libsodium), a C library for encryption, decryption, signatures, password hashing, etc.
 
 ## Databases
@@ -912,6 +914,8 @@
 
 ## Root Finding
 
+[gssFortran](https://github.com/huijunchen9260/gssFortran): tests using class(*) to bring an arbitrary objective function into the algorithm and compare its efficiency with directly coding golden section search for a specific optimization, by Hui-Jun Chen
+
 [polyroots-fortran](https://github.com/jacobwilliams/polyroots-fortran): modern Fortran library for finding the roots of polynomials, by Jacob Williams
 
 [roots-fortran](https://github.com/jacobwilliams/roots-fortran): library for finding the roots of continuous scalar functions of a single real variable, by Jacob Wiliams
@@ -1044,5 +1048,5 @@
 
 
 
-last update: 2025-03-13
-time elapsed (s): 3625.45
+last update: 2025-03-14
+time elapsed (s): 3625.73
