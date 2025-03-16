@@ -828,6 +828,8 @@
 
 [psqp](https://github.com/jacobwilliams/psqp): sequential quadratic programming algorithm, with simple bounds on variables and general nonlinear constraints, by Ladislav Luksan, modernized by Jacob Williams. Other optimization codes are at Luksan's [site](https://www.cs.cas.cz/~luksan/subroutines.html).
 
+[Quadprog](https://github.com/loiseaujc/Quadprog): code for convex quadratic programs by Jean-Christophe Loiseau, updating code by Berwin Turlach
+
 [SEISCOPE optimization toolbox wrapper](https://github.com/ofmla/seiscope_opt_toolbox_w_ctypes): demonstrates how to use the [SEISCOPE optimization toolbox](https://seiscope2.osug.fr/SEISCOPE-OPTIMIZATION-TOOLBOX?lang=en) from Python. The original code is public domain and was written by Ludovic Métivier and Romain Brossier.
 
 [simulated-annealing](https://github.com/jacobwilliams/simulated-annealing): Simulated Annealing with Modern Fortran by Jacob Williams
@@ -1048,5 +1050,5 @@
 
 
 
-last update: 2025-03-15
-time elapsed (s): 3634.49
+last update: 2025-03-16
+time elapsed (s): 3627.67
