@@ -432,6 +432,8 @@
 
 ## Fortran Books and Tutorials
 
+[easy](https://github.com/urbanjost/easy): steps to setup a GitHub repository with the Fortran Package Manager, and GitHub actions including [FORD](https://github.com/Fortran-FOSS-Programmers/ford) documentation and unit tests, by urbanjost
+
 [fortran2018-examples](https://github.com/scivision/fortran2018-examples): Fortran 2018 standard examples with broad applications, from SciVision
 
 [githubactions_intro](https://github.com/ofmla/githubactions_intro): introduces Github Actions as a tool for lightweight automation of scientific data workflows, with examples in Python and Fortran using gnuplot, by Oscar Mojica
@@ -1050,5 +1052,5 @@
 
 
 
-last update: 2025-03-17
-time elapsed (s): 3630.75
+last update: 2025-03-18
+time elapsed (s): 3627.16
