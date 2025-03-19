@@ -682,6 +682,8 @@
 
 [LSQR](https://github.com/jacobwilliams/LSQR): Fortran 2008 edition of [LSQR](https://web.stanford.edu/group/SOL/software/lsqr/), a conjugate-gradient type method for solving sparse linear equations and sparse least-squares problems, by Jacob Williams.
 
+[lusol](https://github.com/jacobwilliams/lusol): sparse LU factorization for square and rectangular matrices A, with Bartels-Golub-Reid updates for column replacement and other rank-1 modifications, by Michael Saunders, updated by Jacob Williams
+
 [M_blas](https://github.com/urbanjost/M_blas): Fortran BLAS library implemented as a free-format module, by urbanjost
 
 [M_LA](https://github.com/urbanjost/M_LA): small collection of linear algebra routines, including reshaping an array, creating a [magic square](https://en.wikipedia.org/wiki/Magic_square) array, and computing the determinant and inverse of a matrix, by urbanjost
@@ -1052,5 +1054,5 @@
 
 
 
-last update: 2025-03-18
-time elapsed (s): 3627.16
+last update: 2025-03-19
+time elapsed (s): 3628.78
