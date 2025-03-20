@@ -176,6 +176,8 @@
 
 [fortran-git](https://github.com/interkosmos/fortran-git): Fortran 2008 ISO C binding interfaces to [libgit2](https://github.com/libgit2/libgit2), by interkosmos
 
+[fpm-deps](https://github.com/ivan-pi/fpm-deps): generates dependency graphs of Fortran packages, by Ivan Pribec
+
 [fpm-search](https://github.com/urbanjost/fpm-search): finds information about registered fpm (Fortran Package Manager) packages, by urbanjost
 
 [prep](https://github.com/urbanjost/prep): streamlined pre-processor primarily designed for use with Fortran, by urbanjost. It does not support procedural macros but does support variable substitution and reusable free-format text blocks which allows for basic templating as well as easy construction of multi-line CHARACTER variables; and is quite capable of supporting traditional conditional compilation.
@@ -1054,5 +1056,5 @@
 
 
 
-last update: 2025-03-19
-time elapsed (s): 3628.78
+last update: 2025-03-20
+time elapsed (s): 3637.58
