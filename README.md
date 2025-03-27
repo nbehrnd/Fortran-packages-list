@@ -854,6 +854,10 @@
 
 [Framework for Extensible Asynchronous Task Scheduling (FEATS)](https://github.com/sourceryinstitute/FEATS): project to develop a parallel Fortran 2018 asynchronous, task-scheduling framework for use in a range of applications, from sourceryinstitute
 
+## Particle Physics
+
+[FLUE_Lat](https://github.com/RJaBi/FLUE_Lat): calculates various gluonic quantities in lattice QCD, including various wilson loops or F_uv, by Ryan Bignell
+
 ## Physics
 
 [codata](https://github.com/MilanSkocic/codata): provides the codata constants 2010, 2014 and 2018, by Milan Skocic. The raw codata from http://physics.nist.gov/constants are parsed line by line where the columns name, value, uncertainty and unit are formatted to be conform to Fortran double precision. [pycodata](https://github.com/MilanSkocic/pycodata) is a Python wrapper.
@@ -1056,5 +1060,5 @@
 
 
 
-last update: 2025-03-26
-time elapsed (s): 3630.83
+last update: 2025-03-27
+time elapsed (s): 3631.24
