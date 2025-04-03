@@ -160,6 +160,8 @@
 
 ## Biology and Medicine
 
+[Haemflow-cl0](https://github.com/abdrysdale/Haemflow-cl0): cardiovascular model by Alex Drysdale for the venous and arterial systems based on the paper [A concentrated parameter model for the human cardiovascular system including heart valve dynamics and atrioventricular interaction](https://www.sciencedirect.com/science/article/abs/pii/S1350453305002195), by Theodosios Korakianitis and Yubing Shi, <i>Medical Engineering & Physics</i> (2006)
+
 [Motility Analysis of T-Cell Histories in Activation (MATCHA)](https://github.com/BerkeleyLab/matcha): designs virtual T cells that move like biological T cells, from  BerkeleyLab and Northern New Mexico College. The virtual T cells will match the speed and turning angle distributions of biological cells.
 
 ## Climate and Weather
@@ -1062,5 +1064,5 @@
 
 
 
-last update: 2025-04-02
-time elapsed (s): 3641.45
+last update: 2025-04-03
+time elapsed (s): 3637.64
