@@ -230,6 +230,8 @@
 
 [array_range](https://github.com/degawa/array_range): provides user-defined types array_range{1|2|3}d_type to improve the manipulation of bounds of Fortran arrays, by Tomohiro Degawa
 
+[bitfield](https://github.com/PierUgit/bitfield): implementation of 1D bit array, by PierUgit
+
 [collections](https://github.com/jchristopherson/collections): set of types supporting collections in Fortran, by Jason Christopherson. Currently, the library contains a generic, dynamically sizable list and a generic linked-list type.
 
 [enhanced-allocatables](https://github.com/PierUgit/enhanced-allocatables): proposal to extend allocatable arrays to be dynamically reallocatable/resizable, with an implementation that calls C++, by PierUgit
@@ -1066,5 +1068,5 @@
 
 
 
-last update: 2025-04-05
-time elapsed (s): 3640.70
+last update: 2025-04-06
+time elapsed (s): 3638.93
