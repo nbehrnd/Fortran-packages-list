@@ -1042,6 +1042,8 @@
 
 [ForUnitTest](https://github.com/gha3mi/forunittest): simple, object-oriented unit testing framework, by Seyed Ali Ghasemi.
 
+[julienne](https://github.com/BerkeleyLab/julienne): compiler-portable, unit-testing framework for modern Fortran, including accelerated coarray Fortran software, by Katherine Rasmussen and Damian Rouson
+
 [M_framework](https://github.com/urbanjost/M_framework): aggregate of Fortran modules useful for creating terminal messages, comparing expected values to results, writing logfiles and playback journals and performing unit tests for Fortran, by urbanjost
 
 [par-funnel](https://github.com/degawa/par-funnel): unit test parameterizer using namelist, by Tomohiro Degawa. Par-funnel is not a unit test framework but is intended to be used with other unit test frameworks.
@@ -1068,5 +1070,5 @@
 
 
 
-last update: 2025-04-06
-time elapsed (s): 3638.93
+last update: 2025-04-07
+time elapsed (s): 3636.88
