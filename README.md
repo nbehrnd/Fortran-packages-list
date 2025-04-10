@@ -878,6 +878,8 @@
 
 [signedMCRT](https://github.com/lewisfish/signedMCRT): use of signed distance fields in Monte Carlo Radiative Transfer, by Lewis McMillan. This allows modelling of smooth surfaces without the need to use triangle or similar meshes.
 
+[Symplectic Integration Methods for Particle Loss Estimation (SIMPLE)](https://github.com/itpplasma/SIMPLE): computes statistical losses of guiding-center orbits for particles of given mass, charge and energy from the volume of 3D magnetic configurations, by Christopher Albert et al. Orbits are traced via a symplectic integrator that guarantees conservation of invariants of motion within fixed bounds over long integration periods.
+
 [vdist-solver-fortran](https://github.com/Nkzono99/vdist-solver-fortran): velocity distribution function solver for Python, calling Fortran, using Liouville's theorem, by Nkzono99
 
 ## Quantum Chemistry and Electronic Structure
@@ -1070,5 +1072,5 @@
 
 
 
-last update: 2025-04-09
-time elapsed (s): 3636.10
+last update: 2025-04-10
+time elapsed (s): 3636.64
