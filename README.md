@@ -968,6 +968,8 @@
 
 [FJsample](https://github.com/RJaBi/FJsample): jackknife resampling, with Python bindings, by Ryan Bignell
 
+[Fortran Statistics and Machine Learning Library (fsml)](https://github.com/sebastian-mutz/fsml): scientific toolkit consisting of common statistical and machine learning procedures, including basic statistics (e.g., mean, variance, correlation), common statistical tests (e.g., t-test, Kolmogorov-Smirnov), linear parametric methods and models (e.g., principal component analysis, discriminant analysis, Bayesian classifier), and non-linear statistical and machine learning procedures (e.g., k-means clustering), by Sebastian G. Mutz
+
 [fstats](https://github.com/jchristopherson/fstats): modern statistical library containing routines for computing basic statistical properties, hypothesis testing, regression, special functions, and even experimental design, by Jason Christopherson
 
 [gslib2.0: Geostatistical Software Library](https://github.com/exepulveda/gslib2.0): aims to create a modern version of the original GSLIB source code, by exepulveda
@@ -1072,5 +1074,5 @@
 
 
 
-last update: 2025-04-10
-time elapsed (s): 3636.64
+last update: 2025-04-11
+time elapsed (s): 3638.43
