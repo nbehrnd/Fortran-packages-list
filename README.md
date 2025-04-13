@@ -120,6 +120,8 @@
 
 [forsynth](https://github.com/vmagnin/forsynth): small Fortran synthesizer to explore sound synthesis, sound effects, electronic music, algorithmic music, etc, by Vincent Magnin
 
+[fynth](https://github.com/JeffIrwin/fynth): synthesizer and audio processor, by Jeff Irwin
+
 [TapTempo Fortran](https://github.com/vmagnin/TapTempo-Fortran): command line taptempo written in modern Fortran, by Vincent Magnin. Listen to a song and hit enter key with style and you'll get the corresponding number of beats per minute (BPM).
 
 ## Astronomy and Astrophysics
@@ -1074,5 +1076,5 @@
 
 
 
-last update: 2025-04-12
-time elapsed (s): 3638.14
+last update: 2025-04-13
+time elapsed (s): 3638.36
