@@ -826,7 +826,7 @@
 
 [libdogleg-f](https://github.com/ivan-pi/libdogleg-f): Fortran bindings to libdogleg - a large-scale nonlinear least-squares optimization library, by Ivan Pribec. Currently only the dense optimizer calls are supported.
 
-[Minpack](https://github.com/certik/minpack): library for solving nonlinear equations and nonlinear least squares problems, with with CMake makefiles and examples by certik et al.
+[Minpack](https://github.com/certik/minpack): library for solving nonlinear equations and nonlinear least squares problems, with CMake makefiles and examples by certik et al.
 
 [Minpack](https://github.com/jacobwilliams/minpack): modernization of the original Fortran 77 code, by Jacob Williams
 
@@ -1076,5 +1076,5 @@
 
 
 
-last update: 2025-04-18
-time elapsed (s): 3644.41
+last update: 2025-04-19
+time elapsed (s): 3663.20
