@@ -200,6 +200,8 @@
 
 ## Computational Chemistry
 
+[CDMSreader](https://github.com/banana-bred/CDMSreader): reads molecular transition data from the Cologne Database for Molecular Spectroscopy (CDMS) catalogue to determine the radiative lifetimes of the various states involved in the transitions, by banana-bred
+
 [ciaaw](https://github.com/MilanSkocic/ciaaw): library providing the standard and abridged atomic weights, the isotopic abundance and the isotopes' standard atomic weights, by Milan Skocic. It also provides a API for the C language.
 
 [ecx](https://github.com/MilanSkocic/ecx): library providing formulas for electrochemistry with a C API, by Milan Skocic
@@ -888,7 +890,11 @@
 
 ## Quantum Chemistry and Electronic Structure
 
+[bsprvse](https://github.com/banana-bred/bsprvse): solves the (ro)vibrational Schödinger Equation with a basis of B-splines, optionally with a complex absorbing potential, by banana-bred
+
 [dftd4](https://github.com/dftd4/dftd4): Generally Applicable Atomic-Charge Dependent London Dispersion Correction
+
+[Dissociative Recombination and Photo-Ionization (DRIP)](https://github.com/banana-bred/DRIP): code used to study dissociative recombination, but the framework upon which it is based allows for the calculation of RVE/PI cross sections and reaction rate coefficients, by banana-bred
 
 [Finite Element Solvers for Atomic Structure Calculations (featom)](https://github.com/atomic-solvers/featom): library implementing accurate and efficient radial Schrödinger and Dirac finite element solvers, by Ondřej Čertík, Rohit Goswami, and Isuru Fernando. The formulation admits general potentials and meshes: uniform, exponential, or other.
 
@@ -909,6 +915,8 @@
 [QuantumModelLib](https://github.com/lauvergn/QuantumModelLib): enables one to use potentials extracted from the literature, by David Lauvergnat et al. It has the following features: one or several degrees of freedom; one or several electronic states; for each electronic state, the energy, gradient and hessian can be obtained in the diabatic or adiabatic representations
 
 [WannInt](https://github.com/irukoa/WannInt): library of utilities for Wannier interpolation, meant to serve as a building block for codes that compute the resolution of quantum mechanical operators in the Brillouin zone of a crystal, by Álvaro R. Puente-Uriona
+
+[WignerD](https://github.com/banana-bred/WignerD): routines to calculate the Wigner D-matrix and d-matrix. An associated paper is [High-precision evaluation of Wigner's (d) matrix by exact diagonalization](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.043307), by X. M. Feng et al., <i>Physical Review E</i> (2015).
 
 ## Random Number Generation
 
@@ -961,6 +969,10 @@
 [amosf90](https://github.com/Euler-37/amosf90): module for [AMOS](https://www.netlib.org/amos/), a package for Bessel functions of a complex argument and nonnegative order, by Euler-37
 
 [fortran-bessels](https://github.com/perazz/fortran-bessels): Fortran port (stub) of the Bessels.jl repository, by Federico Perini et al.
+
+[libcoul90](https://github.com/banana-bred/libcoul90): calculates real-valued Coulomb and Bessel functions for real-valued arguments, with code by A. R. Barnett updated by banana-bred
+
+[libcoulcc](https://github.com/banana-bred/libcoulcc): calculates complex-valued Coulomb and Bessel functions for real-valued arguments, by banana-bred. An associated paper is [COULCC: A continued-fraction algorithm for Coulomb functions of complex order with complex arguments](https://github.com/banana-bred/libcoulcc), by I.J. Thompson and A.R. Barnett, <i>Computer Physics Communications</i> (1985).
 
 [specfun](https://github.com/jacobwilliams/specfun): modernization by Jacob Williams of [specfun.f](https://github.com/scipy/scipy/blob/main/scipy/special/specfun/specfun.f) from SciPy from the book [Computation of Special Functions](https://www.amazon.com/Computation-Special-Functions-Shanjie-Zhang/dp/0471119636), by Shanjie Zhang and Jianming Jin, Wiley (1996).
 
@@ -1078,5 +1090,5 @@
 
 
 
-last update: 2025-04-24
-time elapsed (s): 3667.06
+last update: 2025-04-25
+time elapsed (s): 3647.21
