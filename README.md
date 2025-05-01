@@ -734,6 +734,8 @@
 
 [Adaptive Training for High Efficiency Neural Network Applications (ATHENA)](https://github.com/nedtaylor/athena): library for developing and handling neural networks (with a focus on convolutional neural networks), by Ned Taylor
 
+[fastGPT](https://github.com/certik/fastGPT): fast GPT-2 inference, by Ondřej Čertík, described in a post [FastGPT: Faster than PyTorch in 300 Lines of Fortran](https://ondrejcertik.com/blog/2023/03/fastgpt-faster-than-pytorch-in-300-lines-of-fortran/)
+
 [forncnn](https://github.com/mizu-bai/forncnn): experimental Fortran binding for [ncnn](https://github.com/Tencent/ncnn) c_api, by mizu-bai. Ncnn is a high-performance neural network inference framework optimized for the mobile platform.
 
 [Fortran FLANN binding](https://github.com/ivan-pi/fortran-flann): Fortran bindings to the FLANN library for performing fast approximate nearest neighbor searches in high dimensional spaces, by ivan-pi
@@ -1090,5 +1092,5 @@
 
 
 
-last update: 2025-04-30
-time elapsed (s): 3650.99
+last update: 2025-05-01
+time elapsed (s): 3651.62
