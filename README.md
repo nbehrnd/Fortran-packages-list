@@ -1052,6 +1052,8 @@
 
 [DAGLIB](https://github.com/jacobwilliams/daglib): modern Fortran module for creating and manipulating directed acyclic graphs (DAGs), by Jacob Williams and Damian Rouson. It includes a toposort feature, and also the ability to generate files in the GraphViz "dot" notation.
 
+[finbound](https://github.com/Nkzono99/finbound): internal boundary processing library, by Nkzono99
+
 [graphstruc](https://github.com/nedtaylor/graphstruc): library that provides an implementation of graph structures in the form of a derived type, by Ned Thaddeus Taylor
 
 [strengthcalc](https://github.com/piotrbajdek/strengthcalc): strengthcalc employs mathematical formulae from Mayhew et al. (1992) and Wathen (1994) to estimate the maximum weight one can lift in a single repetition of a physical exercise (known as 1RM: one repetition maximum), by Piotr Bajdek
@@ -1092,5 +1094,5 @@
 
 
 
-last update: 2025-05-01
-time elapsed (s): 3651.62
+last update: 2025-05-02
+time elapsed (s): 3673.09
