@@ -184,6 +184,8 @@
 
 [fpm-deps](https://github.com/ivan-pi/fpm-deps): generates dependency graphs of Fortran packages, by Ivan Pribec
 
+[fpm-gdb](https://github.com/urbanjost/fpm-gdb): plugin for FPM that runs gdb in vim on Linux, by urbanjost
+
 [fpm-search](https://github.com/urbanjost/fpm-search): finds information about registered fpm (Fortran Package Manager) packages, by urbanjost
 
 [prep](https://github.com/urbanjost/prep): streamlined pre-processor primarily designed for use with Fortran, by urbanjost. It does not support procedural macros but does support variable substitution and reusable free-format text blocks which allows for basic templating as well as easy construction of multi-line CHARACTER variables; and is quite capable of supporting traditional conditional compilation.
@@ -1094,5 +1096,5 @@
 
 
 
-last update: 2025-05-02
-time elapsed (s): 3673.09
+last update: 2025-05-03
+time elapsed (s): 3667.91
