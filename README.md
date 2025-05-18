@@ -770,9 +770,13 @@
 
 [fortranpack](https://github.com/jacobwilliams/fortranpack): numerical and scientific programming package that combines many FPM packages, covering interpolation, optimization, CSV file I/O, directed acyclic graphs, ODEs, machine constants, searching and sorting, JSON files, RNG, nonlinear equations, numerical differentiation, root-finding, plotting, numerical integration, and spline approximation, by Jacob Williams
 
+[ieee_class_fortran](https://github.com/DSCF-1224/ieee_class_fortran): additional functions for [ieee_class_type](https://www.ibm.com/docs/en/xl-fortran-linux/16.1.1?topic=constants-ieee-class-type), by DSCF-1224
+
 [NAFPack](https://github.com/Minard-Jules/NAFPack): numerical analysis package, offering a comprehensive set of algorithms for diverse numerical computations, by Jules Minard. These computations include Fast Fourier Transform, linear system solving, and eigenvalue/eigenvector calculations.
 
 [NumDiff](https://github.com/jacobwilliams/NumDiff): modern Fortran numerical differentiation library, by Jacob Williams
+
+[numerical-analysis](https://github.com/JeffIrwin/numerical-analysis): exercises from the textbook [Introduction to numerical analysis](https://link.springer.com/book/10.1007/978-0-387-21738-3) by J. Stoer and R. Bulirsch, by Jeff Irwin
 
 [Numerical_utilities](https://github.com/osada-yum/Numerical_utilities): Kahan algorithms for the sum, variance, and covariance, using MPI, by osada-yum
 
@@ -1096,5 +1100,5 @@
 
 
 
-last update: 2025-05-17
-time elapsed (s): 3677.88
+last update: 2025-05-18
+time elapsed (s): 3667.42
