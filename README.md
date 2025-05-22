@@ -316,6 +316,8 @@
 
 [libpq-fortran](https://github.com/ShinobuAmasaki/libpq-fortran): interface by ShinobuAmasaki to the PostgreSQL [libpq C Library](https://www.postgresql.org/docs/current/libpq.html)
 
+[Open Database Connectivity (odbc.f)](https://github.com/davidpfister/odbc.f): interface designed to enable seamless interaction between Fortran applications and relational databases through the Open Database Connectivity (ODBC) standard, by David Pfister. It provides modules and procedures that allow developers to connect to ODBC-compliant databases, execute SQL queries, and manage data.
+
 [SQLite for Fortran (sqliteff)](https://github.com/everythingfunctional/sqliteff): thin wrapper around the SQLite library, by Brad Richardson. The sqliteff_* functions are effectively identical to the sqlite3_* functions that would be called from C, but with Fortran intrinsics and types.
 
 ## Dates and Times
@@ -1100,5 +1102,5 @@
 
 
 
-last update: 2025-05-19
-time elapsed (s): 3691.30
+last update: 2025-05-22
+time elapsed (s): 3688.80
