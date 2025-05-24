@@ -1050,6 +1050,8 @@
 
 ## Time Series
 
+[dynamics](https://github.com/jchristopherson/dynamics): library of routines for the analysis of dynamic systems, by Jason Christopherson. It can compute linear frequency response functions for LTI systems, perform modal analysis of an LTI system, compute the frequency response of nonlinear systems in such a manner as to expose nonlinear behaviors such as jump phenomenon, and fit transfer functions to experimental data.
+
 [fortsa](https://github.com/zoziha/fortsa): univariate time series analysis and ARIMA modeling package, by zoziha
 
 [spectrum](https://github.com/jchristopherson/spectrum): library containing signal analysis routines with a focus towards spectral routines, by Jason Christopherson
@@ -1102,5 +1104,5 @@
 
 
 
-last update: 2025-05-23
-time elapsed (s): 3663.27
+last update: 2025-05-24
+time elapsed (s): 3668.92
