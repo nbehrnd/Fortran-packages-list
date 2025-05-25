@@ -140,6 +140,8 @@
 
 [Molecular atmospheric Absorption with Rapid and Flexible Analysis (MARFA)](https://github.com/Razumovskyy/MARFA): tool designed to calculate volume absorption coefficients or monochromatic absorption cross-sections using initial spectroscopic data from spectral databases and atmospheric data from an external file, by Mikhail Razumovskiy
 
+[moonframe](https://github.com/jacobwilliams/moonframe): library to interpolate the MOON_PA reference frame, a high-accuracy Moon body-fixed frame, without using SPICE, by Jacob Williams
+
 [Naval Observatory Vector Astrometry Software (NOVAS)](https://github.com/jacobwilliams/NOVAS): integrated package of routines for computing various commonly needed quantities in positional astronomy, refactored by Jacob Williams. The package can provide, in one or two subroutine or function calls, the instantaneous coordinates of any star or planet in a variety of coordinate systems.
 
 [radbelt](https://github.com/jacobwilliams/radbelt): AE-8/AP-8 Van Allen belt model, describing the differential or integral, omnidirectional fluxes of electrons (AE-8) and protons (AP-8) in the inner and outer radiation belts, by Jacob Williams
@@ -1104,5 +1106,5 @@
 
 
 
-last update: 2025-05-24
-time elapsed (s): 3668.92
+last update: 2025-05-25
+time elapsed (s): 3665.23
