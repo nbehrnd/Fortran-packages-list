@@ -926,6 +926,8 @@
 
 [QuantumModelLib](https://github.com/lauvergn/QuantumModelLib): enables one to use potentials extracted from the literature, by David Lauvergnat et al. It has the following features: one or several degrees of freedom; one or several electronic states; for each electronic state, the energy, gradient and hessian can be obtained in the diabatic or adiabatic representations
 
+[qvSZP](https://github.com/grimme-lab/qvSZP): tool for setting up an [ORCA](https://www.faccts.de/orca/) calculation using the atom-in-molecule adaptive q-vSZP basis set. An associated paper is [An atom-in-molecule adaptive polarized valence single-ζ atomic orbital basis for electronic structure calculations Available to Purchase](https://pubs.aip.org/aip/jcp/article-abstract/159/16/164108/2918302/An-atom-in-molecule-adaptive-polarized-valence), by Marcel Müller et al., <i>Journal of Chemical Physics</i> (2023).
+
 [WannInt](https://github.com/irukoa/WannInt): library of utilities for Wannier interpolation, meant to serve as a building block for codes that compute the resolution of quantum mechanical operators in the Brillouin zone of a crystal, by Álvaro R. Puente-Uriona
 
 [WignerD](https://github.com/banana-bred/WignerD): routines to calculate the Wigner D-matrix and d-matrix. An associated paper is [High-precision evaluation of Wigner's (d) matrix by exact diagonalization](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.043307), by X. M. Feng et al., <i>Physical Review E</i> (2015).
@@ -1106,5 +1108,5 @@
 
 
 
-last update: 2025-06-03
-time elapsed (s): 3687.52
+last update: 2025-06-05
+time elapsed (s): 3684.78
