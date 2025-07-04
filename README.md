@@ -570,6 +570,8 @@
 
 [ForImage](https://github.com/gha3mi/forimage): library for working with image files ([PNM format](https://en.wikipedia.org/wiki/Netpbm)) and managing colors effectively, by Seyed Ali Ghasemi
 
+[fortplotlib](https://github.com/krystophny/fortplotlib): native plotting inspired by [matplotlib.pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) and [pyplot-fortran](https://github.com/jacobwilliams/pyplot-fortran), by Christopher Albert. It also has a Python interface installable via pip that can be used as a drop-in replacement for matplotlib.pyplot for a limited set of features.
+
 [Fortran Intuitive Graphics (fig)](https://github.com/AnonMiraj/fig): provide intuitive graphics capabilities, by AnonMiraj. It offers basic 2D primitives such as lines, circles, ellipsis, and rectangles for creating graphical representations.
 
 [Fortran Terminal (fortty)](https://github.com/awvwgk/fortty): create colorful terminal applications in Fortran, by Sebastian Ehlert
@@ -1110,5 +1112,5 @@
 
 
 
-last update: 2025-06-21
-time elapsed (s): 3676.89
+last update: 2025-07-04
+time elapsed (s): 3677.74
