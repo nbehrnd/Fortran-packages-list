@@ -714,6 +714,8 @@
 
 [polynomial_arnoldi](https://github.com/loiseaujc/polynomial_arnoldi): polynomial Arnoldi preconditioner for GMRES, applied to the 2D Poisson equation, by Jean-Christophe Loiseau
 
+[spag_lapack](https://github.com/urbanjost/spag_lapack): experimental WIP of LAPACK processed with plusFORT spag(1) and configured to build with FPM, by urbanjost
+
 [SParse matrices in Object-Oriented Fortran (SPOOF)](https://github.com/samharrison7/spoof): modern, object-oriented Fortran library for sparse matrix computations, by Sam Harrison. It largely draws on the SPARSKIT library, adding an object-oriented interface to improve usability.
 
 [sparse_fortran](https://github.com/Euler-37/sparse_fortran): derived types for sparse matrices in COO and CSR format with functions for matrix multiplication, by Euler-37
@@ -1112,5 +1114,5 @@
 
 
 
-last update: 2025-07-04
-time elapsed (s): 3677.74
+last update: 2025-07-12
+time elapsed (s): 3669.92
