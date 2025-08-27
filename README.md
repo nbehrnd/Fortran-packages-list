@@ -374,6 +374,8 @@
 
 ## Expression Parsers
 
+[fortfront](https://github.com/lazy-fortran/fortfront): transforms lazy Fortran with optional variable declarations to standard Fortran via a command line interface, by Christopher Albert
+
 [Fortran Equation Parser (feqparse)](https://github.com/FluidNumerics/feq-parse): equation parser Fortran class that is used to interpret and evaluate functions provided as strings, by Joe Schoonover
 
 [Fortran Function Parser (ffp)](https://github.com/jacobwilliams/ffp): evaluates a string containing a mathematical expression that can be formed by numbers, brackets, functions, and variables, by Wilton P. Silva and Ivomar B. Soares
@@ -571,6 +573,8 @@
 [forIGES](https://github.com/rweed/forIGES): utilities for reading and writing a subset of the [IGES](https://en.wikipedia.org/wiki/IGES) CAD file entities described in the IGES 5.3 specification, by rweed. The focus of forIGES is on geometric entities such as NURBS curves and surfaces.
 
 [ForImage](https://github.com/gha3mi/forimage): library for working with image files ([PNM format](https://en.wikipedia.org/wiki/Netpbm)) and managing colors effectively, by Seyed Ali Ghasemi
+
+[fortplot](https://github.com/lazy-fortran/fortplot): native plotting inspired by Python's matplotlib.pyplot and [pyplot-fortran](https://github.com/jacobwilliams/pyplot-fortran), by Christopher Albert
 
 [fortplotlib](https://github.com/krystophny/fortplotlib): native plotting inspired by [matplotlib.pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) and [pyplot-fortran](https://github.com/jacobwilliams/pyplot-fortran), by Christopher Albert. It also has a Python interface installable via pip that can be used as a drop-in replacement for matplotlib.pyplot for a limited set of features.
 
@@ -1116,5 +1120,5 @@
 
 
 
-last update: 2025-08-20
-time elapsed (s): 3711.12
+last update: 2025-08-27
+time elapsed (s): 3681.33
