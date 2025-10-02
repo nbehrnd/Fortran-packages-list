@@ -242,6 +242,8 @@
 
 [collections](https://github.com/jchristopherson/collections): set of types supporting collections in Fortran, by Jason Christopherson. Currently, the library contains a generic, dynamically sizable list and a generic linked-list type.
 
+[DataFort](https://github.com/rngil/DataFort): dataframes library, providing pandas/polars/dplyr-like functionality for scientific computing and data analysis, by Renee Gil
+
 [enhanced-allocatables](https://github.com/PierUgit/enhanced-allocatables): proposal to extend allocatable arrays to be dynamically reallocatable/resizable, with an implementation that calls C++, by PierUgit
 
 [enumul](https://github.com/degawa/enumul): incomplete typed enumerator emulator for Fortran, by Tomohiro Degawa
@@ -1132,5 +1134,5 @@
 
 
 
-last update: 2025-09-29
-time elapsed (s): 3694.75
+last update: 2025-10-02
+time elapsed (s): 3676.45
