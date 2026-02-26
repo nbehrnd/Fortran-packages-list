@@ -5,7 +5,8 @@ name     : xfpm.py
 source   : https://github.com/Beliavsky/Fortran-packages-list
 author   : Beliavsky, Norwid Behrnd
 license  : MIT
-last edit: [2024-03-28 Thu]
+date     : [2026-02-26 Thu]
+edit     :
 purpose  : report projects that can be built with the Fortran Package Manager
 """
 
@@ -13,6 +14,8 @@ import argparse
 import os
 import re
 import time
+
+from time import gmtime, strftime
 from urllib3.util import Retry
 
 import requests
@@ -90,11 +93,13 @@ def file_reader(infile="", debug=False, test=False):
         if i > max_lines:
             break
         checker(text, debug, i)
+        time.sleep(0.1)
 
 
 def checker(text, debug=False, i=1):
     """extract the address, report if fpm.toml file is present"""
     if text.startswith("*") or text.startswith("##"):  # category marker
+        print("\n")
         print(text)
 
     # text in parentheses after first after first set of brackets
@@ -106,6 +111,8 @@ def checker(text, debug=False, i=1):
             print("\n", i)
             print(text.strip())
             print(f"url: {extracted_address}")
+
+        # for default branches called master
         fpm_link = extracted_address + "/blob/master/fpm.toml"
         exists, status_or_error = check_url_exists(fpm_link)
         if exists:
@@ -118,6 +125,19 @@ def checker(text, debug=False, i=1):
             if debug:
                 print(fpm_link)
 
+        else:  # for default branches called main
+            fpm_link = extracted_address + "/blob/main/fpm.toml"
+            exists, status_or_error = check_url_exists(fpm_link)
+            if exists:
+                try:
+                    print(text)
+                except UnicodeEncodeError as e:
+                    # Handle the error: for example, print a placeholder text or
+                    # encode the text in 'utf-8' and print
+                    print("An encoding error occurred: ", e)
+                if debug:
+                    print(fpm_link)
+
 
 def main():
     """join the functionalities"""
@@ -129,7 +149,12 @@ def main():
 
     t0 = time.time()
     file_reader(infile, debugger_level, test_level)
+
+    print("\n")
+    print("-----")
     print(f"time elapsed (s): {(time.time() - t0):.2f}")
+    print("\n")
+    print(f"date of check: {strftime("%Y-%m-%d %H:%M:%S %Z", gmtime())}")
 
 
 if __name__ == "__main__":
