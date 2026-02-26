@@ -1,0 +1,80 @@
+name: minimal_xfpm
+
+# name    : minimal_xfpm.yml
+# purpose : automate updates of the README.md file based on a remote README.md
+# author  : nbehrnd@yahoo.com
+# date    : [2026-02-26 Thu]
+# edit    :
+
+# Beliavsky et al. curate a list about GitHub hosted projects using Fortran.[1]
+# Script xfpm.py processes these data to eventually write a new README.md about
+# those projects which in addition manage their project with the Fortran package
+# manager (fpm).  The manual update of the list is to be replaced by one running
+# automatically -- a GitHub action appears to be an approach suitable.
+# This workflow was derived from `automate_xfpm.yml` to serve as a fallback.
+#
+# [1] https://github.com/Beliavsky/Fortran-code-on-GitHub
+
+on:
+  push:
+    branches:
+      - main             # use some automatism (for now)
+      - my_main          # updates to enter the principal branch "my_main"
+  pull_request:
+    branches:
+      - my_main          # PRs to enter the principal branch "my_main"
+  workflow_dispatch:     # provide a manual trigger
+  schedule:
+    - cron: "0 1 * * *"  # once daily at 01:00 am UTC (cf. https://crontab.guru/)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        # by [2024-10-23 Wed], this version possibly will be considered "old",
+        # cf. the announcement on
+        # https://github.blog/changelog/2023-09-22-github-actions-transitioning-from-node-16-to-node-20/
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies with PyPI, check installations
+        run: |
+            python -m pip install --upgrade pip
+            pip install -r requirements.txt
+
+            echo "test the installations:"
+            echo " "
+            lsb_release -a
+            echo " "
+            python --version
+            echo " "
+            pip list
+
+      - name: Check for presence of the script
+        run: |
+            python xfpm.py -h
+
+      - name: And work
+        run: |
+            wget https://raw.githubusercontent.com/Beliavsky/Fortran-code-on-GitHub/refs/heads/main/README.md -O raw_data
+            wc -l raw_data
+
+            python xfpm.py raw_data > report.md
+
+            ls -lash
+            mv report.md README.md
+
+            git config user.name "Automated"
+            git config user.email "actions@users.noreply.github.com"
+            timestamp=$(date "+%Y-%m-%d")
+
+            git add README.md
+            git status
+            git commit -m "update by ${timestamp}" && true
+            git push
+
