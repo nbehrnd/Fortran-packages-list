@@ -348,6 +348,8 @@
 
 ## Computational Chemistry
 
+[CDMSreader](https://github.com/banana-bred/CDMSreader): reads molecular transition data from the Cologne Database for Molecular Spectroscopy (CDMS) catalogue to determine the radiative lifetimes of the various states involved in the transitions, by banana-bred
+
 [ciaaw](https://github.com/MilanSkocic/ciaaw): library providing the standard and abridged atomic weights, the isotopic abundance and the isotopes' standard atomic weights, by Milan Skocic. It also provides a API for the C language.
 
 [ecx](https://github.com/MilanSkocic/ecx): library providing formulas for electrochemistry with a C API, by Milan Skocic
@@ -446,6 +448,8 @@
 
 [interpolate-fields](https://github.com/p-costa/interpolate-fields): interpolates DNS data to a new grid using linear interpolation, by Pedro Costa. It can run and store the interpolated data in a massively-parallel setting using MPI I/O. For now, it assumes two regular Cartesian grids with the file format of CaNS.
 
+[Navier_Stokes_Spectral_Method](https://github.com/Minard-Jules/Navier_Stokes_Spectral_Method): Navier Stokes simulation using the spectral method, visualized with [gtk-fortran](https://github.com/vmagnin/gtk-fortran), by Jules Minard
+
 [Smoothed Particle Hydrodynamics（SPH)](https://github.com/zoziha/SPH): uses code from the book [Smooth Particle hydrodynamics - A Meshfree Particle Method](https://www.worldscientific.com/worldscibooks/10.1142/5340) as a starting point, by zoziha
 
 
@@ -505,6 +509,8 @@
 
 
 ## Economics
+
+[economic-simulation](https://github.com/ianfr/economic-simulation): agent-based economic simulation framework leveraging CUDA Fortran and multicore processing for GPU and CPU parallelism, by Ian Friedrichs. Models based on analogies with statistical physics such as kinetic exchange, spin flips, magnetization, and more.
 
 [econ-toolchain](https://github.com/renatomatz/econ-toolchain): general tools used for structural macroeconomic modeling, including codes for global optimization, I/O, Markov chains, finding roots, golden-section search, and unit testing, by Renato Zimmermann. 
 
@@ -582,6 +588,8 @@
 
 [fortran-sperr](https://github.com/ofmla/fortran-sperr): interface bindings by Oscar Mojica to [SPERR](https://github.com/NCAR/SPERR), a lossy scientific (floating-point) data compressor in C and C++ that produces one of the best rate-distortion curves
 
+[fortran-zstd](https://github.com/interkosmos/fortran-zstd): Fortran 2018 interface bindings to selected [Zstandard](https://facebook.github.io/zstd/) functions, by interkosmos. Zstandard is a fast compression algorithm, providing high compression ratios.
+
 [High Performance Parallel Data Interface to HDF5 (h5part)](https://github.com/zoziha/h5part): interface to the structured HDF5 data format that stores multiple time-step data for particle simulation scenarios and can be used for ParaView / VisIt visualization, by zoziha
 
 [IO Fortran Library](https://github.com/acbbullock/IO-Fortran-Library): module providing high level routines for doing internal and external IO, by Austin C. Bullock. In particular, the module provides a handful of generic interfaces for performing string-based and array-based IO that are useful for recording program data, reading data into programs, and for writing formatted logs and output. 
@@ -605,6 +613,8 @@
 [Return of JSON for Fortran (rojff)](https://github.com/everythingfunctional/rojff): with an interface inspired by [jsonff](https://gitlab.com/everythingfunctional/jsonff), the data semantics and parser are redesigned to allow for high performance, by Brad Richardson and kmorris
 
 [stl-fortran](https://github.com/jacobwilliams/stl-fortran): Fortran STL (stereolithography) File I/O, by Jacob Williams
+
+[toml-f](https://github.com/toml-f/toml-f): TOML parser implementation for data serialization and deserialization in Fortran. [jonquil](https://github.com/toml-f/jonquil) provides a compatibility layer to enable TOML Fortran using libraries to consume JSON as well as allow JSON consuming libraries to try out TOML.
 
 [VTKFortran](https://github.com/szaghi/VTKFortran): parse and emit files conforming VTK (XML) standard, by szaghi et al.
 
@@ -668,7 +678,11 @@
 
 [FLAP](https://github.com/szaghi/FLAP): command Line Arguments Parser for poor people, by szaghi et al. A KISS pure Fortran Library for building powerful, easy-to-use, elegant command line interfaces
 
+[forbear](https://github.com/szaghi/forbear): progress bar environment by szaghi and jhykes
+
 [ForClust](https://github.com/gha3mi/forclust): manage and control a Linux system, such as adjusting the settings of the CPU and other components, by Seyed Ali Ghasemi
+
+[FortranPatterns](https://github.com/farhanjk/FortranPatterns): Implementation of popular design patterns in Fortran, by Farhan J. Khan and zmiimz. This is intended to facilitate the community using Fortran for computationally expensive tasks. The main philosophy here is to make these patterns available for improving the reusability and efficiency of the code.
 
 [Fortran pathlib](https://github.com/scivision/fortran-pathlib): Filesystem path manipulation utilities for standard Fortran, from scivision. Inspired by Python pathlib and C++17 filesystem.
 
@@ -679,6 +693,8 @@
 [fortran_utilities](https://github.com/lewisfish/fortran_utilities): procedures to add colour to output via ANSI colour codes, create a progress bar, turn variables into strings, and print the time, by Lewis McMillan
 
 [fortran-zlib](https://github.com/interkosmos/fortran-zlib): collection of Fortran 2018 ISO_C_BINDING interfaces to selected zlib functions, by interkosmos. Zlib is a lossless data-compression library.
+
+[fortress](https://github.com/FortranGoingOnForty/fortress): command-line file explorer with fzf integration and git binds for fast staging and committing, by Matthew Forrester Wolffe
 
 [ForTime](https://github.com/gha3mi/fortime): provides a timer object for measuring elapsed time, by Seyed Ali Ghasemi. It includes procedures for starting and stopping the timer, as well as calculating and printing the elapsed time in seconds.
 
@@ -790,7 +806,11 @@
 
 [M_color](https://github.com/urbanjost/M_color): convert between RGB color values and other common color models, by urbanjost
 
+[M_draw - low level vector graphics library](https://github.com/urbanjost/M_draw): base graphics library intended for use with Fortran although largely written in C. It is based on the public domain VOGLE graphics library. It allows for creating vector-based graphics with a variety of output devices.
+
 [M_fixedform](https://github.com/urbanjost/M_fixedform): simplifies creating a TUI (Terminal User Interface) with Ncurses from Fortran, by urbanjost. It facilitates creating simple forms in terminal windows.
+
+[M_ncurses](https://github.com/urbanjost/M_ncurses): module that allows use of the C Ncurses library for controlling and formatting terminal displays, by urbanjost
 
 [M_pixel](https://github.com/urbanjost/M_pixel): creates pixel images with a vector-oriented graphics library that emulates a subset of the [M_draw](https://github.com/urbanjost/M_draw) vector graphics library, by urbanjost. It is supplemented with additional modules that read and write GIF files, including animated GIFs.
 
@@ -812,6 +832,8 @@
 
 [arrow-fortran](https://github.com/ludnic/arrow-fortran): automatic bindings by Ludovico Nicotina and Vincent Magnin to the C API for the arrow project. [Arrow](https://arrow.apache.org/) is a language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. 
 
+[dynload-julia](https://github.com/yundantianchang/dynload-julia): dynamically load Julia from Fortran, by brocolis
+
 [fcppstring](https://github.com/willdickson/fcppstring): Fortran wrapper for C++ strings, by Will Dickson
 
 [fortran-modbus](https://github.com/interkosmos/fortran-modbus): interface bindings to [libmodbus](https://libmodbus.org/), for Modbus RTU/TCP access, by interkosmos
@@ -822,7 +844,11 @@
 
 [fortran-lua54](https://github.com/interkosmos/fortran-lua54): Fortran 2008 interface bindings to Lua 5.4, from interkosmos. There is also [fortran-lua53](https://github.com/interkosmos/fortran-lua53).
 
+[fortran-tcl86](https://github.com/interkosmos/fortran-tcl86): ISO_C_BINDING interface library for interoperability with Tcl/Tk 8.6, by interkosmos, allowing the user to embed Tcl into Fortran, create Tcl extensions in Fortran (with Tcl Stubs), access (a subset of) the Tcl/Tk C API from Fortran, use Tcl as an evaluatable configuration file format, and add graphical user interfaces to Fortran programs.
+
 [fortran-unix](https://github.com/interkosmos/fortran-unix): Fortran 2008 ISO C binding interfaces to selected POSIX and SysV types, functions, and routines on 64-bit Unix-like operating systems, by interkosmos
+
+[fortran-xmpp](https://github.com/interkosmos/fortran-xmpp): interface bindings to the [XMPP](https://xmpp.org/about/technology-overview/) (Extensible Messaging and Presence Protocol) client library [libstrophe](http://strophe.im/libstrophe/), by interkosmos.
 
 [hwinfo-fortran](https://github.com/ShinobuAmasaki/hwinfo-fortran): provides access to hardware information using OS APIs for Unix-like operating systems, by Shinobu Amasaki
 
@@ -1022,6 +1048,8 @@
 
 [diffeq](https://github.com/jchristopherson/diffeq): library providing an object-oriented approach to solving ordinary differential equations, by Jason Christopherson. Available ODE solvers are 4th Order Runge-Kutta and Adams-Bashforth-Moulton (fixed step) and Dormand-Prince Runge-Kutta 5th/4th Order
 
+[dop853](https://github.com/jacobwilliams/dop853): modern Fortran (2003/2008) implementation of Hairer's DOP853 ODE solver, by Jacob Williams. The original FORTRAN 77 code has been extensively refactored, and is now object-oriented and thread-safe, with an easy-to-use class interface. DOP853 is an explicit Runge-Kutta method of order 8(5,3) due to Dormand & Prince (with stepsize control and dense output).
+
 [dvode](https://github.com/jacobwilliams/dvode): Modern Fortran Edition of the [DVODE](https://computing.llnl.gov/projects/odepack) ODE Solver, by Jacob Williams
 
 [Fortran Library for numerical INTegration of differential equations (FLINT)](https://github.com/princemahajan/FLINT): modern object-oriented fortran library that provides four adaptive step-size explicit Runge-Kutta (ERK) methods of order 5, 6, 8, and 9 along with dense-output and multiple event-detection support for each of the methods, by Bharat Mahajan. The code is written such that any other ERK method can be implemented by including its coefficients with minimum changes required in the code. 
@@ -1063,6 +1091,8 @@
 [Minpack](https://github.com/jacobwilliams/minpack): modernization of the original Fortran 77 code, by Jacob Williams
 
 [nlopt-f](https://github.com/awvwgk/nlopt-wrap): Fortran bindings for the NLopt library, by awvwgk. While the NLopt library supports Fortran by using implicit interface calling conventions, those are not type-safe. 
+
+[nonlin](https://github.com/jchristopherson/nonlin): solves systems of nonlinear equations, by jchristopherson
 
 [optgra](https://github.com/jacobwilliams/optgra): optimization algorithm specifically designed for near-linear constrained problems, which commonly occur in trajectory optimization, developed and implemented by Johannes Schoenmaekers, and modernized by Jacob Williams
 
@@ -1145,6 +1175,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 [General Quantum Chemistry Properties Grabber (gpg)](https://github.com/lukaswittmann/gpg): obtains a wide range of properties, including molecular geometries, electronic energies, dipole moments, vibrational frequencies, from the output files of popular quantum chemistry software packages, including ORCA, Qchem and Turbomole, by Lukas Wittmann
 
 [Geometrical Counter-Poise Correction (gcp)](https://github.com/grimme-lab/gcp): an associated paper is [A geometrical correction for the inter- and intra-molecular basis set superposition error in Hartree-Fock and density functional theory calculations for large systems](https://pubs.aip.org/aip/jcp/article-abstract/136/15/154101/941628/A-geometrical-correction-for-the-inter-and-intra), by Holger Kruse and Stefan Grimme, Journal of Chemical Physics (2012)
+
+[hartree-fock](https://github.com/lukaswittmann/hartree-fock): simple implementation of the Hartree-Fock algorithm, by Lukas Wittmann. STO-nG basis sets are used, which are generated from Slater exponents given in the input file. Some parts like the input reader and straightforward functions were taken from Marvin Friede's [hartree-fock](https://github.com/marvinfriede/hartree-fock) implementation. 
 
 [HoneyTools](https://github.com/QcmPlab/HoneyTools) modules by Gabriele Bellomia to easily deal with nontrivial honeycomb structures in real-space: generate the coordinates, compute all the neighbor-shells, get direct access to logical masks for nearest and next-nearest neighbors (nth-order can be easily computed from the shell table), hence readily build tight-binding hamiltonians, or any other lattice quantity requiring real-space geometrical information.
 
@@ -1379,7 +1411,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2897.62
+time elapsed (s): 2175.15
 
 
-date of check: 2026-02-26 10:25:04 GMT
+date of check: 2026-02-27 04:06:21 GMT
