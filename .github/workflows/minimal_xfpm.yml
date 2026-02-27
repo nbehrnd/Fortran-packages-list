@@ -64,7 +64,7 @@ jobs:
             wget https://raw.githubusercontent.com/Beliavsky/Fortran-code-on-GitHub/refs/heads/main/README.md -O raw_data
             wc -l raw_data
 
-            xfpm raw_data > report.md
+            xfpm -t raw_data > report.md
 
             ls -lash
             mv report.md README.md
