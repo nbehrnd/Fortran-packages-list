@@ -326,6 +326,8 @@
 
 [fpm-search](https://github.com/urbanjost/fpm-search): finds information about registered fpm (Fortran Package Manager) packages, by urbanjost
 
+[fpm-watch](https://github.com/gha3mi/fpm-watch): plugin for the Fortran Package Manager that automatically rebuilds, tests or runs a project whenever relevant source files change, by Seyed Ali Ghasemi. It supports dependency awareness, low CPU idle mode and automatic restart capability.
+
 [fpx.f](https://github.com/davidpfister/fpx.f): simple, embeddable, open-source preprocessor written in modern Fortran, by David Pfister. It is mostly compliant to a C preprocessor, fine-tuned for the specificity of the Fortran language.
 
 [prep](https://github.com/urbanjost/prep): streamlined pre-processor primarily designed for use with Fortran, by urbanjost. It does not support procedural macros but does support variable substitution and reusable free-format text blocks which allows for basic templating as well as easy construction of multi-line CHARACTER variables; and is quite capable of supporting traditional conditional compilation.
@@ -1090,10 +1092,6 @@
 
 [Minpack](https://github.com/jacobwilliams/minpack): modernization of the original Fortran 77 code, by Jacob Williams
 
-[nlopt-f](https://github.com/awvwgk/nlopt-wrap): Fortran bindings for the NLopt library, by awvwgk. While the NLopt library supports Fortran by using implicit interface calling conventions, those are not type-safe. 
-
-[nonlin](https://github.com/jchristopherson/nonlin): solves systems of nonlinear equations, by jchristopherson
-
 [optgra](https://github.com/jacobwilliams/optgra): optimization algorithm specifically designed for near-linear constrained problems, which commonly occur in trajectory optimization, developed and implemented by Johannes Schoenmaekers, and modernized by Jacob Williams
 
 [pikaia](https://github.com/jacobwilliams/pikaia): Modern Fortran Edition of the Pikaia Genetic Algorithm by Jacob Williams
@@ -1411,7 +1409,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3180.67
+time elapsed (s): 2293.16
 
 
-date of check: 2026-02-28 04:03:37 GMT
+date of check: 2026-03-01 04:19:49 GMT
