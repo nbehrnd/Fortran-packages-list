@@ -580,9 +580,9 @@
 
 [fed](https://github.com/degawa/fed): functions to make it easier to create Fortran edit descriptors, by Tomohiro Degawa
 
-[fmmap](https://github.com/PierUgit/fmmap): provides some of the features of the C posix or Windows memory mapped files under a simple and unique Fortran interface, by PierUgit. Two uses are allocating arrays that are potentially bigger the RAM+swap size, and which are backed in a temporary file (anonymous mapping), and opening existing files or creating new files, and mapping them to an array.
-
 [flibcsv](https://github.com/freevryheid/flibcsv): bindings by Andre Smit to [libcsv](https://github.com/rgamble/libcsv), a fast and flexible CSV library written in pure ANSI C that can read and write CSV data
+
+[fmmap](https://github.com/PierUgit/fmmap): provides some of the features of the C posix or Windows memory mapped files under a simple and unique Fortran interface, by PierUgit. Two uses are allocating arrays that are potentially bigger the RAM+swap size, and which are backed in a temporary file (anonymous mapping), and opening existing files or creating new files, and mapping them to an array.
 
 [fortran_huffman](https://github.com/Euler-37/fortran_huffman): Huffman code compression, by Euler-37
 
@@ -1092,6 +1092,10 @@
 
 [Minpack](https://github.com/jacobwilliams/minpack): modernization of the original Fortran 77 code, by Jacob Williams
 
+[nlopt-f](https://github.com/awvwgk/nlopt-wrap): Fortran bindings for the NLopt library, by awvwgk. While the NLopt library supports Fortran by using implicit interface calling conventions, those are not type-safe. 
+
+[nonlin](https://github.com/jchristopherson/nonlin): solves systems of nonlinear equations, by jchristopherson
+
 [optgra](https://github.com/jacobwilliams/optgra): optimization algorithm specifically designed for near-linear constrained problems, which commonly occur in trajectory optimization, developed and implemented by Johannes Schoenmaekers, and modernized by Jacob Williams
 
 [pikaia](https://github.com/jacobwilliams/pikaia): Modern Fortran Edition of the Pikaia Genetic Algorithm by Jacob Williams
@@ -1409,7 +1413,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2293.16
+time elapsed (s): 2966.39
 
 
-date of check: 2026-03-01 04:19:49 GMT
+date of check: 2026-03-02 04:20:37 GMT
