@@ -1120,8 +1120,6 @@
 
 [cafut](https://github.com/renatomatz/cafut): provides a simple, object-oriented unit testing framework meant for applications using Coarray Fortran, by Renato Zimmermann
 
-from the companion website to the book [CUDA Fortran for Scientists and Engineers](http://store.elsevier.com/product.jsp?isbn=9780124169708)
-
 [Emulators](https://github.com/sourceryinstitute/emulators): emulated collectives collection: collective subroutines and other procedures designed to emulate or extend standard language features, by Damian Rouson. Emulated features include the Fortran 2008 intrinsic function findloc and the Fortran 2018 collective subroutines co_sum and co_broadcast.
 
 [forthread](https://github.com/jordan4ibanez/forthread): threading library with a simple binding to POSIX pthread, by jordan4ibanez. It comes with a thread pool/dispatcher, a concurrent FILO linked queue, and a concurrent FILO array queue.
@@ -1413,7 +1411,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2966.39
+time elapsed (s): 2217.67
 
 
-date of check: 2026-03-02 04:20:37 GMT
+date of check: 2026-03-03 04:10:50 GMT
