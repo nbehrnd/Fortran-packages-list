@@ -4,7 +4,7 @@ name: minimal_xfpm
 # purpose : automate updates of the README.md file based on a remote README.md
 # author  : nbehrnd@yahoo.com
 # date    : [2026-02-26 Thu]
-# edit    :
+# edit    : [2026-02-27 Fri]
 
 # Beliavsky et al. curate a list about GitHub hosted projects using Fortran.[1]
 # Script xfpm.py processes these data to eventually write a new README.md about
@@ -45,7 +45,7 @@ jobs:
       - name: Install dependencies with PyPI, check installations
         run: |
             python -m pip install --upgrade pip
-            pip install -r requirements.txt
+            pip install .
 
             echo "test the installations:"
             echo " "
@@ -57,14 +57,14 @@ jobs:
 
       - name: Check for presence of the script
         run: |
-            python xfpm.py -h
+            xfpm -h
 
       - name: And work
         run: |
             wget https://raw.githubusercontent.com/Beliavsky/Fortran-code-on-GitHub/refs/heads/main/README.md -O raw_data
             wc -l raw_data
 
-            python xfpm.py raw_data > report.md
+            xfpm raw_data > report.md
 
             ls -lash
             mv report.md README.md
