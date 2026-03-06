@@ -1028,8 +1028,6 @@
 
 [dcuhre](https://github.com/Zaneham/dcuhre): multidimensional adaptive integration, TOMS Algorithm 698 by Berntsen et al., modernized by Zane Hambly
 
-[GaussJacobiQuad](https://github.com/HaoZeke/GaussJacobiQuad): routines for the Gauss-Jacobi Quadrature, by Rohit Goswami and Ondřej Čertík
-
 [integrate_fortran](https://github.com/Euler-37/integrate_fortran): Gauss-Legendre quadrature for 1D and multidimensional integrals, by Euler-37
 
 [kronrod](https://github.com/jacobwilliams/kronrod): generates [Gauss-Kronrod](https://en.wikipedia.org/wiki/Gauss%E2%80%93Kronrod_quadrature_formula) coefficients, by Jacob Williams
@@ -1413,7 +1411,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3275.58
+time elapsed (s): 2727.20
 
 
-date of check: 2026-03-05 04:23:47 GMT
+date of check: 2026-03-06 04:12:40 GMT
