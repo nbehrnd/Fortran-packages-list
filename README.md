@@ -1012,8 +1012,6 @@
 
 [NumDiff](https://github.com/jacobwilliams/NumDiff): modern Fortran numerical differentiation library, by Jacob Williams
 
-[numerical-analysis](https://github.com/JeffIrwin/numerical-analysis): exercises from the textbook [Introduction to numerical analysis](https://link.springer.com/book/10.1007/978-0-387-21738-3) by J. Stoer and R. Bulirsch, by Jeff Irwin
-
 [Numerical_utilities](https://github.com/osada-yum/Numerical_utilities): Kahan algorithms for the sum, variance, and covariance, using MPI, by osada-yum
 
 [rational_number](https://github.com/art-rasa/rational_number): procedures for rational numbers, such as arithmetic operations, conversion to and from real variables, and conversion to a string, by art-rasa
@@ -1413,7 +1411,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2984.25
+time elapsed (s): 2475.46
 
 
-date of check: 2026-03-07 04:06:36 GMT
+date of check: 2026-03-08 04:11:57 GMT
