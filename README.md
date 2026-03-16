@@ -876,8 +876,6 @@
 
 [PCHIP](https://github.com/jacobwilliams/PCHIP): piecewise cubic Hermite interpolation of data, by Jacob Williams. It features software to produce a monotone and "visually pleasing" interpolant to monotone data.
 
-[regridpack](https://github.com/jacobwilliams/regridpack): routines for interpolating values between one-, two-, three-, and four-dimensional arrays defined on uniform or nonuniform orthogonal grids, from Jacob Williams
-
 
 
 ## Linear Algebra
@@ -1413,7 +1411,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2691.55
+time elapsed (s): 2377.95
 
 
-date of check: 2026-03-15 04:35:25 GMT
+date of check: 2026-03-16 04:34:15 GMT
