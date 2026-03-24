@@ -382,6 +382,8 @@
 
 ## Containers and Generic Programming
 
+[any](https://github.com/degawa/any): user-defined type for mimicking procedures that can return different types, by Tomohiro Degawa
+
 [array_range](https://github.com/degawa/array_range): provides user-defined types array_range{1|2|3}d_type to improve the manipulation of bounds of Fortran arrays, by Tomohiro Degawa
 
 [bitfield](https://github.com/PierUgit/bitfield): implementation of 1D bit array, by PierUgit
@@ -974,6 +976,8 @@
 
 [neural-fortran](https://github.com/modern-fortran/neural-fortran): parallel neural net microframework, from modern-fortran
 
+[wandb-fortran](https://github.com/nedtaylor/wandb-fortran): interface for [Weights & Biases](https://wandb.ai/site/) to enable training metrics logging and sweeps directly in Fortran, by Ned Taylor
+
 
 
 ## Nonlinear Equations
@@ -1382,6 +1386,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [M_framework](https://github.com/urbanjost/M_framework): aggregate of Fortran modules useful for creating terminal messages, comparing expected values to results, writing logfiles and playback journals and performing unit tests for Fortran, by urbanjost
 
+[par-funnel](https://github.com/degawa/par-funnel): unit test parameterizer using namelist, by Tomohiro Degawa. Par-funnel is not a unit test framework but is intended to be used with other unit test frameworks.
+
 [test-drive](https://github.com/fortran-lang/test-drive): lightweight, procedural unit testing framework based on nothing but standard Fortran, by Sebastian Ehlert and Jeremie Vandenplas. Integration with meson, cmake and Fortran package manager (fpm) is available.
 
 [testdrive_util](https://github.com/degawa/testdrive_util): provides procedures to improve the convenience of [test-drive](https://github.com/fortran-lang/test-drive), by Tomohiro Degawa
@@ -1409,7 +1415,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2470.19
+time elapsed (s): 3144.53
 
 
-date of check: 2026-03-23 04:25:08 GMT
+date of check: 2026-03-24 04:27:38 GMT
