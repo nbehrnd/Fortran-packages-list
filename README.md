@@ -610,8 +610,6 @@
 
 [nc4fortran](https://github.com/geospace-code/nc4fortran): object-oriented Fortran NetCDF4 interface, by geospace-code
 
-[NetCDF Input-Output (NCIO)](https://github.com/alex-robinson/ncio): simple Fortran interface to NetCDF reading and writing, by alex-robinson
-
 [Return of JSON for Fortran (rojff)](https://github.com/everythingfunctional/rojff): with an interface inspired by [jsonff](https://gitlab.com/everythingfunctional/jsonff), the data semantics and parser are redesigned to allow for high performance, by Brad Richardson and kmorris
 
 [stl-fortran](https://github.com/jacobwilliams/stl-fortran): Fortran STL (stereolithography) File I/O, by Jacob Williams
@@ -1415,7 +1413,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3144.53
+time elapsed (s): 3367.95
 
 
-date of check: 2026-03-24 04:27:38 GMT
+date of check: 2026-03-25 04:34:20 GMT
