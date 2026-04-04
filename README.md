@@ -992,6 +992,8 @@
 
 ## Numerical Methods
 
+[fastconv](https://github.com/gronki/fastconv): simple library for 1D and 2D convolutions, by Dominik Gronkiewicz
+
 [fastmath](https://github.com/perazz/fastmath): library for fast, approximate math functions: exp, log, 1/sqrt, by Federico Perini. These functions provide fast, approximate evaluations of the exponential, logarithm and normalization functions in 64-bit precision.
 
 [fast_math](https://github.com/jalvesz/fast_math): collection of functions for fast number crunching, including a fast and precise sum and dot_product for 1D arrays, a reciprocal square root, the logarithm, and trigonometric functions, by jalvesz
@@ -1415,7 +1417,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3170.73
+time elapsed (s): 2374.32
 
 
-date of check: 2026-04-03 04:38:37 GMT
+date of check: 2026-04-04 04:13:32 GMT
