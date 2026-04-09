@@ -910,6 +910,8 @@
 
 [LightKrylov](https://github.com/nekStab/LightKrylov): provides a simple set of Krylov-based techniques to study the spectral properties of the exponential propagator. Associated paper: R. S. Frantz, J.-Ch. Loiseau, and J.-Ch. Robinet. [Krylov methods for large-scale dynamical systems: applications in fluid dynamics.](https://asmedigitalcollection.asme.org/appliedmechanicsreviews/article-abstract/75/3/030802/1156502/Krylov-Methods-for-Large-Scale-Dynamical-Systems?redirectedFrom=fulltext) Appl. Mech. Rev., 2023.
 
+[linalg](https://github.com/jchristopherson/linalg): linear algebra library that provides a user-friendly interface to several BLAS and LAPACK routines, by jchristopherson
+
 [linalg_fortran](https://github.com/Euler-37/linalg_fortran): interface to Lapack procedures that invert matrices, compute determinants, compute eigenvalues and eigenvectors of symmetric or Hermitian matrices, and compute U*A*U.T, by Euler-37
 
 [LSMR](https://github.com/jacobwilliams/LSMR): code for sparse equations and least squares, originally by David Fong and Michael Saunders, updated by Jacob Williams
@@ -1087,6 +1089,8 @@
 [libdogleg-f](https://github.com/ivan-pi/libdogleg-f): Fortran bindings to libdogleg - a large-scale nonlinear least-squares optimization library, by Ivan Pribec. Currently only the dense optimizer calls are supported.
 
 [LightConvex](https://github.com/loiseaujc/LightConvex): convex programming solvers that provide an easy-to-use API for solving both dense and sparse convex programs, by Jean-Christophe Loiseau
+
+[linprog](https://github.com/loiseaujc/linprog): simplex solver for linear programming, by Jean-Christophe Loiseau
 
 [Minpack](https://github.com/certik/minpack): library for solving nonlinear equations and nonlinear least squares problems, with CMake makefiles and examples by certik et al.
 
@@ -1413,7 +1417,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2402.08
+time elapsed (s): 3103.10
 
 
-date of check: 2026-04-08 04:31:49 GMT
+date of check: 2026-04-09 04:39:42 GMT
