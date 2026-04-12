@@ -392,8 +392,6 @@
 
 [collections](https://github.com/jchristopherson/collections): set of types supporting collections in Fortran, by Jason Christopherson. Currently, the library contains a generic, dynamically sizable list and a generic linked-list type.
 
-[DataFort](https://github.com/rngil/DataFort): dataframes library, providing pandas/polars/dplyr-like functionality for scientific computing and data analysis, by Renee Gil
-
 [enhanced-allocatables](https://github.com/PierUgit/enhanced-allocatables): proposal to extend allocatable arrays to be dynamically reallocatable/resizable, with an implementation that calls C++, by PierUgit
 
 [for_fifo_queue](https://github.com/jordan4ibanez/for_fifo_queue): dense linked fifo queue, by jordan4ibanez. It is dense because it allows unlimited polymorphism in the queue without using additional indirection.
@@ -1417,7 +1415,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2624.09
+time elapsed (s): 3293.49
 
 
-date of check: 2026-04-11 04:21:08 GMT
+date of check: 2026-04-12 05:06:08 GMT
