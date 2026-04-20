@@ -498,8 +498,6 @@
 
 [1976-standard-atmosphere](https://github.com/jacobwilliams/1976-standard-atmosphere): U.S. Committee on Extension to the Standard Atmosphere (COESA) atmosphere model, translated by Jacob Williams from the Julia code from [COESA.jl](https://github.com/danielmatz/COESA.jl)
 
-[gravmod3d](https://github.com/ofmla/gravmod3d): 3D forward modeling of bodies discretized by rectangular prisms with parabolic density contrast, an implementation by Oscar Mojica of the three-dimensional gravity modeling with parabolic density contrast presented in the paper [3-D forward gravity modeling of basement interfaces above which the density contrast varies continuously with depth](https://www.sciencedirect.com/science/article/abs/pii/S0098300401000802) by V. Chakravarthi et al., Computers & Geosciences (2002)
-
 [hydroanalyzer_fortran](https://github.com/khaors/hydroanalyzer_fortran): program to analyze hydrological information, focused on frequency analysis of discharge data, calculating the potential evapotranspiration on a monthly scale using different methods, and performing a simple soil water balance using the [Thornwaite method](https://wwwbrr.cr.usgs.gov/projects/SW_MoWS/Thornthwaite.html), by Oscar Garcia-Cabrejo
 
 [Maptran 3D](https://github.com/geospace-code/maptran3d): Modern Fortran 3D coordinate conversions for geospace ecef enu eci, from geospace-code.  Similar to Python PyMap3D and Matlab Matmap3d.
@@ -1415,7 +1413,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2401.50
+time elapsed (s): 2447.41
 
 
-date of check: 2026-04-19 04:54:49 GMT
+date of check: 2026-04-20 05:00:56 GMT
