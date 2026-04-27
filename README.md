@@ -400,6 +400,8 @@
 
 [Fortran mimetic abstraction language (Formal)](https://github.com/BerkeleyLab/formal): supports research on mimetic software abstractions for tensor calculus by providing
 
+[enumul](https://github.com/degawa/enumul): incomplete typed enumerator emulator for Fortran, by Tomohiro Degawa
+
 [fhash](https://github.com/LKedward/fhash): hash table with support for generic keys and values, by Laurence Kedward
 
 [flinkedlist](https://github.com/sakamoti/flinkedlist): object-oriented library providing an simple linked list, with the ability to sort elements with a user-defined function, apply a user-defined function in each node, and a convenience method to aid print debugging by automatically displaying variables of built-in types and providing a dedicated display function for user-defined types, by Yuichiro Sakamoto
@@ -974,8 +976,6 @@
 
 [neural-fortran](https://github.com/modern-fortran/neural-fortran): parallel neural net microframework, from modern-fortran
 
-[wandb-fortran](https://github.com/nedtaylor/wandb-fortran): interface for [Weights & Biases](https://wandb.ai/site/) to enable training metrics logging and sweeps directly in Fortran, by Ned Taylor
-
 
 
 ## Nonlinear Equations
@@ -1059,6 +1059,10 @@
 [ODEPACK](https://github.com/jacobwilliams/odepack): collection of solvers for the initial value problem for ordinary differential equation systems
 
 [odepack](https://github.com/Nicholaswogan/odepack): Modern Fortran interface by Nick Wogan for the LSODA and LSODAR routines in ODEPACK, which is for solving ordinary differential equation initial value problems. This repository contains a modified version of ODEPACK which is threadsafe.
+
+[rkf45](https://github.com/zoziha/rkf45): Fehlberg fourth-fifth order Runge-Kutta method, adapted by zoziha from the code at Netlib
+
+[rklib](https://github.com/jacobwilliams/rklib): Fixed and variable-step Runge-Kutta solvers in Modern Fortran, by Jacob Williams
 
 [stiff3](https://github.com/ivan-pi/stiff3): subprogram for solving stiff autonomous systems of ordinary differential equations (ODE's) using a semi-implicit Runge-Kutta method with three steps (SIRK3), by Ivan Pribec and Sebastian Ehlert. The stiff3 source code was originally published in the following book: Villadsen, J., & Michelsen, M. L. (1978). [Solution of differential equation models by polynomial approximation](http://www.gbv.de/dms/ilmenau/toc/011270667.PDF). Prentice-Hall, Inc.
 
@@ -1409,7 +1413,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2382.84
+time elapsed (s): 3380.43
 
 
-date of check: 2026-04-26 05:02:58 GMT
+date of check: 2026-04-27 05:27:40 GMT
