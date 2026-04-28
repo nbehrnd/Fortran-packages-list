@@ -976,6 +976,8 @@
 
 [neural-fortran](https://github.com/modern-fortran/neural-fortran): parallel neural net microframework, from modern-fortran
 
+[wandb-fortran](https://github.com/nedtaylor/wandb-fortran): interface for [Weights & Biases](https://wandb.ai/site/) to enable training metrics logging and sweeps directly in Fortran, by Ned Taylor
+
 
 
 ## Nonlinear Equations
@@ -1147,8 +1149,6 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 ## Physics
-
-[codata](https://github.com/MilanSkocic/codata): provides the codata constants 2010, 2014 and 2018, by Milan Skocic. The raw codata from http://physics.nist.gov/constants are parsed line by line where the columns name, value, uncertainty and unit are formatted to be conform to Fortran double precision. [pycodata](https://github.com/MilanSkocic/pycodata) is a Python wrapper.
 
 [electron-phonon Boltzmann transport (elphbolt)](https://github.com/nakib/elphbolt): Fortran 2018 code for solving the coupled electron and phonon Boltzmann transport equations (BTEs), by nakib. Using ab initio electron-phonon and phonon-phonon interactions and a fully wave vector and electron band/phonon branch resolved formulation of the BTEs, elphbolt can calculate the phonon and electronic thermal conductivities; electronic conductivity; phonon and electronic contributions to the thermopower; and effect of the mutual electron-phonon drag on the transport coefficients listed above.
 
@@ -1413,7 +1413,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3380.43
+time elapsed (s): 3317.80
 
 
-date of check: 2026-04-27 05:27:40 GMT
+date of check: 2026-04-28 05:29:45 GMT
