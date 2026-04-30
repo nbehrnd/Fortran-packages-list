@@ -1174,6 +1174,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [Dissociative Recombination and Photo-Ionization (DRIP)](https://github.com/banana-bred/DRIP): code used to study dissociative recombination, but the framework upon which it is based allows for the calculation of RVE/PI cross sections and reaction rate coefficients, by banana-bred
 
+[Finite Element Solvers for Atomic Structure Calculations (featom)](https://github.com/atomic-solvers/featom): library implementing accurate and efficient radial Schrödinger and Dirac finite element solvers, by Ondřej Čertík, Rohit Goswami, and Isuru Fernando. The formulation admits general potentials and meshes: uniform, exponential, or other.
+
 [General Quantum Chemistry Properties Grabber (gpg)](https://github.com/lukaswittmann/gpg): obtains a wide range of properties, including molecular geometries, electronic energies, dipole moments, vibrational frequencies, from the output files of popular quantum chemistry software packages, including ORCA, Qchem and Turbomole, by Lukas Wittmann
 
 [Geometrical Counter-Poise Correction (gcp)](https://github.com/grimme-lab/gcp): an associated paper is [A geometrical correction for the inter- and intra-molecular basis set superposition error in Hartree-Fock and density functional theory calculations for large systems](https://pubs.aip.org/aip/jcp/article-abstract/136/15/154101/941628/A-geometrical-correction-for-the-inter-and-intra), by Holger Kruse and Stefan Grimme, Journal of Chemical Physics (2012)
@@ -1287,6 +1289,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 [fitpack](https://github.com/perazz/fitpack): modern Fortran translation by Federico Perini of the [FITPACK](http://www.netlib.org/dierckx) package for curve and surface fitting by Paul Dierckx
 
 [FJsample](https://github.com/RJaBi/FJsample): jackknife resampling, with Python bindings, by Ryan Bignell
+
+[Fortran Statistics and Machine Learning Library (fsml)](https://github.com/sebastian-mutz/fsml): scientific toolkit consisting of common statistical and machine learning procedures, including basic statistics (e.g., mean, variance, correlation), common statistical tests (e.g., t-test, Kolmogorov-Smirnov), linear parametric methods and models (e.g., principal component analysis, discriminant analysis, Bayesian classifier), and non-linear statistical and machine learning procedures (e.g., k-means clustering), by Sebastian G. Mutz
 
 [fstats](https://github.com/jchristopherson/fstats): modern statistical library containing routines for computing basic statistical properties, hypothesis testing, regression, special functions, and even experimental design, by Jason Christopherson
 
@@ -1411,7 +1415,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3214.43
+time elapsed (s): 2486.47
 
 
-date of check: 2026-04-29 05:24:06 GMT
+date of check: 2026-04-30 05:14:15 GMT
