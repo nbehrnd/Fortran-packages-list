@@ -414,6 +414,8 @@
 
 [fortran_vector](https://github.com/Euler-37/fortran_vector): derived type for vector of integers, with procedures `init`, `append`, `size`, `pop`, `remove`, `delete`, `unique`, `sort`, `cut`, and `clear`, by Euler-37
 
+[fxarray](https://github.com/openEarthModelling/fxarray): library for labeled multi-dimensional arrays, inspired by [xarray](https://github.com/pydata/xarray), by Fan Zhang. It provides registry-based state management for scientific simulations, with support for NetCDF/HDF5 I/O, parallel computing via MPI, and GPU/parallel kernel dispatch via Kokkos.
+
 [hashmap_f90](https://github.com/jordan4ibanez/hashmap_f90): bindings to [hashmap.c](https://github.com/tidwall/hashmap.c), by jordan4ibanez
 
 [integer_set](https://github.com/jordan4ibanez/integer_set): simple unoptimized 32-bit and 64-bit integer sets, by jordan4ibanez
@@ -1150,6 +1152,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 ## Physics
 
+[8bandkp-fdm](https://github.com/tiagocampo/8bandkp-fdm): implements 8band zinc-blende k·p-method using finite difference method, working for bulk and quantum-wells, by Tiago de Campos
+
 [codata](https://github.com/MilanSkocic/codata): provides the codata constants 2010, 2014 and 2018, by Milan Skocic. The raw codata from http://physics.nist.gov/constants are parsed line by line where the columns name, value, uncertainty and unit are formatted to be conform to Fortran double precision. [pycodata](https://github.com/MilanSkocic/pycodata) is a Python wrapper.
 
 [electron-phonon Boltzmann transport (elphbolt)](https://github.com/nakib/elphbolt): Fortran 2018 code for solving the coupled electron and phonon Boltzmann transport equations (BTEs), by nakib. Using ab initio electron-phonon and phonon-phonon interactions and a fully wave vector and electron band/phonon branch resolved formulation of the BTEs, elphbolt can calculate the phonon and electronic thermal conductivities; electronic conductivity; phonon and electronic contributions to the thermopower; and effect of the mutual electron-phonon drag on the transport coefficients listed above.
@@ -1415,7 +1419,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2486.47
+time elapsed (s): 3175.42
 
 
-date of check: 2026-04-30 05:14:15 GMT
+date of check: 2026-05-01 05:43:34 GMT
