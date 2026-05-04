@@ -888,8 +888,6 @@
 
 [Fortran GeneraL Math modules (fglm)](https://github.com/jordan4ibanez/fglm): defines types and operations for a 4x4 matrix and 3-element vectors, for `int32`, `real32`, and `real64` data, providing some functionality of the JOML – Java OpenGL Math Library, by jordan4ibanez
 
-[ForBLAS](https://github.com/gha3mi/forblas): compile the BLAS and their drivers using the Fortran Package Manager, by Seyed Ali Ghasemi. [ForLAPACK](ForLAPACK) does so for LAPACK. 
-
 [ForSVD](https://github.com/gha3mi/forsvd) provides functions and subroutines for calculating the singular value decomposition (SVD) of a matrix, calling LAPACK. [ForEig](https://github.com/gha3mi/foreig) calculates eigenvalues and eigenvectors using LAPACK or MKL. [ForPCA](https://github.com/gha3mi/forpca) does principal component analysis (PCA).
 
 [ForInv](https://github.com/gha3mi/forinv) calculates the inverse and pseudoinverse of a matrix.
@@ -969,8 +967,6 @@
 [fastGPT](https://github.com/certik/fastGPT): fast GPT-2 inference, by Ondřej Čertík, described in a post [FastGPT: Faster than PyTorch in 300 Lines of Fortran](https://ondrejcertik.com/blog/2023/03/fastgpt-faster-than-pytorch-in-300-lines-of-fortran/)
 
 [forncnn](https://github.com/mizu-bai/forncnn): experimental Fortran binding for [ncnn](https://github.com/Tencent/ncnn) c_api, by mizu-bai. Ncnn is a high-performance neural network inference framework optimized for the mobile platform.
-
-[Fortran FLANN binding](https://github.com/ivan-pi/fortran-flann): Fortran bindings to the FLANN library for performing fast approximate nearest neighbor searches in high dimensional spaces, by ivan-pi
 
 [Inference-Engine](https://github.com/BerkeleyLab/inference-engine): software library by Damian Rouson et al. for researching ways to efficiently propagate inputs through deep, feed-forward neural networks exported from Python by the companion package nexport
 
@@ -1340,8 +1336,6 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [ryu_fortran](https://github.com/St-Maxwell/ryu_fortran): Ryu algorithm which converts floating point numbers to decimal strings, by St Maxwell. It is more effective than internal file approach. This implementation is based on the Scala version of Ryu.
 
-[scanner](https://github.com/freevryheid/scanner): text scanner for parsing, by Andre Smit
-
 [strff](https://github.com/everythingfunctional/strff): library of string functions, by Brad Richardson
 
 [StringiFor](https://github.com/szaghi/StringiFor): Strings Fortran Manipulator with steroids, by szaghi
@@ -1419,7 +1413,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2522.44
+time elapsed (s): 2447.84
 
 
-date of check: 2026-05-03 05:23:10 GMT
+date of check: 2026-05-04 05:21:15 GMT
