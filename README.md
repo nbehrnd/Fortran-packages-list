@@ -726,6 +726,8 @@
 
 [M_readline](https://github.com/urbanjost/M_readline): interface to the commonly available C procedure readline(3c). to provide a familiar command history interface for interactive programs, by urbanjost
 
+[M_sets](https://github.com/urbanjost/M_sets): basic set functions reminiscent of those in Matlab: `union`, `unique`, `intersect`, `setdiff`, `ismember`, `setxor`, by urbanjost
+
 [M_stopwatch](https://github.com/urbanjost/M_stopwatch): package for measuring cpu and wall clock execution time by urbanjost, based on [StopWatch](https://math.nist.gov/StopWatch/). It supports the wall clock, CPU clock, and a breakdown of the CPU clock into user and system times.
 
 [oolong](https://github.com/EdHone/oolong): object-oriented logging system by Ed Hone that aims to provide a simple, flexible logging interface that will enable a wide range of logging functionality for a wide range of model paradigms
@@ -1417,7 +1419,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2809.31
+time elapsed (s): 3178.09
 
 
-date of check: 2026-05-05 05:03:36 GMT
+date of check: 2026-05-06 05:27:11 GMT
