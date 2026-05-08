@@ -578,6 +578,8 @@
 
 ## File I/O
 
+[fcat](https://github.com/soonsimple/fcat): port of `cat` command used to concatenate file(s) to standard output, by soonsimple
+
 [fed](https://github.com/degawa/fed): functions to make it easier to create Fortran edit descriptors, by Tomohiro Degawa
 
 [flibcsv](https://github.com/freevryheid/flibcsv): bindings by Andre Smit to [libcsv](https://github.com/rgamble/libcsv), a fast and flexible CSV library written in pure ANSI C that can read and write CSV data
@@ -1206,6 +1208,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 ## Random Number Generation
 
+[mersenne-twister-fortran](https://github.com/jacobwilliams/mersenne-twister-fortran): Mersenne Twister pseudorandom number generator, by Jacob Williams
+
 [M_random](https://github.com/urbanjost/M_random): module of pseudo random procedures, by urbanjost
 
 [pointsets](https://github.com/arjenmarkus/pointsets): modules to construct points in N-dimensional space, such as methods to visit grid points in N-dimensional space, generate points in N-dimensional space based on Latin hypercube samping, generate regularly spaced and pseudo-random points in N-dimensional space, generate quasi-random points in Euclidean N-dimensional space, unit circle, disk, sphere or ball, and return an array of integers in a random order, by Arjen Markus
@@ -1249,6 +1253,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 ## Sorting
+
+[fortran-iterative-quicksort](https://github.com/mustafa-ayyub/fortran-iterative-quicksort): generic, pure, memory-safe Quicksort implementation for embedded systems, by Mustafa Ayyub. It works on `integer` and `real` arrays.
 
 [fortran-search-and-sort](https://github.com/jacobwilliams/fortran-search-and-sort): Searching and sorting with modern Fortran, by Jacob Williams
 
@@ -1413,7 +1419,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2575.93
+time elapsed (s): 2514.68
 
 
-date of check: 2026-05-07 05:17:37 GMT
+date of check: 2026-05-08 04:58:10 GMT
