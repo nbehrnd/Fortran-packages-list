@@ -628,6 +628,8 @@
 
 [fortran_cubatures](https://github.com/willklausler/fortran_cubatures): numerical integration - primarily Gaussian integration - derived type for finite elements in 1 to 3 dimensions, by Will Klausler. Unit tests verify sum of weights, abscissae means, and polynomial integration.
 
+[fortran_shapefuncs](https://github.com/willklausler/fortran_shapefuncs): interpolation function derived type for standard domains (Lagrange) and infinite domains for finite elements in 1 to 3 dimensions, providing the functions as well as first and second derivatives with respect to the natural coordinates, by Will Klausler.
+
 [metis-fpm](https://github.com/gnikit/metis-fpm): Fortran API and a source repackaging by gnikit of [METIS](https://github.com/KarypisLab/METIS), a set of serial programs for partitioning graphs, partitioning finite element meshes, and producing fill reducing orderings for sparse matrices, from KarypisLab
 
 [ParMETIS for fpm](https://github.com/gnikit/parmetis-fpm): Fortran API and a source repackaging by gnikit of [ParMETIS](https://github.com/KarypisLab/ParMETIS), an MPI-based library for partitioning graphs, serial programs for partitioning graphs, partitioning finite element meshes, and producing fill reducing orderings for sparse matrices, from KarypisLab
@@ -919,6 +921,8 @@
 [lusol](https://github.com/jacobwilliams/lusol): sparse LU factorization for square and rectangular matrices A, with Bartels-Golub-Reid updates for column replacement and other rank-1 modifications, by Michael Saunders, updated by Jacob Williams
 
 [M_blas](https://github.com/urbanjost/M_blas): Fortran BLAS library implemented as a free-format module, by urbanjost
+
+[mfi](https://github.com/14NGiestas/mfi): modern Fortran Interfaces to BLAS and LAPACK, by 14NGiestas
 
 [M_LA](https://github.com/urbanjost/M_LA): small collection of linear algebra routines, including reshaping an array, creating a [magic square](https://en.wikipedia.org/wiki/Magic_square) array, and computing the determinant and inverse of a matrix, by urbanjost
 
@@ -1415,7 +1419,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2699.05
+time elapsed (s): 3204.34
 
 
-date of check: 2026-05-09 05:08:48 GMT
+date of check: 2026-05-10 05:38:16 GMT
