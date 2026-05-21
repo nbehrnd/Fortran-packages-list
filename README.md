@@ -1174,6 +1174,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [bsprvse](https://github.com/banana-bred/bsprvse): solves the (ro)vibrational Schödinger Equation with a basis of B-splines, optionally with a complex absorbing potential, by banana-bred
 
+[ddX](https://github.com/ACoM-Computational-Mathematics/ddX): package for continuum solvation models based on the domain decomposition paradigm. It contains a common interface for the three different methods ddCOSMO, ddPCM and ddLPB for the numerical solution to the COSMO, PCM and LPB solvation models, by mnottoli et al.
+
 [dftd4](https://github.com/dftd4/dftd4): Generally Applicable Atomic-Charge Dependent London Dispersion Correction
 
 [Dissociative Recombination and Photo-Ionization (DRIP)](https://github.com/banana-bred/DRIP): code used to study dissociative recombination, but the framework upon which it is based allows for the calculation of RVE/PI cross sections and reaction rate coefficients, by banana-bred
@@ -1419,7 +1421,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3596.42
+time elapsed (s): 3462.64
 
 
-date of check: 2026-05-20 06:06:18 GMT
+date of check: 2026-05-21 06:07:30 GMT
