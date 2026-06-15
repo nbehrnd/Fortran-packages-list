@@ -1002,6 +1002,8 @@
 
 [forlab](https://github.com/zoziha/forlab): module that provides a lot of functions for scientific computing mostly inspired by Matlab and Python's module NumPy, by zoziha
 
+[fortnum](https://github.com/lazy-fortran/fortnum): library special functions, integration, quadrature, FFT, ODE solvers, root finding, interpolation, and random number generation, by Christopher Albert. 
+
 [fortranpack](https://github.com/jacobwilliams/fortranpack): numerical and scientific programming package that combines many FPM packages, covering interpolation, optimization, CSV file I/O, directed acyclic graphs, ODEs, machine constants, searching and sorting, JSON files, RNG, nonlinear equations, numerical differentiation, root-finding, plotting, numerical integration, and spline approximation, by Jacob Williams
 
 [fortran-primes](https://github.com/perazz/fortran-primes): library to return the nth prime number, the prime numbers in a range, test if a number is prime, return the nth prime number greater than a specified number, and factor a number into primes, by Federico Perini, based in part on codes by Michal Forisek, David Deley and Primes.jl
@@ -1423,7 +1425,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3149.86
+time elapsed (s): 2733.74
 
 
-date of check: 2026-06-14 06:42:54 GMT
+date of check: 2026-06-15 07:11:23 GMT
