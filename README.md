@@ -482,6 +482,8 @@
 
 [SQLite for Fortran (sqliteff)](https://github.com/everythingfunctional/sqliteff): thin wrapper around the SQLite library, by Brad Richardson. The sqliteff_* functions are effectively identical to the sqlite3_* functions that would be called from C, but with Fortran intrinsics and types.
 
+[sqr](https://github.com/sgeard/sqr): lightweight, embeddable relational storage engine, by lightweight, embeddable relational storage engine written, by Simon Geard. It stores tables as fixed-record binary files in a directory, with on-disk B+-tree secondary indices, a physical rollback journal for crash-safe transactions, and two interactive front-ends — a state-graph shell and a small SQL-subset REPL.
+
 
 
 ## Dates and Times
@@ -1425,7 +1427,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2633.67
+time elapsed (s): 3447.42
 
 
-date of check: 2026-06-18 06:40:20 GMT
+date of check: 2026-06-19 07:19:30 GMT
