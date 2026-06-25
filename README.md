@@ -932,6 +932,8 @@
 
 [polynomial_arnoldi](https://github.com/loiseaujc/polynomial_arnoldi): polynomial Arnoldi preconditioner for GMRES, applied to the 2D Poisson equation, by Jean-Christophe Loiseau
 
+[qrupdate-ng](https://github.com/mpimd-csc/qrupdate-ng): library for fast updating of QR, LU, and Cholesky decompositions, by Jaroslav Hajek, updated by M. Koehler and C. Himpe
+
 [spag_lapack](https://github.com/urbanjost/spag_lapack): experimental WIP of LAPACK processed with plusFORT spag(1) and configured to build with FPM, by urbanjost
 
 [sparse_fortran](https://github.com/Euler-37/sparse_fortran): derived types for sparse matrices in COO and CSR format with functions for matrix multiplication, by Euler-37
@@ -1427,7 +1429,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2980.13
+time elapsed (s): 2566.87
 
 
-date of check: 2026-06-24 05:52:16 GMT
+date of check: 2026-06-25 05:49:18 GMT
