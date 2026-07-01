@@ -1429,7 +1429,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2494.00
+time elapsed (s): 2494.85
 
 
-date of check: 2026-06-30 05:46:21 GMT
+date of check: 2026-07-01 06:03:31 GMT
