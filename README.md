@@ -478,8 +478,6 @@
 
 [libpq-fortran](https://github.com/ShinobuAmasaki/libpq-fortran): interface by ShinobuAmasaki to the PostgreSQL [libpq C Library](https://www.postgresql.org/docs/current/libpq.html)
 
-[Open Database Connectivity (odbc.f)](https://github.com/davidpfister/odbc.f): interface designed to enable seamless interaction between Fortran applications and relational databases through the Open Database Connectivity (ODBC) standard, by David Pfister. It provides modules and procedures that allow developers to connect to ODBC-compliant databases, execute SQL queries, and manage data.
-
 [SQLite for Fortran (sqliteff)](https://github.com/everythingfunctional/sqliteff): thin wrapper around the SQLite library, by Brad Richardson. The sqliteff_* functions are effectively identical to the sqlite3_* functions that would be called from C, but with Fortran intrinsics and types.
 
 [sqr](https://github.com/sgeard/sqr): lightweight, embeddable relational storage engine, by lightweight, embeddable relational storage engine written, by Simon Geard. It stores tables as fixed-record binary files in a directory, with on-disk B+-tree secondary indices, a physical rollback journal for crash-safe transactions, and two interactive front-ends — a state-graph shell and a small SQL-subset REPL.
@@ -1429,7 +1427,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2424.35
+time elapsed (s): 3129.58
 
 
-date of check: 2026-07-07 05:33:24 GMT
+date of check: 2026-07-08 05:07:17 GMT
