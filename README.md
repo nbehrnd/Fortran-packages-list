@@ -788,6 +788,8 @@
 
 [fortran-sdl2](https://github.com/interkosmos/fortran-sdl2): collection of ISO C binding interfaces to Simple DirectMedia Layer 2.0 (SDL 2.0), for 2D and 3D game programming in Fortran, by interkosmos
 
+[fortran-grace](https://github.com/interkosmos/fortran-grace): collection of Fortran 2018 interfaces to the scientific plotting tool [Grace](https://plasma-gate.weizmann.ac.il/Grace/)/XmGrace, by interkosmos. This library covers the FORTRAN 77 and the C API of Grace. This library covers the FORTRAN 77 and the C API of Grace.
+
 [fortran-motif](https://github.com/interkosmos/fortran-motif): collection of ISO C binding interfaces to X/Motif, to create graphical user interfaces for Unix in Fortran 2008, by interkosmos. The library includes selected bindings to Xlib, Xt, Xm, and the XmHTML widget to render HTML 3.2 inside a Motif widget (optional).
 
 [fortran-simplify](https://github.com/jaiken17/fortran-simplify): module to reduce the over-sampled resolution of a [polyline](https://en.wikipedia.org/wiki/Polygonal_chain), implementing the nth_point, radial_distance, perpendicular distance, and Reumann-Witkam algorithms, by Joshua Aiken. This process can be useful when working with data that is noisy but usable with a significantly reduced resolution.
@@ -1422,12 +1424,10 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 ## XML
 
-[FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
-
 
 
 -----
-time elapsed (s): 2793.19
+time elapsed (s): 3422.01
 
 
-date of check: 2026-07-14 04:43:38 GMT
+date of check: 2026-07-15 05:02:30 GMT
