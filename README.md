@@ -1424,10 +1424,12 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 ## XML
 
+[FoXy](https://github.com/Fortran-FOSS-Programmers/FoXy): XML parser, from Fortran-FOSS-Programmers
+
 
 
 -----
-time elapsed (s): 3422.01
+time elapsed (s): 3279.22
 
 
-date of check: 2026-07-15 05:02:30 GMT
+date of check: 2026-07-16 05:03:41 GMT
