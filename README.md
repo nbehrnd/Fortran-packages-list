@@ -596,6 +596,8 @@
 
 [fortran-zstd](https://github.com/interkosmos/fortran-zstd): Fortran 2018 interface bindings to selected [Zstandard](https://facebook.github.io/zstd/) functions, by interkosmos. Zstandard is a fast compression algorithm, providing high compression ratios.
 
+[fortxarray](https://github.com/egiovan/fortxarray): lightweight, modern, object-oriented wrapper for NetCDF designed for seamless interoperability with Python's Xarray, by Edmondo Giovannozzi (ENEA). It abstracts NetCDF's complex C-style API into a simple, crash-safe Fortran type.
+
 [High Performance Parallel Data Interface to HDF5 (h5part)](https://github.com/zoziha/h5part): interface to the structured HDF5 data format that stores multiple time-step data for particle simulation scenarios and can be used for ParaView / VisIt visualization, by zoziha
 
 [IO Fortran Library](https://github.com/acbbullock/IO-Fortran-Library): module providing high level routines for doing internal and external IO, by Austin C. Bullock. In particular, the module provides a handful of generic interfaces for performing string-based and array-based IO that are useful for recording program data, reading data into programs, and for writing formatted logs and output. 
@@ -1429,7 +1431,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2701.49
+time elapsed (s): 3163.02
 
 
-date of check: 2026-07-22 05:02:00 GMT
+date of check: 2026-07-23 05:08:15 GMT
