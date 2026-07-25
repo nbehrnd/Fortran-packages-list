@@ -1018,8 +1018,6 @@
 
 [ieee_class_fortran](https://github.com/DSCF-1224/ieee_class_fortran): additional functions for [ieee_class_type](https://www.ibm.com/docs/en/xl-fortran-linux/16.1.1?topic=constants-ieee-class-type), by DSCF-1224
 
-[knuth-eve-algorithm](https://github.com/ammrat13/knuth-eve-algorithm): implements the preprocessing ("encoder") portion of the Knuth-Eve algorithm, by Ammar Ratnani. The algorithm aims to minimize the number of operations required to evaluate a some fixed polynomial at an arbitrary real number. 
-
 [NAFPack](https://github.com/Minard-Jules/NAFPack): numerical analysis package, offering a comprehensive set of algorithms for diverse numerical computations, by Jules Minard. These computations include Fast Fourier Transform, linear system solving, and eigenvalue/eigenvector calculations.
 
 [NumDiff](https://github.com/jacobwilliams/NumDiff): modern Fortran numerical differentiation library, by Jacob Williams
@@ -1431,7 +1429,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3133.42
+time elapsed (s): 2639.37
 
 
-date of check: 2026-07-24 05:07:26 GMT
+date of check: 2026-07-25 04:55:11 GMT
