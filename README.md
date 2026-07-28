@@ -618,6 +618,8 @@
 
 [NetCDF Input-Output (NCIO)](https://github.com/alex-robinson/ncio): simple Fortran interface to NetCDF reading and writing, by alex-robinson
 
+[qfyaml](https://github.com/yantosca/qfyaml): quick Fortran YAML parser, by Bob Yantosca
+
 [Return of JSON for Fortran (rojff)](https://github.com/everythingfunctional/rojff): with an interface inspired by [jsonff](https://gitlab.com/everythingfunctional/jsonff), the data semantics and parser are redesigned to allow for high performance, by Brad Richardson and kmorris
 
 [stl-fortran](https://github.com/jacobwilliams/stl-fortran): Fortran STL (stereolithography) File I/O, by Jacob Williams
@@ -1429,7 +1431,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2646.73
+time elapsed (s): 2894.08
 
 
-date of check: 2026-07-27 05:20:34 GMT
+date of check: 2026-07-28 04:59:08 GMT
