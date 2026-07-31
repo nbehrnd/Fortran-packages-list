@@ -1058,6 +1058,8 @@
 
 [daskr](https://github.com/HugoMVale/daskr): modernized version of DASKR, a differential-algebraic system solver with root-finding, by HugoMVale
 
+[ddeabm](https://github.com/jacobwilliams/ddeabm): modern object-oriented Fortran implementation of the DDEABM Adams-Bashforth-Moulton ODE solver, by Jacob Williams and web-flow
+
 [diffeq](https://github.com/jchristopherson/diffeq): library providing an object-oriented approach to solving ordinary differential equations, by Jason Christopherson. Available ODE solvers are 4th Order Runge-Kutta and Adams-Bashforth-Moulton (fixed step) and Dormand-Prince Runge-Kutta 5th/4th Order
 
 [dop853](https://github.com/jacobwilliams/dop853): modern Fortran (2003/2008) implementation of Hairer's DOP853 ODE solver, by Jacob Williams. The original FORTRAN 77 code has been extensively refactored, and is now object-oriented and thread-safe, with an easy-to-use class interface. DOP853 is an explicit Runge-Kutta method of order 8(5,3) due to Dormand & Prince (with stepsize control and dense output).
@@ -1429,7 +1431,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3293.74
+time elapsed (s): 2486.03
 
 
-date of check: 2026-07-30 04:52:02 GMT
+date of check: 2026-07-31 05:04:27 GMT
