@@ -25,7 +25,7 @@ on:
       - my_main          # PRs to enter the principal branch "my_main"
   workflow_dispatch:     # provide a manual trigger
   schedule:
-    - cron: "0 1 * * *"  # once daily at 01:00 am UTC (cf. https://crontab.guru/)
+    - cron: "5 4 * * sun"  # At 04:05 on Sunday. (cf. https://crontab.guru/)
 
 jobs:
   build:
