@@ -1310,6 +1310,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [gslib2.0: Geostatistical Software Library](https://github.com/exepulveda/gslib2.0): aims to create a modern version of the original GSLIB source code, by exepulveda
 
+[lib_probability_distributions](https://github.com/barisbarisgithub/lib_probability_distributions): high-performance, C-API compatible library for discrete and continuous probability distributions, by Barış Barış. Features overflow-safe logarithmic core computing and graceful runtime error handling.
+
 [lib_statistics](https://github.com/sebastiandyrda/lib_statistics): code for logistic regression, by Alan Miller, packaged for FPM by Sebastian Dyrda
 
 [M_datapac](https://github.com/urbanjost/M_datapac): NIST [DATAPAC](https://www.nist.gov/itl/sed/datapac) package modularized and made available as an fpm(1) package, by urbanjost, original code by James Filliben. There are routines for computing various probability functions.
@@ -1369,6 +1371,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 [dynamics](https://github.com/jchristopherson/dynamics): library of routines for the analysis of dynamic systems, by Jason Christopherson. It can compute linear frequency response functions for LTI systems, perform modal analysis of an LTI system, compute the frequency response of nonlinear systems in such a manner as to expose nonlinear behaviors such as jump phenomenon, and fit transfer functions to experimental data.
 
 [fortsa](https://github.com/zoziha/fortsa): univariate time series analysis and ARIMA modeling package, by zoziha
+
+[markov_fortran-](https://github.com/barisbarisgithub/markov_fortran-): modern, functional-first, higher-order (N-th degree) Markov Chain library with native ISO_C_BINDING support, by Barış Barış. Designed for high performance and seamless integration with Python, C++, and Rust.
 
 [spectrum](https://github.com/jchristopherson/spectrum): library containing signal analysis routines with a focus towards spectral routines, by Jason Christopherson
 
@@ -1431,7 +1435,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2564.34
+time elapsed (s): 3155.98
 
 
-date of check: 2026-08-04 04:57:13 GMT
+date of check: 2026-08-09 06:05:41 GMT
