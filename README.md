@@ -510,8 +510,6 @@
 
 [Modified_Cam_Clay_Potts](https://github.com/CriticalSoilModels/Modified_Cam_Clay_Potts): [Modified cam clay](https://doc.comsol.com/5.5/doc/com.comsol.help.sme/sme_ug_theory.06.31.html#3443214) with Mohr-Coulomb surface in the deviatoric plane, from CriticalSoilModels. Also [Strain_Rate_Mohr_Coulomb](https://github.com/CriticalSoilModels/Strain_Rate_Mohr_Coulomb), associated with the paper [Constitutive modelling of non-cohesive soils under high-strain rates: a consistency approach](https://www.icevirtuallibrary.com/doi/10.1680/jgeot.21.00192) by Luis E. Zambrano-Cruzatty et al., <i>Géotechnique</i> (2024).
 
-[PICO_Fortran](https://github.com/dmr-dj/PICO_Fortran): implementation by Didier M. Roche of the Potsdam Ice-shelf Cavity mOdel from the paper [Antarctic sub-shelf melt rates via PICO](https://tc.copernicus.org/articles/12/1969/2018/), by Ronja Reese et al., (2018).
-
 
 
 ## Economics
@@ -859,6 +857,8 @@
 [fortran-unix](https://github.com/interkosmos/fortran-unix): Fortran 2008 ISO C binding interfaces to selected POSIX and SysV types, functions, and routines on 64-bit Unix-like operating systems, by interkosmos
 
 [fortran-xmpp](https://github.com/interkosmos/fortran-xmpp): interface bindings to the [XMPP](https://xmpp.org/about/technology-overview/) (Extensible Messaging and Presence Protocol) client library [libstrophe](http://strophe.im/libstrophe/), by interkosmos.
+
+[Frumpy](https://github.com/LynnColeArt/Frumpy): Fortran 2018 NumPy-compatible array engine, by Lynn Cole. It aims to provide a NumPy-shaped foundation for native Fortran array programming: an ndarray substrate with familiar semantics, explicit memory behavior, and understandable source code.
 
 [hwinfo-fortran](https://github.com/ShinobuAmasaki/hwinfo-fortran): provides access to hardware information using OS APIs for Unix-like operating systems, by Shinobu Amasaki
 
@@ -1435,7 +1435,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3110.26
+time elapsed (s): 2424.76
 
 
-date of check: 2026-09-06 09:27:39 GMT
+date of check: 2026-09-20 09:53:57 GMT
