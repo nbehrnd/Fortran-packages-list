@@ -764,6 +764,8 @@
 
 [timer](https://github.com/zoziha/timer): module to get the number of seconds between two timestamps, by zoziha
 
+[xslib - Extra-Small Library](https://github.com/JureCerar/xslib):  library consisting of useful utilities and functions as stand-in for Fortran "standard" library, by JureCerar. Has modules for string handling, error handling, memory allocation, regression, timing, sorting, statistics, and other topics
+
 
 
 ## Graphics, Plotting, and User Interfaces
@@ -995,6 +997,8 @@
 [ForSolver](https://github.com/gha3mi/forsolver): solves linear and nonlinear equations, by Seyed Ali Ghasemi. For nonlinear equations the available methods are newton, newton-modified, newton-quasi-fd, newton-quasi-fd-modified, newton-quasi-cs, and newton-quasi-cs-modified, where "fd" and "cs" stand for the finite difference and complex step methods.
 
 [Nonlinear Equation Solver with Modern Fortran (nlesolver-fortran)](https://github.com/jacobwilliams/nlesolver-fortran): basic Newton-Raphson type nonlinear equation solver for dense systems with m functions of n input variables, by Jacob Williams. Uses LAPACK routines (dgesv or dgels) to solve the linear system.
+
+[polyhomocont](https://github.com/EVADEVacStab/polyhomocont): library for computing all isolated complex solutions of square systems of polynomial equations F(x) = 0, x ∈ Cⁿ, with homotopy continuation, from EVADEVacStab
 
 
 
@@ -1435,7 +1439,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3198.91
+time elapsed (s): 3277.34
 
 
-date of check: 2026-09-27 10:50:27 GMT
+date of check: 2026-10-04 11:26:02 GMT
