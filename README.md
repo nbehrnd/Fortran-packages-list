@@ -376,6 +376,8 @@
 
 [pbepack](https://github.com/HugoMVale/pbepack): package to solve population balance equations for particulate processes, associated with the paper [Solution of the Population Balance Equation for Two-Component Aggregation by an Extended Fixed Pivot Technique](https://pubs.acs.org/doi/10.1021/ie050179s), by Hugo M. Vale and Timothy F. McKenna, Industrial & Engineering Chemistry Research (2005)
 
+[PICLas](https://github.com/piclas-framework/piclas): parallel, three-dimensional PIC-DSMC solver developed cooperatively by the Institute of Space Systems, Institute of Aerodynamics and Gas Dynamics at the University of Stuttgart and the spin-off boltzplatz. PICLas is a flexible particle-based plasma simulation suite.
+
 [rate](https://github.com/acooksy/rate): code for fitting and predicting chemical kinetic data, by Andrew L. Cooksy
 
 [YA_EoS](https://github.com/fedebenelli/yaeos): thermodynamic equations of state library with both automatic and analytical derivation capabilities, by Federico E. Benelli
@@ -409,8 +411,6 @@
 [flist](https://github.com/jacobwilliams/flist): modern Fortran linked lists using unlimited polymorphic derived types, by Jacob Williams
 
 [fortranDF](https://github.com/jaiken17/fortranDF): data frame that can have columns of different types, by Joshua Aiken
-
-[fortran_vector](https://github.com/jordan4ibanez/fortran_vector): bindings to c-vector by jordan4ibanez. [C-vector](https://github.com/eteran/c-vector) is a dynamic array implementation in C similar to the one found in standard C++.
 
 [fortran_vector](https://github.com/Euler-37/fortran_vector): derived type for vector of integers, with procedures `init`, `append`, `size`, `pop`, `remove`, `delete`, `unique`, `sort`, `cut`, and `clear`, by Euler-37
 
@@ -581,6 +581,8 @@
 [fcat](https://github.com/soonsimple/fcat): port of `cat` command used to concatenate file(s) to standard output, by soonsimple
 
 [fed](https://github.com/degawa/fed): functions to make it easier to create Fortran edit descriptors, by Tomohiro Degawa
+
+[FiNeR](https://github.com/szaghi/FiNeR): IO of INI (config) files for modern (2003+) Fortran projects, by szaghi and kostyfisik
 
 [flibcsv](https://github.com/freevryheid/flibcsv): bindings by Andre Smit to [libcsv](https://github.com/rgamble/libcsv), a fast and flexible CSV library written in pure ANSI C that can read and write CSV data
 
@@ -1022,6 +1024,8 @@
 
 [fortran_rationals](https://github.com/willklausler/fortran_rationals): implements rationals number as a numeric type, useful for lossless computations, by Will Klausler. Arithmetic procedures are all pure and elemental.
 
+[FURY](https://github.com/szaghi/FURY): Fortran Units (environment) for Reliable phYsical math, by Stefano Zaghi
+
 [ieee_class_fortran](https://github.com/DSCF-1224/ieee_class_fortran): additional functions for [ieee_class_type](https://www.ibm.com/docs/en/xl-fortran-linux/16.1.1?topic=constants-ieee-class-type), by DSCF-1224
 
 [NAFPack](https://github.com/Minard-Jules/NAFPack): numerical analysis package, offering a comprehensive set of algorithms for diverse numerical computations, by Jules Minard. These computations include Fast Fourier Transform, linear system solving, and eigenvalue/eigenvector calculations.
@@ -1051,8 +1055,6 @@
 [kronrod](https://github.com/jacobwilliams/kronrod): generates [Gauss-Kronrod](https://en.wikipedia.org/wiki/Gauss%E2%80%93Kronrod_quadrature_formula) coefficients, by Jacob Williams
 
 [Quadpack2](https://github.com/jacobwilliams/quadpack): update by Jacob Williams and Sebastian Ehlert of QUADPACK, a FORTRAN subroutine package for the numerical computation of definite one-dimensional integrals
-
-[quadrature-fortran](https://github.com/jacobwilliams/quadrature-fortran): adaptive Gaussian quadrature with modern Fortran, by jacobwilliams
 
 
 
@@ -1144,11 +1146,17 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [Fortran MPI exploration](https://github.com/MatthAlex/mpi-project-exploration): explores a simple MPI cartesian grid with halo region updates, mpi_f08, havaita, some clever encapsulation, and general project structure and architecture, by MatthAlex
 
+[Fortran UNified Device Acceleration Library (FUNDAL)](https://github.com/szaghi/FUNDAL): seamlessly unifies OpenACC and OpenMP runtime routines calling in order to minimize end-user's effort in developing device-offloaded applications, by Francesco Salvadore et al.
+
 [Framework for Extensible Asynchronous Task Scheduling (FEATS)](https://github.com/sourceryinstitute/FEATS): project to develop a parallel Fortran 2018 asynchronous, task-scheduling framework for use in a range of applications, from sourceryinstitute
+
+[OpenACC Fortran Memory Library (OAFML)](https://github.com/szaghi/OAFML): eases handling OpenACC memory offloading on devices (GPU), in Fortran 2003+ with OpenACC directives standard compliant, by Francesco Salvadore et al. 
 
 
 
 ## Partial Differential Equations
+
+[FOODIE, Fortran Object-Oriented Differential-equations Integration Environment](https://github.com/Fortran-FOSS-Programmers/FOODIE): numerical integration of Differential-equations such as Ordinary and Partial Differential Equations (ODE, PDE), from Fortran-FOSS-Programmers. FOODIE is tailored to the systems arising from the semi-discretization of PDEs, but it is not limited to them.
 
 
 
@@ -1439,7 +1447,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3277.34
+time elapsed (s): 2449.26
 
 
-date of check: 2026-10-04 11:26:02 GMT
+date of check: 2026-10-11 11:25:47 GMT
