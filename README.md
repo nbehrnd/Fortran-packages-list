@@ -412,6 +412,8 @@
 
 [fortranDF](https://github.com/jaiken17/fortranDF): data frame that can have columns of different types, by Joshua Aiken
 
+[fortran_vector](https://github.com/jordan4ibanez/fortran_vector): bindings to c-vector by jordan4ibanez. [C-vector](https://github.com/eteran/c-vector) is a dynamic array implementation in C similar to the one found in standard C++.
+
 [fortran_vector](https://github.com/Euler-37/fortran_vector): derived type for vector of integers, with procedures `init`, `append`, `size`, `pop`, `remove`, `delete`, `unique`, `sort`, `cut`, and `clear`, by Euler-37
 
 [fxarray](https://github.com/openEarthModelling/fxarray): library for labeled multi-dimensional arrays, inspired by [xarray](https://github.com/pydata/xarray), by Fan Zhang. It provides registry-based state management for scientific simulations, with support for NetCDF/HDF5 I/O, parallel computing via MPI, and GPU/parallel kernel dispatch via Kokkos.
@@ -898,6 +900,8 @@
 
 [Fortran GeneraL Math modules (fglm)](https://github.com/jordan4ibanez/fglm): defines types and operations for a 4x4 matrix and 3-element vectors, for `int32`, `real32`, and `real64` data, providing some functionality of the JOML – Java OpenGL Math Library, by jordan4ibanez
 
+[fortsparse](https://github.com/lazy-fortran/fortsparse): backend-pluggable sparse direct solver, by Christopher Albert. It solves square real or complex double systems `A x = b` through one public API, independent of the library that does the factorization. 
+
 [ForBLAS](https://github.com/gha3mi/forblas): compile the BLAS and their drivers using the Fortran Package Manager, by Seyed Ali Ghasemi. [ForLAPACK](ForLAPACK) does so for LAPACK. 
 
 [ForSVD](https://github.com/gha3mi/forsvd) provides functions and subroutines for calculating the singular value decomposition (SVD) of a matrix, calling LAPACK. [ForEig](https://github.com/gha3mi/foreig) calculates eigenvalues and eigenvectors using LAPACK or MKL. [ForPCA](https://github.com/gha3mi/forpca) does principal component analysis (PCA).
@@ -1055,6 +1059,8 @@
 [kronrod](https://github.com/jacobwilliams/kronrod): generates [Gauss-Kronrod](https://en.wikipedia.org/wiki/Gauss%E2%80%93Kronrod_quadrature_formula) coefficients, by Jacob Williams
 
 [Quadpack2](https://github.com/jacobwilliams/quadpack): update by Jacob Williams and Sebastian Ehlert of QUADPACK, a FORTRAN subroutine package for the numerical computation of definite one-dimensional integrals
+
+[quadrature-fortran](https://github.com/jacobwilliams/quadrature-fortran): adaptive Gaussian quadrature with modern Fortran, by jacobwilliams
 
 
 
@@ -1447,7 +1453,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2449.26
+time elapsed (s): 2453.69
 
 
-date of check: 2026-10-11 11:25:47 GMT
+date of check: 2026-10-18 09:27:43 GMT
