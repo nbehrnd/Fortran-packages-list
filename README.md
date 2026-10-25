@@ -286,8 +286,6 @@
 
 ## Benchmarks and Benchmarking
 
-[Benchmark.f](https://github.com/davidpfister/benchmark.f): KISS library for benchmarking functions and subroutines with precision, by David Pfister
-
 [ForBenchmark](https://github.com/gha3mi/forbenchmark): a Fortran library for benchmarking (with support for coarrays). There are [dot_product](https://github.com/gha3mi/forbenchmark/tree/main/benchmarks/dot) benchmark results, by Seyed Ali Ghasemi
 
 [mandelbrot-f](https://github.com/jesper-olsen/mandelbrot-f): Mandelbrot benchmark in Fortran by Jesper Olsen, who also has versions in Rust, Erlang, and Mojo
@@ -402,8 +400,6 @@
 
 [Fortran mimetic abstraction language (Formal)](https://github.com/BerkeleyLab/formal): supports research on mimetic software abstractions for tensor calculus by providing
 
-[enumul](https://github.com/degawa/enumul): incomplete typed enumerator emulator for Fortran, by Tomohiro Degawa
-
 [fhash](https://github.com/LKedward/fhash): hash table with support for generic keys and values, by Laurence Kedward
 
 [flinkedlist](https://github.com/sakamoti/flinkedlist): object-oriented library providing an simple linked list, with the ability to sort elements with a user-defined function, apply a user-defined function in each node, and a convenience method to aid print debugging by automatically displaying variables of built-in types and providing a dedicated display function for user-defined types, by Yuichiro Sakamoto
@@ -429,8 +425,6 @@
 [maps](https://github.com/degawa/maps): wrapper by Tomohiro Degawa for [stdlib_hashmaps](https://stdlib.fortran-lang.org/page/specs/stdlib_hashmaps.html) that simplifies adding a key-value mapping and getting the value mapped to a key
 
 [M_hashkeys](https://github.com/urbanjost/M_hashkeys): collection of hash key generator modules, by urbanjost
-
-[Multidimensional Array Containers (MAC)](https://github.com/irukoa/MAC): library to create and manipulate arrays of any rank, by Álvaro R. Puente-Uriona, meant to serve as a building block for codes that expand on "rank-agnostic" programming
 
 [repot](https://github.com/degawa/repot): abstract data types designed for the repository pattern for reading configuration files in Fortran, by Tomohiro Degawa. The repository pattern is a design pattern that makes an object persistent in a repository and reconstructs it from the repository. [Repot_examples](https://github.com/degawa/repot_examples) has practical usage examples.
 
@@ -463,8 +457,6 @@
 ## Cryptography
 
 [fldpc](https://github.com/moriglia/fldpc): LDPC (Low-Density Parity-Check) decoder (coset decoding with syndrome), by Marco Origlia
-
-[MessageDigest-Fortran](https://github.com/LaplaceSoda/MessageDigest-Fortran): module for computing message digests like MD5, SHA256 and so on using the [OpenSSL](https://github.com/openssl/openssl) library, by LaplaceSoda
 
 [sodium](https://github.com/freevryheid/sodium): Fortran bindings by Andre Smit for [libsodium](https://github.com/jedisct1/libsodium), a C library for encryption, decryption, signatures, password hashing, etc.
 
@@ -694,6 +686,8 @@
 
 [ForClust](https://github.com/gha3mi/forclust): manage and control a Linux system, such as adjusting the settings of the CPU and other components, by Seyed Ali Ghasemi
 
+[Fortmacs](https://github.com/vermi-culous/Fortmacs): GNU Emacs 31.1 rewritten in modern Fortran (2018+), for Linux on x86-64 and aarch64, by vermi-culous. There is no Elisp: the configuration is a Fortran module compiled into the binary, and every rebuild is a numbered generation one can roll back to, as in Guix.
+
 [FortranPatterns](https://github.com/farhanjk/FortranPatterns): Implementation of popular design patterns in Fortran, by Farhan J. Khan and zmiimz. This is intended to facilitate the community using Fortran for computationally expensive tasks. The main philosophy here is to make these patterns available for improving the reusability and efficiency of the code.
 
 [Fortran pathlib](https://github.com/scivision/fortran-pathlib): Filesystem path manipulation utilities for standard Fortran, from scivision. Inspired by Python pathlib and C++17 filesystem.
@@ -705,8 +699,6 @@
 [fortran_utilities](https://github.com/lewisfish/fortran_utilities): procedures to add colour to output via ANSI colour codes, create a progress bar, turn variables into strings, and print the time, by Lewis McMillan
 
 [fortran-zlib](https://github.com/interkosmos/fortran-zlib): collection of Fortran 2018 ISO_C_BINDING interfaces to selected zlib functions, by interkosmos. Zlib is a lossless data-compression library.
-
-[fortress](https://github.com/FortranGoingOnForty/fortress): command-line file explorer with fzf integration and git binds for fast staging and committing, by Matthew Forrester Wolffe
 
 [ForTime](https://github.com/gha3mi/fortime): provides a timer object for measuring elapsed time, by Seyed Ali Ghasemi. It includes procedures for starting and stopping the timer, as well as calculating and printing the elapsed time in seconds.
 
@@ -829,8 +821,6 @@
 [M_pixel](https://github.com/urbanjost/M_pixel): creates pixel images with a vector-oriented graphics library that emulates a subset of the [M_draw](https://github.com/urbanjost/M_draw) vector graphics library, by urbanjost. It is supplemented with additional modules that read and write GIF files, including animated GIFs.
 
 [M_slices](https://github.com/urbanjost/M_slices): basic slice plot module based on M_draw(3f), by urbanjost. A 3-d surface is plotted by plotting slices through the volume which are parallel to the x-y plane.
-
-[ogpf](https://github.com/kookma/ogpf): Object-Based Interface to GnuPlot from Fortran, by kookma
 
 [PlPlotLib](https://github.com/zoziha/PlPlotLib): wrapper for PlPlot inspired by the interface of matplotlib, by zoziha. It is intended to fill the need for rapid feedback while developing numerical simulations, and does not replace more sophisticated packages such as matplotlib or even direct use of PlPlot.
 
@@ -1009,8 +999,6 @@
 
 
 ## Numerical Methods
-
-[fastconv](https://github.com/gronki/fastconv): simple library for 1D and 2D convolutions, by Dominik Gronkiewicz
 
 [fastmath](https://github.com/perazz/fastmath): library for fast, approximate math functions: exp, log, 1/sqrt, by Federico Perini. These functions provide fast, approximate evaluations of the exponential, logarithm and normalization functions in 64-bit precision.
 
@@ -1228,6 +1216,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [qvSZP](https://github.com/grimme-lab/qvSZP): tool for setting up an [ORCA](https://www.faccts.de/orca/) calculation using the atom-in-molecule adaptive q-vSZP basis set. An associated paper is [An atom-in-molecule adaptive polarized valence single-ζ atomic orbital basis for electronic structure calculations Available to Purchase](https://pubs.aip.org/aip/jcp/article-abstract/159/16/164108/2918302/An-atom-in-molecule-adaptive-polarized-valence), by Marcel Müller et al., <i>Journal of Chemical Physics</i> (2023).
 
+[terco](https://github.com/JorgeG94/terco): do-concurrent-driven electron repulsion integral (ERI) evaluation library for GPUs, by Jorge Luis Gálvez Vallejo
+
 [WannInt](https://github.com/irukoa/WannInt): library of utilities for Wannier interpolation, meant to serve as a building block for codes that compute the resolution of quantum mechanical operators in the Brillouin zone of a crystal, by Álvaro R. Puente-Uriona
 
 [WignerD](https://github.com/banana-bred/WignerD): routines to calculate the Wigner D-matrix and d-matrix. An associated paper is [High-precision evaluation of Wigner's (d) matrix by exact diagonalization](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.043307), by X. M. Feng et al., <i>Physical Review E</i> (2015).
@@ -1346,6 +1336,8 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [bstrith](https://github.com/degawa/bstrith): provides procedures for arithmetic operations on binary numbers in strings, by Tomohiro Degawa
 
+[corvus-regex-ecma262-fortran](https://github.com/corvus-dotnet/corvus-regex-ecma262-fortran): ECMA-262 (JavaScript) regular expressions for Fortran: a binding to the corvus-regex-ecma262 C library through ISO_C_BINDING, over UTF-8 and UTF-16, for fpm and CMake, by Matthew Adams
+
 [enclose](https://github.com/degawa/enclose): procedures for enclosing a string in brackets, by Tomohiro Degawa
 
 [fortran202x_split](https://github.com/milancurcic/fortran202x_split): Fortran implementation of the Fortran 202X split intrinsic subroutine, by Milan Curcic and Sebastian Ehlert
@@ -1453,7 +1445,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 2453.69
+time elapsed (s): 3144.38
 
 
-date of check: 2026-10-18 09:27:43 GMT
+date of check: 2026-10-25 09:57:15 GMT
