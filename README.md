@@ -286,6 +286,8 @@
 
 ## Benchmarks and Benchmarking
 
+[Benchmark.f](https://github.com/davidpfister/benchmark.f): KISS library for benchmarking functions and subroutines with precision, by David Pfister
+
 [ForBenchmark](https://github.com/gha3mi/forbenchmark): a Fortran library for benchmarking (with support for coarrays). There are [dot_product](https://github.com/gha3mi/forbenchmark/tree/main/benchmarks/dot) benchmark results, by Seyed Ali Ghasemi
 
 [mandelbrot-f](https://github.com/jesper-olsen/mandelbrot-f): Mandelbrot benchmark in Fortran by Jesper Olsen, who also has versions in Rust, Erlang, and Mojo
@@ -311,6 +313,8 @@
 ## Code Tools
 
 [exception_handling](https://github.com/tillackseb/exception_handling): tools for exception handling and tracing, by Sebastian Tillack
+
+[fformat](https://github.com/jacobwilliams/fformat): formatter for free-form Fortran, by Jacob Williams. It re-indents code (statements by nesting depth, continuation lines by alignment with brackets, assignments, only: and ::, comment lines like the code around them), adjusts the blanks around operators, splits code lines that are too long, and can change the letter case of keywords and operators and the spelling of relational operators.
 
 [flavanaly](https://github.com/degawa/flavanaly): wrapper for [Fortran-stdlib logger](https://stdlib.fortran-lang.org/page/specs/stdlib_logger.html) that enhances log messages with purpose classification and message categorization, by Tomohiro Degawa
 
@@ -400,6 +404,8 @@
 
 [Fortran mimetic abstraction language (Formal)](https://github.com/BerkeleyLab/formal): supports research on mimetic software abstractions for tensor calculus by providing
 
+[enumul](https://github.com/degawa/enumul): incomplete typed enumerator emulator for Fortran, by Tomohiro Degawa
+
 [fhash](https://github.com/LKedward/fhash): hash table with support for generic keys and values, by Laurence Kedward
 
 [flinkedlist](https://github.com/sakamoti/flinkedlist): object-oriented library providing an simple linked list, with the ability to sort elements with a user-defined function, apply a user-defined function in each node, and a convenience method to aid print debugging by automatically displaying variables of built-in types and providing a dedicated display function for user-defined types, by Yuichiro Sakamoto
@@ -425,6 +431,8 @@
 [maps](https://github.com/degawa/maps): wrapper by Tomohiro Degawa for [stdlib_hashmaps](https://stdlib.fortran-lang.org/page/specs/stdlib_hashmaps.html) that simplifies adding a key-value mapping and getting the value mapped to a key
 
 [M_hashkeys](https://github.com/urbanjost/M_hashkeys): collection of hash key generator modules, by urbanjost
+
+[Multidimensional Array Containers (MAC)](https://github.com/irukoa/MAC): library to create and manipulate arrays of any rank, by Álvaro R. Puente-Uriona, meant to serve as a building block for codes that expand on "rank-agnostic" programming
 
 [repot](https://github.com/degawa/repot): abstract data types designed for the repository pattern for reading configuration files in Fortran, by Tomohiro Degawa. The repository pattern is a design pattern that makes an object persistent in a repository and reconstructs it from the repository. [Repot_examples](https://github.com/degawa/repot_examples) has practical usage examples.
 
@@ -457,6 +465,8 @@
 ## Cryptography
 
 [fldpc](https://github.com/moriglia/fldpc): LDPC (Low-Density Parity-Check) decoder (coset decoding with syndrome), by Marco Origlia
+
+[MessageDigest-Fortran](https://github.com/LaplaceSoda/MessageDigest-Fortran): module for computing message digests like MD5, SHA256 and so on using the [OpenSSL](https://github.com/openssl/openssl) library, by LaplaceSoda
 
 [sodium](https://github.com/freevryheid/sodium): Fortran bindings by Andre Smit for [libsodium](https://github.com/jedisct1/libsodium), a C library for encryption, decryption, signatures, password hashing, etc.
 
@@ -678,6 +688,8 @@
 
 [facsimile](https://github.com/FortranGoingOnForty/facsimile): terminal text editor with VSCode-style key bindings, by Matthew Forrester Wolffe
 
+[fclap](https://github.com/chselz/fclap): modular command-line argument parser inspired by Python's argparse usage style and partly by Rust's clap regarding features, by Christian Selzer and Lukas Wittmann. It provides typed values, generated help, structured non-terminating errors, groups, validators, parent parsers, and nested subcommands.
+
 [files_f90](https://github.com/jordan4ibanez/files_f90): directory reader by jordan4ibanez
 
 [FLAP](https://github.com/szaghi/FLAP): command Line Arguments Parser for poor people, by szaghi et al. A KISS pure Fortran Library for building powerful, easy-to-use, elegant command line interfaces
@@ -699,6 +711,8 @@
 [fortran_utilities](https://github.com/lewisfish/fortran_utilities): procedures to add colour to output via ANSI colour codes, create a progress bar, turn variables into strings, and print the time, by Lewis McMillan
 
 [fortran-zlib](https://github.com/interkosmos/fortran-zlib): collection of Fortran 2018 ISO_C_BINDING interfaces to selected zlib functions, by interkosmos. Zlib is a lossless data-compression library.
+
+[fortress](https://github.com/FortranGoingOnForty/fortress): command-line file explorer with fzf integration and git binds for fast staging and committing, by Matthew Forrester Wolffe
 
 [ForTime](https://github.com/gha3mi/fortime): provides a timer object for measuring elapsed time, by Seyed Ali Ghasemi. It includes procedures for starting and stopping the timer, as well as calculating and printing the elapsed time in seconds.
 
@@ -822,9 +836,13 @@
 
 [M_slices](https://github.com/urbanjost/M_slices): basic slice plot module based on M_draw(3f), by urbanjost. A 3-d surface is plotted by plotting slices through the volume which are parallel to the x-y plane.
 
+[ogpf](https://github.com/kookma/ogpf): Object-Based Interface to GnuPlot from Fortran, by kookma
+
 [PlPlotLib](https://github.com/zoziha/PlPlotLib): wrapper for PlPlot inspired by the interface of matplotlib, by zoziha. It is intended to fill the need for rapid feedback while developing numerical simulations, and does not replace more sophisticated packages such as matplotlib or even direct use of PlPlot.
 
 [pyplot-fortran](https://github.com/jacobwilliams/pyplot-fortran): generate plots from Fortran using Python's [matplotlib.pyplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html), by jacobwilliams
+
+[qt-fortran](https://github.com/jacobwilliams/qt-fortran): interface to Qt 6 that can build desktop GUI applications (windows, widgets, menus, dialogs and custom painting), by Jacob Williams
 
 [tikz-fortran](https://github.com/huijunchen9260/tikz-fortran): module that generates figures using [PGF/Tikz](https://en.wikipedia.org/wiki/PGF/TikZ), a pair of languages for producing vector graphics, by Hui-Jun Chen
 
@@ -999,6 +1017,8 @@
 
 
 ## Numerical Methods
+
+[fastconv](https://github.com/gronki/fastconv): simple library for 1D and 2D convolutions, by Dominik Gronkiewicz
 
 [fastmath](https://github.com/perazz/fastmath): library for fast, approximate math functions: exp, log, 1/sqrt, by Federico Perini. These functions provide fast, approximate evaluations of the exponential, logarithm and normalization functions in 64-bit precision.
 
@@ -1342,7 +1362,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 [fortran202x_split](https://github.com/milancurcic/fortran202x_split): Fortran implementation of the Fortran 202X split intrinsic subroutine, by Milan Curcic and Sebastian Ehlert
 
-[fortran-fast-float](https://github.com/perazz/fortran-fast-float): port by Federico Perini of the [Eisel-Lemire fast float parsing algorithm](https://github.com/fastfloat/fast_float), via the C99 single-header port [ffc.h](https://github.com/kolemannix/ffc.h). It parses ASCII decimal strings into `real32`, `real64`, `int32`, and `int64` values with exact rounding, typically 4-10x faster than `read(str, *)`.
+[fortran-fast-float](https://github.com/perazz/fortran-fast-float): port by Federico Perini of the [Eisel-Lemire fast float parsing algorithm](https://github.com/fastfloat/fast_float), via the C99 single-header port [ffc.h](https://github.com/kolemannix/ffc.h). It parses ASCII decimal strings into `real32`, `real64`, `int32`, and `int64` values with exact rounding, typically 4-10x faster than `read(str, *)`. Parses ASCII decimal strings into real32, real64, int32, and int64 values with exact rounding, typically 4-10x faster than read(str, *).
 
 [fortran-shlex](https://github.com/perazz/fortran-shlex): port by Federico Perini of Python's [shlex](https://docs.python.org/3/library/shlex.html) shell-like lexer. The interface comes with two functions, `split` which parses a command-like string and returns an array of allocatable character strings; and `shlex` that performs the same, but returns a list of `type(shlex_token)` tokens.
 
@@ -1445,7 +1465,7 @@ from the companion website to the book [CUDA Fortran for Scientists and Engineer
 
 
 -----
-time elapsed (s): 3144.38
+time elapsed (s): 3043.07
 
 
-date of check: 2026-10-25 09:57:15 GMT
+date of check: 2026-11-01 12:02:46 GMT
